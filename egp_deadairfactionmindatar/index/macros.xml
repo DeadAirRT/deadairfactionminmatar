@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//index">
+	<entry name="cluster_DMI1_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI2_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI3_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI4_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI5_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI6_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI7_sector*" value="maps\xu_ep2_universe\sectors" />
+	<entry name="cluster_DMI8_sector*" value="maps\xu_ep2_universe\sectors" />
+</add>
+</diff>

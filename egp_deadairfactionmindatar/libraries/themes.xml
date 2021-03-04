@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <!-- default theme for factions --> 
+  <add sel="/themes/theme[@id='painttheme_race_default']">    
+    <group faction="mindatar" paintmod="paintmod_mindatar_plain" />
+  </add>
+  
+  <!-- ship variation theme for all factions -->    
+  <add sel="/themes/theme[@id='painttheme_race_ship']">
+    <group faction="mindatar" selection="random" paintmod="">
+      <select paintmod="paintmod_hexagon_rusty" weight="5" />
+	  <select paintmod="paintmod_hexagon3_rusty" weight="5" />
+	  <select paintmod="paintmod_0024_mindatar" weight="25" />
+	  <select paintmod="paintmod_0025_mindatar" weight="25" />
+	  <select paintmod="paintmod_0026_mindatar" weight="25" />
+	  <select paintmod="paintmod_mindatar_plain" weight="25" />
+    </group>
+  </add>  
+</diff>
+
+

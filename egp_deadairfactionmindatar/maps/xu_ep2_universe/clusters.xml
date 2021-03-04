@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//macros">
+	<macro name="Cluster_DMI1_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI1_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI1_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI1S01_Region001_connection" ref="regions">
+				<macro name="CDMI1S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI1S01_Region002_connection" ref="regions">
+				<macro name="CDMI1S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI1_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI1" />
+				</macro>
+			</connection>
+			<connection name="CDMI1S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI1S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi1_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI1S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI1S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi1_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI1S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="-124200" y="0" z="82800" />
+				</offset>
+				<macro name="CDMI1S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_veryhigh_nividium" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI2_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI2_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI2_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI2S01_Region001_connection" ref="regions">
+				<macro name="CDMI2S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI2S01_Region002_connection" ref="regions">
+				<macro name="CDMI2S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI2_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI2" />
+				</macro>
+			</connection>
+			<connection name="CDMI2S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI2S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi2_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI2S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI2S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi2_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI2S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="-124200" y="0" z="-82800" />
+				</offset>
+				<macro name="CDMI2S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_veryhigh_ore" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI3_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI3_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI3_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI3S01_Region001_connection" ref="regions">
+				<macro name="CDMI3S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI3S01_Region002_connection" ref="regions">
+				<macro name="CDMI3S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI3_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI3" />
+				</macro>
+			</connection>
+			<connection name="CDMI3S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI3S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi3_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI3S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI3S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi3_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI3S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="0" z="150000" />
+				</offset>
+				<macro name="CDMI3S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_high_methane" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI4_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI4_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI4_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI4S01_Region001_connection" ref="regions">
+				<macro name="CDMI4S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI4S01_Region002_connection" ref="regions">
+				<macro name="CDMI4S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI4_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI4" />
+				</macro>
+			</connection>
+			<connection name="CDMI4S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI4S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi4_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI4S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI4S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi4_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI4S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="0" z="150000" />
+				</offset>
+				<macro name="CDMI4S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_veryhigh_silicon" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI5_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI5_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI5_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI5S01_Region001_connection" ref="regions">
+				<macro name="CDMI5S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI5S01_Region002_connection" ref="regions">
+				<macro name="CDMI5S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI5_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI5" />
+				</macro>
+			</connection>
+			<connection name="CDMI5S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI5S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi5_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI5S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI5S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi5_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI5S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="0" z="-150000" />
+				</offset>
+				<macro name="CDMI5S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_high_ice" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI6_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI6_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI6_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI6S01_Region001_connection" ref="regions">
+				<macro name="CDMI6S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI6S01_Region002_connection" ref="regions">
+				<macro name="CDMI6S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI6_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI6" />
+				</macro>
+			</connection>
+			<connection name="CDMI6S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI6S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi6_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI6S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI6S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi6_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI6S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="124200" y="0" z="82800" />
+				</offset>
+				<macro name="CDMI6S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_high_hydrogen" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI7_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI7_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI7_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI7S01_Region001_connection" ref="regions">
+				<macro name="CDMI7S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_Cluster_DMI7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI7S01_Region002_connection" ref="regions">
+				<macro name="CDMI7S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI7_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI7" />
+				</macro>
+			</connection>
+			<connection name="CDMI7S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI7S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi7_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI7S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI7S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi7_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI7S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="124200" y="0" z="-82800" />
+				</offset>
+				<macro name="CDMI7S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi_high_helium" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<macro name="Cluster_DMI8_macro" class="cluster">
+		<component ref="standardcluster" />
+		<connections>
+			<connection name="Cluster_DMI8_Sector001_connection" ref="sectors">
+				<macro ref="Cluster_DMI8_Sector001_macro" connection="cluster" />
+			</connection>
+			<connection name="CDMI8S01_Region001_connection" ref="regions">
+				<macro name="CDMI8S01_Region001_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_cluster_DMI8_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI8S01_Region002_connection" ref="regions">
+				<macro name="CDMI8S01_Region002_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="audioregion_Cluster_DMI8_sector_001" />
+					</properties>
+				</macro>
+			</connection>
+			<connection ref="content">
+				<macro>
+					<component connection="space" ref="Cluster_DMI8" />
+				</macro>
+			</connection>
+			<connection name="CDMI8S01_Region003_connection" ref="regions">
+				<offset>
+					<position x="1" y="1" z="1" />
+				</offset>
+				<macro name="CDMI8S01_Region003_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi8_asteroids_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI8S01_Region004_connection" ref="regions">
+				<offset>
+					<position x="2" y="2" z="2" />
+				</offset>
+				<macro name="CDMI8S01_Region004_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi8_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+</add>
+</diff>
+
+

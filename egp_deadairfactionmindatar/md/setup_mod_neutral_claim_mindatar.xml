@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Mindatar_Mod_Neutral_Claim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<actions>
+				<find_sector groupname="global.$DeadAirNeutral" macro="macro.cluster_DMI8_sector001_macro"/>
+				<find_sector name="$DMI8" macro="macro.cluster_DMI8_sector001_macro"/>
+				<do_if value="not global.$DeadAirNeutralClaimable?">
+					<create_group groupname="global.$DeadAirNeutralClaimable" />
+					<debug_text text="'MOD: DeadAirFactionMindatar -- Global Neutral Claimable Group Created'" context="false" filter="scripts" />
+				</do_if>
+				<set_value name="$HasRun" exact="false" />
+			</actions>
+			<cues>
+				<cue name="SignalSetClaimable" instantiate="false">
+					<conditions>
+						<check_all>
+						  <check_all>
+							<event_object_changed_true_owner group="global.$DeadAirNeutral"/>
+							<check_value value="event.param != faction.ownerless"/>
+						  </check_all>
+						  <check_value value="$HasRun == false" />
+						</check_all>
+					</conditions>
+					<actions>
+						<signal_cue_instantly cue="Set_Claimable"/>
+					</actions>
+				</cue>
+				<cue name="Set_Claimable" instantiate="false">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<do_if value="not global.$DeadAirNeutralClaimable.indexof.{$DMI8}">
+							<add_to_group groupname="global.$DeadAirNeutralClaimable" object="$DMI8"/>
+						</do_if>
+						<set_value name="$HasRun" exact="true" />
+						<debug_text text="'MOD: DeadAirFactionMindatar -- Neutral is Claimable'" context="false" filter="scripts" />
+						<remove_value name="$DMI8" />
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

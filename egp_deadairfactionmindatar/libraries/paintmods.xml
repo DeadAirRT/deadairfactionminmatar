@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!-- <paint  ware="warename" quality="1-3" hue="0-360" brightness="-1 to 1 (higher than 1 not recommended" saturation="-1 to 1" metal="-1 to 1" smooth="-1 to 1" dirt="-1 to 1" extradirt="-1 to 1" pattern="path\filename" scale="float" strength="0-1" sharpness="0-100" invert="bool" red="0-255" green="0-255" blue="0-255" alpha="0-255" personal="texture from personal folder?"-->
+<paintmods>
+	<paint ware="paintmod_hexagon_rusty"	quality="3" metal="1" smooth="1.0" dirt="1" extradirt="1" pattern="extensions\egp_deadairfactionmindatar\assets\textures\pattern\pattern_hexagonsrusty_diff" strength="1" scale="1" sharpness="100" invert="0" red="69" green="24" blue="5" alpha="255"/>
+	<paint ware="paintmod_hexagon3_rusty"	quality="3" metal="1" smooth="1.0" dirt="1" extradirt="1" pattern="extensions\egp_deadairfactionmindatar\assets\textures\pattern\pattern_hexagons3rusty_diff" strength="1" scale="5" sharpness="100" invert="0" red="69" green="24" blue="5" alpha="255"/>
+	<!-- recolor argon -->
+	<paint ware="paintmod_0024_mindatar" quality="1" brightness="-1" saturation="-1" metal="1" dirt="1" extradirt="1" pattern="assets\textures\pattern\pattern_18_diff" strength="1" scale="10" sharpness="100" invert="0" red="69" green="24" blue="5" alpha="255"/>
+	<paint ware="paintmod_0025_mindatar" quality="1" brightness="-1" saturation="-1" metal="1" dirt="1" extradirt="1" pattern="assets\textures\pattern\pattern_19_diff" strength="1" scale="10" sharpness="100" invert="0" red="69" green="24" blue="5" alpha="255"/>
+	<paint ware="paintmod_0026_mindatar" quality="1" brightness="-1" saturation="-1" metal="1" dirt="1" extradirt="1" pattern="assets\textures\pattern\pattern_20_diff" strength="1" scale="10" sharpness="100" invert="0" red="69" green="24" blue="5" alpha="255"/>
+	<!-- plain -->
+	<paint ware="paintmod_mindatar_plain" quality="1" brightness="-1" saturation="-1" metal="1" dirt="1" extradirt="1" pattern="extensions\egp_deadairfactionmindatar\assets\textures\pattern\pattern_mindatar_plain_diff" strength="0.8" scale="10" sharpness="100" invert="0" red="69" green="24" blue="5" alpha="255"/>
+</paintmods>
+
+<!--
+hue: adjusts hue of ship itself
+faction RGB: red="255" green="215" blue="0"
+-->

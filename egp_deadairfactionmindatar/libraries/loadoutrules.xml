@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="loadoutrules.xsd">
+<add sel="//rules/unit/macros/macro[@macro='ship_arg_xs_police_01_a_macro']/@factions">mindatar</add>
+</diff>

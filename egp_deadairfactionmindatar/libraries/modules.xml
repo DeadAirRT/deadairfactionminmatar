@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../libraries/libraries.xsd">
+<add sel="//module[@id='prod_gen_advancedelectronics']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_antimattercells']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_antimatterconverters']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_advancedcomposites']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_claytronics']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_dronecomponents']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_energycells']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_engineparts']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_fieldcoils']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_hullparts']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_graphene']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_microchips']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_missilecomponents']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_superfluidcoolant']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_plasmaconductors']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_quantumtubes']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_refinedmetals']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_scanningarrays']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_shieldcomponents']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_siliconwafers']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_smartchips']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_spices']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_turretcomponents']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_water']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_gen_weaponcomponents']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_arg_meat']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_arg_medicalsupplies']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_arg_foodrations']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_arg_spacefuel']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='prod_arg_wheat']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='stor_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='dockarea_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='dockarea_arg_hightech']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='dockarea_arg_lowtech']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='pier_base_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='pier_add_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='hab_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='def_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='claim_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='build_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='equip_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+<add sel="//module[@id='conn_arg']/category">
+	<extension faction="[mindatar]"/>
+</add>
+</diff>

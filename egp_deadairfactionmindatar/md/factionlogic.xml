@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="//cue[@name='FactionLogicManagers']/cues">
+    
+    <cue name="SetupMindatar">
+      <actions>
+        <set_value name="md.$FactionData.{faction.mindatar}" exact="table[]" />
+      </actions>
+    </cue>
+    
+    <cue name="MindatarFactionLogic">
+      <cues>
+        <cue name="MindatarFactionLogic_Manager" ref="Manager">
+              <param name="Faction" value="faction.mindatar" />
+              <param name="BaseAggressionLevel" value="moodlevel.normal" />
+              <param name="BaseAvariceLevel" value="moodlevel.normal" />
+              <param name="BaseLawfulness" value="0.4" />
+              <param name="PreferredHQSpaceMacro" value="macro.Cluster_DMI4_Sector001_macro" />
+              <param name="PreferredHQTypes" value="['shipbuilding', 'equipmentdock', 'tradestation']"/>
+              <param name="SatelliteNetworkGoal" value="15"/>
+              <param name="LasertowerNetworkGoal" value="10"/>
+              <param name="MinefieldGoalPerSector" value="2" comment="[MGPS * Sectors, 12].min is the maximum amount of Minefields for this faction"/>
+              <param name="DebugChance" value="0"/>
+              <param name="DebugChance2" value="0"/>
+        </cue>
+      </cues>
+    </cue>
+  </add>
+</diff>

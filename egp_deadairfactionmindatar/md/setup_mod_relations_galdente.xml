@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Mindatar_Mod_Relations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<actions>
+				<set_value name="$HasRun" exact="false" />
+			</actions>
+			<cues>
+				<cue name="SignalSetRelations" instantiate="false">
+					<conditions>
+						<check_all>
+						  <check_any>
+							<event_cue_signalled cue="md.Setup.GameStart"/>
+							<event_game_loaded/>
+						  </check_any>
+						  <check_value value="$HasRun == false" />
+						</check_all>
+					</conditions>
+					<actions>
+						<signal_cue_instantly cue="Set_Relations"/>
+					</actions>
+				</cue>
+				<cue name="Set_Relations" instantiate="false">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<do_if value="(faction.daldari?)">
+							<set_faction_relation faction="faction.mindatar" otherfaction="faction.daldari" value="-1.0" />
+							<set_faction_relation faction="faction.daldari" otherfaction="faction.mindatar" value="-1.0" />
+						</do_if>
+						<do_if value="(faction.damarr?)">
+							<set_faction_relation faction="faction.mindatar" otherfaction="faction.damarr" value="-1.0" />
+							<set_faction_relation faction="faction.damarr" otherfaction="faction.mindatar" value="-1.0" />
+						</do_if>
+						<do_if value="(faction.galdente?)">
+							<set_faction_relation faction="faction.mindatar" otherfaction="faction.galdente" value="0.32" />
+							<set_faction_relation faction="faction.galdente" otherfaction="faction.mindatar" value="0.32" />
+						</do_if>
+						<set_value name="$HasRun" exact="true" />
+						<debug_text text="'MOD: DeadAirFactionMindatar -- Relations Set'" context="false" filter="scripts" />
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

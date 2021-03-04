@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<components>
+	<component name="Cluster_DMI4" class="celestialbody">
+		<source geometry="assets\environments\cluster\Cluster_50_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="183" g="65" b="14" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1.1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-1.352928E+08" y="1.933208E+08" z="-3.62958E+08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="160" g="57" b="12" range="1E+11" shadowrange="1E+11" lighteffect="1" trigger="1" intensity="0.275" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="5.340145E+07" y="-2.135384E+07" z="3.62958E+08"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c26_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.9775E+08" y="4.9775E+08" z="4.9775E+08"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection02" tags="part  ">
+				<offset>
+					<position x="1.226125E+07" y="31.25" z="8100447"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.214036E+08" y="4.25545E+08" z="4.214036E+08"/>
+							<center x="-19.53125" y="0" z="6.835938"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset>
+					<position x="5937281" y="-553812.5" z="1171969"/>
+				</offset>
+				<parts>
+					<part name="bigstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.702529E+08" y="3.48666E+08" z="3.871963E+08"/>
+							<center x="-1.684747E+07" y="-1520797" z="3.048273E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="8354969" y="438851.6" z="3983781"/>
+				</offset>
+				<parts>
+					<part name="mediumstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.632484E+08" y="3.606822E+08" z="3.58029E+08"/>
+							<center x="4159375" y="-455804.7" z="-1310781"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part  ">
+				<offset>
+					<position x="898960.9" y="1.511347E+07" z="-1258906"/>
+				</offset>
+				<parts>
+					<part name="smallstar001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.650654E+08" y="3.56234E+08" z="3.760593E+08"/>
+							<center x="-1066008" y="-2.230669E+07" z="1.243445E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+		</connections>
+	</component>
+</components>

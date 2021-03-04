@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<add sel="//index">
+	<entry name="Cluster_DMI1" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi1" />
+	<entry name="Cluster_DMI2" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi2" />
+	<entry name="Cluster_DMI3" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi3" />
+	<entry name="Cluster_DMI4" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi4" />
+	<entry name="Cluster_DMI5" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi5" />
+	<entry name="Cluster_DMI6" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi6" />
+	<entry name="Cluster_DMI7" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi7" />
+	<entry name="Cluster_DMI8" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi8" />
+</add>
+</diff>

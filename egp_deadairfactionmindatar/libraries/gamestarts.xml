@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+	<add sel="/gamestarts">
+		<gamestart id="x4ep1_gamestart_DMI" name="DA Mindatar Freedom Fighter" description="You are a young Madari with grand ambitions. You decide to undertake a journey to find yourself, your people, and your limits." image="gamestart_1" group="1">
+			<info>
+				<item name="{1021,1}" value="{4816302,123}" />
+				<item name="{1021,3}"   value="20,000,000 {1001,101}" />
+			</info>
+			<location galaxy="xu_ep2_universe_macro" zone="zonedmic_cluster_dmi4_sector001_macro">
+				<position x="28685" y="-1240" z="10695"/>
+				<rotation yaw="-115" pitch="0" roll="0" />
+			</location>
+			<player macro="character_player_tutorial_macro" money="20000000">
+				<ship macro="ship_spl_s_fighter_02_a_macro">
+				  <loadout>
+					<macros>
+					  <engine macro="engine_spl_s_combat_01_mk4_macro" path="../con_engine_03"/>
+					  <engine macro="engine_spl_s_combat_01_mk4_macro" path="../con_engine_02"/>
+					  <weapon macro="weapon_spl_s_gatling_01_mk2_macro" path="../con_weapon_04"/>
+					  <weapon macro="weapon_spl_s_gatling_01_mk2_macro" path="../con_weapon_03"/>
+					  <weapon macro="weapon_spl_s_gatling_01_mk2_macro" path="../con_weapon_02"/>
+					  <shield macro="shield_spl_s_standard_01_mk3_macro" path="../con_shield_01"/>
+					</macros>
+					<ammunition>
+					  <ammunition macro="eq_arg_satellite_02_macro" exact="25" optional="false"/>
+					  <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5" optional="true"/>
+					  <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5" optional="true"/>
+					</ammunition>
+					<software>
+					  <software ware="software_flightassistmk1"/>
+					  <software ware="software_targetmk2" />
+					  <software ware="software_scannerlongrangemk2" />
+					  <software ware="software_targetmk1"/>
+					</software>
+					<virtualmacros>
+					  <thruster macro="thruster_gen_s_allround_01_mk3_macro" />
+					</virtualmacros>
+				  </loadout>
+				</ship>
+				<inventory>
+					<ware ware="inv_timewarp" amount="1" />
+					<ware ware="inv_interfaceunit" amount="6" />
+					<ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />
+					<ware ware="software_scannerobjectmk3" amount="1" />
+				</inventory>
+				<blueprints>
+					<!--Station BP-->
+					<ware ware="module_arg_dock_m_01_lowtech" />
+					<ware ware="module_arg_pier_l_01" />
+					<ware ware="module_arg_stor_container_s_01" />
+					<ware ware="module_arg_conn_base_01" />
+					<ware ware="module_arg_conn_cross_01" />
+					<ware ware="module_arg_conn_vertical_01" />
+					<ware ware="module_gen_prod_energycells_01" />
+					<ware ware="module_arg_prod_meat_01" />
+					<!-- Paint -->
+					<ware ware="paintmod_0006"/>
+					<ware ware="paintmod_0048"/>
+					<ware ware="paintmod_0049"/>
+					<ware ware="paintmod_0050"/>
+					<ware ware="paintmod_0097"/>
+					<ware ware="paintmod_0098"/>
+					<ware ware="paintmod_0099"/>
+					<ware ware="paintmod_0100"/>
+					<!-- Clothing -->
+					<ware ware="clothingmod_0001" />
+					<ware ware="clothingmod_0002" />
+				</blueprints>
+				<research>
+					<ware ware="research_teleportation" />
+					<ware ware="research_teleportation_range_01" />
+					<ware ware="research_teleportation_range_02" />
+					<ware ware="research_teleportation_range_03" />
+					<ware ware="research_radioreceiver" />
+					<ware ware="research_sensorbooster" />
+					<ware ware="research_tradeinterface" />
+				</research>
+				<encyclopedia>
+					<entry type="warebasket" ref="research_gamestart_common"/>
+				</encyclopedia>
+				<theme paint="painttheme_player_01" />
+			</player>
+		</gamestart>
+	</add>
+</diff>

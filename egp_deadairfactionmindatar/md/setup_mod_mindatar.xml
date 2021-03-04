@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Mindatar_Mod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+
+    <!-- will run once, either on gamestart or when a game is loaded where this mod was not active before -->
+    <cue name="Setup" namespace="this">
+      <conditions>
+        <event_cue_signalled cue="md.Setup.Start"/>
+      </conditions>
+      <actions>
+        <do_if value="global.$smugglercoverfactions?">
+          <do_if value="not global.$smugglercoverfactions.indexof.{faction.mindatar}">
+            <append_to_list name="global.$smugglercoverfactions" exact="faction.mindatar"/>
+          </do_if>
+        </do_if>
+		<find_sector groupname="md.Khaak_Activity.Manager.$PotentialHiveStationSectors" macro="macro.cluster_DMI1_sector001_macro" />
+      </actions>
+    </cue>
+
+    <!--Run Start_Actions on a new game-->
+    <cue name="Start" namespace="this">
+      <actions>
+        <include_actions ref="Start_Actions"/>
+        <cancel_cue cue="Game_Loaded"/>
+      </actions>
+    </cue>
+
+    <!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
+    <cue name="Game_Loaded" namespace="this">
+      <conditions>
+        <event_game_loaded/>
+      </conditions>
+      <actions>
+        <include_actions ref="Start_Actions"/>
+        <cancel_cue cue="Start"/>
+      </actions>
+    </cue>
+
+    <library name="Start_Actions">
+      <actions>
+        <do_if value="not md.$EquipmentTable?">
+          <set_value name="md.$EquipmentTable" exact="table[]"/>
+        </do_if>
+        <get_ware_definition result="md.$EquipmentTable.{faction.mindatar}" faction="faction.mindatar" flags="equipment" />
+        <do_if value="not md.$FactionData?">
+          <set_value name="md.$FactionData" exact="table[]"/>
+        </do_if>
+        <do_if value="not md.$FactionData.{faction.mindatar}?">
+          <set_value name="md.$FactionData.{faction.mindatar}" exact="table[]" />
+        </do_if>
+      </actions>
+    </library>
+
+    <cue name="Update_HQ_Plot_Data">
+      <conditions>
+        <event_cue_completed cue="md.X4Ep1_Mentor_Subscriptions.Start"/>
+      </conditions>
+      <actions>
+        <append_list_elements name="md.X4Ep1_Mentor_Subscriptions.Start.$SignalLeakStationFactions" other="[faction.mindatar]"/>
+      </actions>
+    </cue>
+  </cues>
+</mdscript>

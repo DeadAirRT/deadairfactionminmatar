@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <add sel="/mdscript/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='@$DesiredShipyardPatchMarker']" pos="after">
+    <do_elseif value="$Faction == faction.mindatar">
+      <set_value name="$DesiredShipyards" exact="1"/>
+    </do_elseif>
+  </add>
+
+  <add sel="/mdscript/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='@$DesiredWharfPatchMarker']" pos="after">
+    <do_elseif value="$Faction == faction.mindatar">
+      <set_value name="$DesiredWharfs" exact="1"/>
+    </do_elseif>
+  </add>
+
+  <add sel="/mdscript/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='@$DesiredEquipmentDockPatchMarker']" pos="after">
+    <do_elseif value="$Faction == faction.mindatar">
+      <set_value name="$DesiredEquipmentDocks" exact="1"/>
+    </do_elseif>
+  </add>
+  
+  <add sel="/mdscript/cues/library[@name='Manage_Stations']/cues/cue[@name='Process']/cues/cue[@name='Analyse_Stations']/actions/do_elseif[@value='[faction.argon, faction.antigone, faction.hatikvah, faction.paranid, faction.holyorder].indexof.{$Faction}']" pos="after">
+    <do_elseif value="$Faction == faction.mindatar">
+      <set_value name="$DesiredTradeStation" exact="1"/>
+    </do_elseif>
+  </add>
+
+</diff>

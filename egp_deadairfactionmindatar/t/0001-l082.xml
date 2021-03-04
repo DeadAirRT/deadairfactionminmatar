@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language id="82">
+
+<page id="4816302" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
+<!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
+ <t id="100">Mindatar Republic</t>
+ <t id="101">The Mindatar Republic was formed over a century ago when the Madari threw out their Damarrian overlords in what is known as the Mindatar Rebellion. Yet, only a quarter of the Madari people reside within the Republic. The rest are scattered around the world, including a large portion still enslaved within the Damarr Empire. Mindatar individuals are independent and proud, possessing a strong will and a multitude of tribal traditions.</t>
+ <t id="102">DMI</t>
+ <t id="103">Mindatar Capital Equipment Licence</t>
+ <t id="104">Mindatar Capital Ship Licence</t>
+ <t id="105">Warrior of the Madari</t>
+ <t id="106">Friend of the Madari</t>
+ <t id="107">Mindatar General Use Equipment Licence</t>
+ <t id="108">Mindatar General Use Ship Licence</t>
+ <t id="109">Mindatar Military Equipment Licence</t>
+ <t id="110">Mindatar Military Ship Licence</t>
+ <t id="111">Mindatar Police Licence</t>
+ <t id="112">Mindatar Capital Ship Building Module Licence</t>
+ <t id="113">Mindatar Ancillary Ship Building Module Licence</t>
+ <t id="114">Mindatar Advanced Module Licence</t>
+ <t id="115">Mindatar Basic Module Licence</t>
+ <t id="116">Mindatar Intermediate Module Licence</t>
+ <t id="117">Mindatar Trade Offer Subscription</t>
+ <t id="118">Republic</t>
+ <t id="119">Mindatar Ship Sale Contract</t>
+ <t id="120">(CL-85V){20403,3}{20403,12}{20005,8004}{20404,8}{20404,5}{20403,22}</t>
+ <t id="121">(8G-MQV){20404,8}{20403,7}{20005,8004}{20403,13}{20403,17}{20403,22}</t>
+ <t id="122">(K-QWHE){20403,11}{20005,8004}{20403,17}{20403,23}{20403,8}{20403,5}</t>
+ <t id="123">(AAM-1A){20403,1}{20403,1}{20403,13}{20005,8004}{20404,1}{20403,1}</t>
+ <t id="124">(RMOC-W){20403,18}{20403,13}{20403,15}{20403,3}{20005,8004}{20403,23}</t>
+ <t id="125">(YKE4-3){20403,25}{20403,11}{20403,5}{20404,4}{20005,8004}{20404,3}</t>
+ <t id="126">(VOL-MI){20403,22}{20403,15}{20403,12}{20005,8004}{20403,13}{20403,9}</t>
+ <t id="127">xxx</t>
+ <t id="128">xxx</t>
+ <t id="129">xxx</t>
+ <t id="130">(EW-JR5){20403,5}{20403,23}{20005,8004}{20403,10}{20403,18}{20404,5}</t>
+ <t id="131">xxx</t>
+ <t id="132">xxx</t>
+</page>
+</language>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="" author="DeadAir" version="001" date="2021-01-27" save="1" sync="false" lastupdate="1588466451">
+<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="" author="DeadAir" version="001" date="2021-03-03" save="1" sync="false">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
-  <dependency id="ws_1668457361" optional="true" name="Faction Enhancer - War Module" />
-  <dependency id="ws_1668473070" optional="true" name="Faction Enhancer - Econ AI Module" />
-  <dependency id="ws_1668472321" optional="true" name="Faction Enhancer - Econ Balance Module" />
   <text language="7" name="DeadAir Faction Mindatar" description="" author="DeadAir"></text>
   <text language="33" name="DeadAir Faction Mindatar" description="" author="DeadAir"></text>
   <text language="34" name="DeadAir Faction Mindatar" description="" author="DeadAir"></text>

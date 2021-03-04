@@ -4,7 +4,7 @@
 - Uses Split ships with a focus on projectile weaponry.
 - Has a complete economy and logic.
 - At war with Argon, Antigone, Paranid, Damarr, and Daldari
-- Allied with Ministry, Teladi, and Holy Order.
+- Allied with Ministry, Teladi, Holy Order, and Galdente
 
 ## Adds 8 Clusters
 - 7 Clusters owned by Mindatar Republic with a connection to Argon and Teladi

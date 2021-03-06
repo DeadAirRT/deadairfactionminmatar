@@ -2,7 +2,7 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <add sel="//factions">
     <faction id="mindatar" name="{4816302,100}" description="{4816302,101}" shortname="{4816302,102}" prefixname="{4816302,118}" primaryrace="argon" behaviourset="default" known="1" tags="claimspace economic police protective watchdoguser privateloadout publicloadout privateship publicship" policefaction="mindatar">
-	  <color r="183" g="65" b="14" />
+	  <color r="128" g="42" b="0" /><!--<color r="193" g="38" b="0" />--><!--<color r="210" g="136" b="104" />--><!--<color r="183" g="65" b="14" />-->
       <icon active="faction_mindatar" inactive="faction_mindatar" />
       <licences>
 		<licence type="capitalequipment" name="{4816302,103}" icon="bse_star" minrelation="0.1" precursor="ceremonyally" price="0" />

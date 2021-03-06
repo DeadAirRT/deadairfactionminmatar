@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="" author="DeadAir" version="001" date="2021-03-03" save="1" sync="false">
+<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="" author="DeadAir" version="002" date="2021-03-03" save="1" sync="false">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
   <text language="7" name="DeadAir Faction Mindatar" description="" author="DeadAir"></text>
   <text language="33" name="DeadAir Faction Mindatar" description="" author="DeadAir"></text>

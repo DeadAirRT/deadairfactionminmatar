@@ -229,9 +229,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -260,14 +261,15 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="hydrogen" />
+	  <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
 	  <volumetricfog multiplier="0.25" medium="hydrogen" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
       <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
     </fields>
@@ -287,9 +289,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -316,14 +319,15 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="helium" />
+	  <nebula ref="fogpattern_v2_macro" resources="helium" />
 	  <volumetricfog multiplier="0.25" medium="fog_blue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
       <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
     </fields>
@@ -343,9 +347,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -374,14 +379,15 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="methane" />
+	  <nebula ref="fogpattern_v2_macro" resources="methane" />
 	  <volumetricfog multiplier="0.25" medium="fog_grey" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
       <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
     </fields>
@@ -401,9 +407,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -417,19 +424,35 @@
     </resources>
   </region>
   <region name="region_dmi4_gas_01" density="1.0" rotation="0" >
-    <boundary class="sphere">
-      <size r="200000" />
+    <boundary class="cylinder">
+      <size r="175000" linear="20000"/>
     </boundary>
     <falloff>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="helium" />
-	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
-      <volumetricfog multiplier="0.05" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="30000" sizevariation="0.4" densityfactor="0.015" rotation="0" rotationvariation="0.05" minnoisevalue="0.4" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.50"/>
+	  <nebula ref="fogpattern_v2_macro" resources="helium" />
     </fields>
     <resources>
 	  <resource ware="helium" yield="high" />
     </resources>
+  </region>
+  <region name="region_dmi4_volumetricfog_01" density="1.0" rotation="0" >
+    <boundary class="sphere">
+      <size r="200000" />
+    </boundary>
+    <falloff>
+	  <radial>
+        <step position="0.0" value="0.0" />
+        <step position="0.5" value="0.0" />
+        <step position="0.6" value="0.5" />
+		<step position="0.7" value="1.0" />
+        <step position="1.0" value="1.0" />
+      </radial>
+    </falloff>
+    <fields>
+	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
+      <volumetricfog multiplier="0.05" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
+    </fields>
   </region>
   <region name="region_dmi5_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
     <boundary class="splinetube">
@@ -443,9 +466,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -476,14 +500,15 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="hydrogen" />
+	  <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
 	  <volumetricfog multiplier="0.25" medium="fog_bluepink" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
       <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
     </fields>
@@ -503,9 +528,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -530,14 +556,15 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="methane" />
+	  <nebula ref="fogpattern_v2_macro" resources="methane" />
 	  <volumetricfog multiplier="0.25" medium="helium" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
       <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
     </fields>
@@ -557,9 +584,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -584,14 +612,15 @@
 	<falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="hydrogen methane helium" />
+	  <nebula ref="fogpattern_v2_macro" resources="hydrogen methane helium" />
 	  <volumetricfog multiplier="0.25" medium="fog_turquoise" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
       <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
     </fields>
@@ -602,15 +631,16 @@
     </resources>
   </region>
   <region name="region_dmi_veryhigh_nividium" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -623,15 +653,16 @@
     </resources>
   </region>
   <region name="region_dmi_veryhigh_ore" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -644,15 +675,16 @@
     </resources>
   </region>
   <region name="region_dmi_veryhigh_silicon" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -665,15 +697,16 @@
     </resources>
   </region>
   <region name="region_dmi_high_ice" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -686,60 +719,63 @@
     </resources>
   </region>
   <region name="region_dmi_high_methane" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-      <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="methane" />
+      <nebula ref="fogpattern_v2_macro" resources="methane" />
     </fields>
     <resources>
       <resource ware="methane" yield="high" />
     </resources>
   </region>
   <region name="region_dmi_high_hydrogen" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-      <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="hydrogen" />
+      <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
     </fields>
     <resources>
       <resource ware="hydrogen" yield="high" />
     </resources>
   </region>
   <region name="region_dmi_high_helium" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="40000" />
+    <boundary class="cylinder">
+      <size r="40000" linear="20000" />
     </boundary>
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
     <fields>
-      <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="helium" />
+      <nebula ref="fogpattern_v2_macro" resources="helium" />
     </fields>
     <resources>
       <resource ware="helium" yield="high" />
@@ -757,9 +793,10 @@
     <falloff>
 	  <radial>
         <step position="0.0" value="1.0" />
-        <step position="0.7" value="1.0" />
-        <step position="0.8" value="0.9" />
-		<step position="0.9" value="0.8" />
+        <step position="0.5" value="1.0" />
+        <step position="0.6" value="0.8" />
+		<step position="0.7" value="0.6" />
+		<step position="0.8" value="0.4" />
         <step position="1.0" value="0.0" />
       </radial>
     </falloff>
@@ -779,17 +816,16 @@
     </resources>
   </region>
   <region name="region_dmi8_gas_01" density="1.0" rotation="0" >
-    <boundary class="sphere">
-      <size r="200000" />
+    <boundary class="cylinder">
+      <size r="175000" linear="20000"/>
     </boundary>
     <falloff>
     </falloff>
     <fields>
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="helium" />
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="methane" />
-	  <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="hydrogen" />
+	  <nebula ref="fogpattern_v2_macro" resources="helium" />
+	  <nebula ref="fogpattern_v2_macro" resources="methane" />
+	  <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
 	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
-      <volumetricfog multiplier="0.05" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="30000" sizevariation="0.4" densityfactor="0.015" rotation="0" rotationvariation="0.05" minnoisevalue="0.4" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.50"/>
     </fields>
     <resources>
 	  <resource ware="helium" yield="low" />
@@ -797,5 +833,26 @@
 	  <resource ware="hydrogen" yield="low" />
     </resources>
   </region>
+  <region name="region_dmi8_volumetricfog_01" density="1.0" rotation="0" >
+    <boundary class="sphere">
+      <size r="200000" />
+    </boundary>
+    <falloff>
+	  <radial>
+        <step position="0.0" value="0.0" />
+        <step position="0.5" value="0.0" />
+        <step position="0.6" value="0.5" />
+		<step position="0.7" value="1.0" />
+        <step position="1.0" value="1.0" />
+      </radial>
+    </falloff>
+    <fields>
+	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
+      <volumetricfog multiplier="0.05" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
+    </fields>
+  </region>
 </add>
 </diff>
+<!--OLD GAS
+<nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="helium" />
+-->

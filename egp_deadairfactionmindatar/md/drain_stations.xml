@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<diff name="Drain_Stations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<replace sel="//cue[@name='DrainLoop_Reset']/delay[@min='[45min / $Clusters.count - 10, 15].max']/@min" silent="true">[45min / $Clusters.count - 10, 15s].max</replace>
+<replace sel="//cue[@name='DrainLoop_Reset']/delay[@max='[45min / $Clusters.count + 10, 25].max']/@max" silent="true">[45min / $Clusters.count + 10, 25s].max</replace>
+</diff>

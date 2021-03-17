@@ -30,7 +30,7 @@
 			</connection>
 			<connection name="CDMI1S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI1S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -41,7 +41,7 @@
 			</connection>
 			<connection name="CDMI1S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI1S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -52,7 +52,7 @@
 			</connection>
 			<connection name="CDMI1S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="-124200" y="0" z="82800" />
+					<position x="-124200" y="-10000" z="82800" />
 				</offset>
 				<macro name="CDMI1S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -93,7 +93,7 @@
 			</connection>
 			<connection name="CDMI2S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI2S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -104,7 +104,7 @@
 			</connection>
 			<connection name="CDMI2S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI2S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -115,7 +115,7 @@
 			</connection>
 			<connection name="CDMI2S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="-124200" y="0" z="-82800" />
+					<position x="-124200" y="-10000" z="-82800" />
 				</offset>
 				<macro name="CDMI2S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -156,7 +156,7 @@
 			</connection>
 			<connection name="CDMI3S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI3S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -167,7 +167,7 @@
 			</connection>
 			<connection name="CDMI3S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI3S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -178,7 +178,7 @@
 			</connection>
 			<connection name="CDMI3S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="0" y="0" z="150000" />
+					<position x="0" y="-10000" z="150000" />
 				</offset>
 				<macro name="CDMI3S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -219,7 +219,7 @@
 			</connection>
 			<connection name="CDMI4S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI4S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -230,7 +230,7 @@
 			</connection>
 			<connection name="CDMI4S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI4S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -241,12 +241,23 @@
 			</connection>
 			<connection name="CDMI4S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="0" y="0" z="150000" />
+					<position x="0" y="-10000" z="150000" />
 				</offset>
 				<macro name="CDMI4S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
 						<region ref="region_dmi_veryhigh_silicon" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI4S01_Region006_connection" ref="regions">
+				<offset>
+					<position x="0" y="0" z="1" />
+				</offset>
+				<macro name="CDMI4S01_Region006_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi4_volumetricfog_01" />
 					</properties>
 				</macro>
 			</connection>
@@ -282,7 +293,7 @@
 			</connection>
 			<connection name="CDMI5S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI5S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -293,7 +304,7 @@
 			</connection>
 			<connection name="CDMI5S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI5S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -304,7 +315,7 @@
 			</connection>
 			<connection name="CDMI5S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="0" y="0" z="-150000" />
+					<position x="0" y="-10000" z="-150000" />
 				</offset>
 				<macro name="CDMI5S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -345,7 +356,7 @@
 			</connection>
 			<connection name="CDMI6S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI6S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -356,7 +367,7 @@
 			</connection>
 			<connection name="CDMI6S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI6S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -367,7 +378,7 @@
 			</connection>
 			<connection name="CDMI6S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="124200" y="0" z="82800" />
+					<position x="124200" y="-10000" z="82800" />
 				</offset>
 				<macro name="CDMI6S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -408,7 +419,7 @@
 			</connection>
 			<connection name="CDMI7S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI7S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -419,7 +430,7 @@
 			</connection>
 			<connection name="CDMI7S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI7S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -430,7 +441,7 @@
 			</connection>
 			<connection name="CDMI7S01_Region005_connection" ref="regions">
 				<offset>
-					<position x="124200" y="0" z="-82800" />
+					<position x="124200" y="-10000" z="-82800" />
 				</offset>
 				<macro name="CDMI7S01_Region005_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -471,7 +482,7 @@
 			</connection>
 			<connection name="CDMI8S01_Region003_connection" ref="regions">
 				<offset>
-					<position x="1" y="1" z="1" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI8S01_Region003_macro">
 					<component connection="cluster" ref="standardregion" />
@@ -482,12 +493,23 @@
 			</connection>
 			<connection name="CDMI8S01_Region004_connection" ref="regions">
 				<offset>
-					<position x="2" y="2" z="2" />
+					<position x="0" y="0" z="1" />
 				</offset>
 				<macro name="CDMI8S01_Region004_macro">
 					<component connection="cluster" ref="standardregion" />
 					<properties>
 						<region ref="region_dmi8_gas_01" />
+					</properties>
+				</macro>
+			</connection>
+			<connection name="CDMI8S01_Region005_connection" ref="regions">
+				<offset>
+					<position x="0" y="0" z="1" />
+				</offset>
+				<macro name="CDMI8S01_Region005_macro">
+					<component connection="cluster" ref="standardregion" />
+					<properties>
+						<region ref="region_dmi8_volumetricfog_01" />
 					</properties>
 				</macro>
 			</connection>

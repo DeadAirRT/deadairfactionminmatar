@@ -1201,7 +1201,7 @@
     </orders>
     <category faction="mindatar" tags="[military, medium, police]" size="ship_m"/>
     <quota galaxy="15" maxgalaxy="30" cluster="1" sector="1"/>
-    <location class="galaxy" macro="xu_ep2_universe_macro" policefaction="mindatar" relation="member" comparison="ge" matchextension="false" />
+    <location class="galaxy" macro="xu_ep2_universe_macro" policefaction="mindatar" relation="self" comparison="exact" matchextension="false" />
     <environment buildatshipyard="true"/>
     <ship>
       <select faction="mindatar" tags="[military, medium]" size="ship_m"/>
@@ -1545,7 +1545,7 @@
   <job id="masstraffic_mindatar_police">
     <task task="masstraffic.police"/>
     <location class="station" policefaction="mindatar"/>
-    <quota station="5"/>
+    <quota station="1"/>
     <masstraffic ref="masstraffic_split_police_mindatar"/>
   </job>
   <job id="masstraffic_mindatar_criminal">

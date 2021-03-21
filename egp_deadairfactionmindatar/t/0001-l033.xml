@@ -3,26 +3,26 @@
 
 <page id="4816302" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
 <!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
- <t id="100">Mindatar Republic</t>
- <t id="101">The Mindatar Republic was formed over a century ago when the Madari threw out their Damarrian overlords in what is known as the Mindatar Rebellion. Yet, only a quarter of the Madari people reside within the Republic. The rest are scattered around the world, including a large portion still enslaved within the Damarr Empire. Mindatar individuals are independent and proud, possessing a strong will and a multitude of tribal traditions.</t>
+ <t id="100">République de Mindatar</t>
+ <t id="101">La République de Mindatar a été créée il y a plus d'un siècle, lorsque les Madaris ont chassé leurs suzerains Damarriens lors de ce que l'on appelle la rébellion de Mindatar. Pourtant, seul un quart du peuple Madari réside au sein de la République. Le reste est éparpillé dans le monde entier, dont une grande partie est toujours asservie au sein de l'Empire Damarr. Les Mindatars sont des individus indépendants et fiers, dotés d'une forte volonté et d'une multitude de traditions tribales.</t>
  <t id="102">DMI</t>
- <t id="103">Mindatar Capital Equipment Licence</t>
- <t id="104">Mindatar Capital Ship Licence</t>
- <t id="105">Warrior of the Madari</t>
- <t id="106">Friend of the Madari</t>
- <t id="107">Mindatar General Use Equipment Licence</t>
- <t id="108">Mindatar General Use Ship Licence</t>
- <t id="109">Mindatar Military Equipment Licence</t>
- <t id="110">Mindatar Military Ship Licence</t>
- <t id="111">Mindatar Police Licence</t>
- <t id="112">Mindatar Capital Ship Building Module Licence</t>
- <t id="113">Mindatar Ancillary Ship Building Module Licence</t>
- <t id="114">Mindatar Advanced Module Licence</t>
- <t id="115">Mindatar Basic Module Licence</t>
- <t id="116">Mindatar Intermediate Module Licence</t>
- <t id="117">Mindatar Trade Offer Subscription</t>
- <t id="118">Republic</t>
- <t id="119">Mindatar Ship Sale Contract</t>
+ <t id="103">Licence d'équipement de Mindatar</t>
+ <t id="104">Licence de vaisseaux capitaux de Mindatar</t>
+ <t id="105">Guerrier de Mindatar</t>
+ <t id="106">Ami de Mindatar</t>
+ <t id="107">Licence d'équipement à usage général de Mindatar</t>
+ <t id="108">Licence de vaisseaux à usage général de Mindatar</t>
+ <t id="109">Licence d'équipement militaire de Mindatar</t>
+ <t id="110">Licence de vaisseaux militaire de Mindatar</t>
+ <t id="111">Licence de police de Mindatar</t>
+ <t id="112">Licence du module de construction de vaisseaux capitaux de Mindatar</t>
+ <t id="113">Licence pour les modules auxiliaires de construction navale de Mindatar</t>
+ <t id="114">Licence pour les modules avancés de Mindatar</t>
+ <t id="115">Licence des modules de bases de Mindatar</t>
+ <t id="116">Licence des modules intermédiaires de Mindatar</t>
+ <t id="117">Abonnement à l'offre commerciale de Mindatar</t>
+ <t id="118">République</t>
+ <t id="119">Contrat de vente du navire de Mindatar</t>
  <t id="120">(CL-85V){20403,3}{20403,12}{20005,8004}{20404,8}{20404,5}{20403,22}</t>
  <t id="121">(8G-MQV){20404,8}{20403,7}{20005,8004}{20403,13}{20403,17}{20403,22}</t>
  <t id="122">(K-QWHE){20403,11}{20005,8004}{20403,17}{20403,23}{20403,8}{20403,5}</t>

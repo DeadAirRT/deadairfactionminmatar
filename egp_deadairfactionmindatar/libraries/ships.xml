@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-  <ship id="mindatar_builder_xl" group="spl_builder_xl">
+  <ship id="mindatar_builder_xl" group="dmi_builder_xl">
     <category tags="[builder, mission]" faction="[mindatar]" size="ship_xl"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -8,7 +8,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_elite_freighter_crew"/>
   </ship>
-  <ship id="mindatar_resupplier_xl" group="spl_resupplier_xl">
+  <ship id="mindatar_resupplier_xl" group="dmi_resupplier_xl">
     <category tags="[resupplier, mission]" faction="[mindatar]" size="ship_xl"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -16,7 +16,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_elite_freighter_crew"/>
   </ship>
-  <ship id="mindatar_trader_container_l" group="spl_trader_container_l">
+  <ship id="mindatar_trader_container_l" group="dmi_trader_container_l">
     <category tags="[trader, container, mission]" faction="[mindatar]" size="ship_l"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -25,7 +25,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="mindatar_trader_container_m" group="spl_trader_container_m">
+  <ship id="mindatar_trader_container_m" group="dmi_trader_container_m">
     <category tags="[trader, container, mission]" faction="[mindatar]" size="ship_m"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -34,7 +34,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_trader_container_s" group="spl_trader_container_s">
+  <ship id="mindatar_trader_container_s" group="dmi_trader_container_s">
     <category tags="[trader, container, mission]" faction="[mindatar]" size="ship_s"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -43,7 +43,7 @@
     <drop ref="ship_small_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_solid_l" group="spl_miner_solid_l">
+  <ship id="mindatar_miner_solid_l" group="dmi_miner_solid_l">
     <category tags="[miner, solid, mission]" faction="[mindatar]" size="ship_l"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -52,7 +52,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_liquid_l" group="spl_miner_liquid_l">
+  <ship id="mindatar_miner_liquid_l" group="dmi_miner_liquid_l">
     <category tags="[miner, liquid, mission]" faction="[mindatar]" size="ship_l"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -61,7 +61,7 @@
     <drop ref="ship_large_civilian"/>
     <people ref="argon_veteran_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_solid_m" group="spl_miner_solid_m">
+  <ship id="mindatar_miner_solid_m" group="dmi_miner_solid_m">
     <category tags="[miner, solid, mission]" faction="[mindatar]" size="ship_m"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -70,7 +70,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_liquid_m" group="spl_miner_liquid_m">
+  <ship id="mindatar_miner_liquid_m" group="dmi_miner_liquid_m">
     <category tags="[miner, liquid, mission]" faction="[mindatar]" size="ship_m"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -79,7 +79,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_solid_s" group="spl_miner_solid_s">
+  <ship id="mindatar_miner_solid_s" group="dmi_miner_solid_s">
     <category tags="[miner, solid, mission]" faction="[mindatar]" size="ship_s"/>
     <pilot>
       <select faction="mindatar" tags="traderpilot"/>
@@ -88,7 +88,7 @@
     <drop ref="ship_small_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_solid_mixed"  group="spl_miner_solid_mixed">
+  <ship id="mindatar_miner_solid_mixed"  group="dmi_miner_solid_mixed">
     <category tags="[miner, solid, mixed]" faction="[mindatar]"/>
     <owner exact="argon" overridenpc="true"/>
     <pilot>
@@ -98,7 +98,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_miner_liquid_mixed"  group="spl_miner_liquid_mixed">
+  <ship id="mindatar_miner_liquid_mixed"  group="dmi_miner_liquid_mixed">
     <category tags="[miner, liquid, mixed]" faction="[mindatar]"/>
     <owner exact="argon" overridenpc="true"/>
     <pilot>
@@ -108,7 +108,7 @@
     <drop ref="ship_medium_civilian"/>
     <people ref="argon_freighter_crew"/>
   </ship>
-  <ship id="mindatar_carrier_xl" group="spl_carrier_xl">
+  <ship id="mindatar_carrier_xl" group="dmi_carrier_xl">
     <category tags="[military, carrier, mission]" faction="[mindatar]" size="ship_xl"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -116,7 +116,7 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
-  <ship id="mindatar_destroyer_l" group="spl_destroyer_l">
+  <ship id="mindatar_destroyer_l" group="dmi_destroyer_l">
     <category tags="[military, destroyer, mission]" faction="[mindatar]" size="ship_l"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -124,7 +124,7 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
-  <ship id="mindatar_frigate_m" group="spl_frigate_m">
+  <ship id="mindatar_frigate_m" group="dmi_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[mindatar]" size="ship_m"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -132,7 +132,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_veteran_military_crew"/>
   </ship>
-  <ship id="mindatar_corvette_m" group="spl_corvette_m">
+  <ship id="mindatar_corvette_m" group="dmi_corvette_m">
     <category tags="[military, medium, corvette, mission]" faction="[mindatar]" size="ship_m"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -140,7 +140,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_veteran_military_crew"/>
   </ship>
-  <ship id="mindatar_fighter_s" group="spl_fighter_s">
+  <ship id="mindatar_fighter_s" group="dmi_fighter_s">
     <category tags="[military, fighter, selection, mission]" faction="[mindatar]" size="ship_s"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -148,7 +148,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_military_crew"/>
   </ship>
-  <ship id="mindatar_fighter_heavy_s" group="spl_fighter_heavy_s">
+  <ship id="mindatar_fighter_heavy_s" group="dmi_fighter_heavy_s">
     <category tags="[military, fighter, heavy, mission]" faction="[mindatar]" size="ship_s"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -156,7 +156,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_military_crew"/>
   </ship>
-  <ship id="mindatar_fighter_light_s" group="spl_fighter_light_s">
+  <ship id="mindatar_fighter_light_s" group="dmi_fighter_light_s">
     <category tags="[military, fighter, light, mission]" faction="[mindatar]" size="ship_s"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>
@@ -164,7 +164,7 @@
     <drop ref="ship_small_military"/>
     <people ref="argon_military_crew"/>
   </ship>
-  <ship id="mindatar_scout_s" group="spl_scout_s">
+  <ship id="mindatar_scout_s" group="dmi_scout_s">
     <category tags="[military, scout, light, mission]" faction="[mindatar]" size="ship_s"/>
     <pilot>
       <select faction="mindatar" tags="fighterpilot"/>

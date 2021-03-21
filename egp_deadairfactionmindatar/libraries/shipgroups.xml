@@ -1,3 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
+	<add sel="//groups">
+		<group name="dmi_builder_xl">
+			<select macro="ship_spl_xl_builder_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_resupplier_xl">
+			<select macro="ship_spl_xl_resupplier_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_trader_container_l">
+			<select macro="ship_spl_l_trans_container_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_trader_container_m">
+			<select macro="ship_spl_m_trans_container_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_trader_container_s">
+			<select macro="ship_spl_s_trans_container_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_solid_l">
+			<select macro="ship_spl_l_miner_solid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_liquid_l">
+			<select macro="ship_spl_l_miner_liquid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_solid_m">
+			<select macro="ship_spl_m_miner_solid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_liquid_m">
+			<select macro="ship_spl_m_miner_liquid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_solid_mixed">
+			<select macro="ship_spl_l_miner_solid_01_a_macro" weight="100"/>
+			<select macro="ship_spl_m_miner_solid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_liquid_mixed">
+			<select macro="ship_spl_l_miner_liquid_01_a_macro" weight="100"/>
+			<select macro="ship_spl_m_miner_liquid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_miner_solid_s">
+			<select macro="ship_spl_s_miner_solid_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_carrier_xl">
+			<select macro="ship_spl_xl_carrier_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_destroyer_l">
+			<select macro="ship_spl_l_destroyer_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_military_m">
+			<select macro="ship_spl_m_frigate_01_a_macro" weight="100"/>
+			<select macro="ship_spl_m_corvette_01_a_macro" weight="100"/>
+			<select macro="ship_spl_m_corvette_01_b_macro" weight="100"/>
+		</group>
+		<group name="dmi_frigate_m">
+			<select macro="ship_spl_m_frigate_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_corvette_m">
+			<select macro="ship_spl_m_corvette_01_a_macro" weight="100"/>
+			<select macro="ship_spl_m_corvette_01_b_macro" weight="100"/>
+		</group>
+		<group name="dmi_fighter_s">
+			<select macro="ship_spl_s_heavyfighter_01_a_macro" weight="100"/>
+			<select macro="ship_spl_s_fighter_01_a_macro" weight="100"/>
+			<select macro="ship_spl_s_fighter_02_a_macro" weight="100"/>
+			<select macro="ship_spl_s_fighter_02_b_macro" weight="100"/>
+		</group>
+		<group name="dmi_fighter_heavy_s">
+			<select macro="ship_spl_s_heavyfighter_01_a_macro" weight="100"/>
+		</group>
+		<group name="dmi_fighter_light_s">
+			<select macro="ship_spl_s_fighter_01_a_macro" weight="100"/>
+			<select macro="ship_spl_s_fighter_02_a_macro" weight="100"/>
+			<select macro="ship_spl_s_fighter_02_b_macro" weight="100"/>
+		</group>
+		<group name="dmi_scout_s">
+			<select macro="ship_spl_s_scout_01_a_macro" weight="100"/>
+		</group>
+	</add>
 </diff>

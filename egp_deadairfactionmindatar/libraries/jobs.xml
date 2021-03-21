@@ -1059,7 +1059,7 @@
   </job>
 
   <job id="mindatar_military_patrol_m_sector_exp" name="{20204,2901}" comment="each sector, expansion">
-    <modifiers commandeerable="false"/>
+    <modifiers commandeerable="true"/>
     <orders>
       <order order="Patrol" default="true">
         <param name="range" value="class.sector"/>
@@ -1200,7 +1200,7 @@
       <order order="Police" default="true"/>
     </orders>
     <category faction="mindatar" tags="[military, medium, police]" size="ship_m"/>
-    <quota galaxy="15" maxgalaxy="30" cluster="1" sector="1"/>
+    <quota galaxy="45" maxgalaxy="90" cluster="3" sector="3"/>
     <location class="galaxy" macro="xu_ep2_universe_macro" policefaction="mindatar" relation="self" comparison="exact" matchextension="false" />
     <environment buildatshipyard="true"/>
     <ship>

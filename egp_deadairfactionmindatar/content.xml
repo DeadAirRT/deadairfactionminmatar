@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir" version="003" date="2021-03-16" save="1" sync="false">
+<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir" version="004" date="2021-03-21" save="1" sync="false">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
   <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity" />
   <text language="7" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>

@@ -3,7 +3,7 @@
 <add sel="//macros/macro[@name='XU_EP2_universe_macro']/connections">
 	<connection name="Cluster_DMI1_connection" ref="clusters">
 		<offset>
-			<position x="-30000000" y="0" z="121240000" />
+			<position x="-30000000" y="0" z="155880000" />
         </offset>
         <macro ref="Cluster_DMI1_macro" connection="galaxy" />
 	</connection>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bullet_dmi_turret_m_1400mm_fusion_macro" class="bullet">
+    <component ref="bullet_dmi_turret_m_1400mm" />
+    <properties>
+      <bullet speed="6000" lifetime="0.9" amount="1" barrelamount="2" icon="weapon_laser_mk1" angle="0.45" maxhits="1" ricochet="0" scale="0" attach="0" selfdestruct="0"/>
+      <reload rate="0.75" />
+      <damage value="2300" shield="-1000" repair="0" />
+      <effects>
+        <impact ref="explosion_flak" />
+        <launch ref="muzzle_turret_gen_m_flak_01_mk1" />
+      </effects>
+      <weapon system="turret_midrange" />
+    </properties>
+  </macro>
+</macros>

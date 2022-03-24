@@ -22,7 +22,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -119,7 +119,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -194,7 +194,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -269,7 +269,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -344,7 +344,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -419,7 +419,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -494,7 +494,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -569,7 +569,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -644,7 +644,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -739,7 +739,7 @@
         <variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.transport" min="1"/>
+        <unit category="unitcategory.transport" min="2" max="5"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -871,7 +871,7 @@
       <order order="MiningRoutine" default="true">
         <param name="minbuy" value="0"/>
         <param name="maxbuy" value="5"/>
-        <param name="minsell" value="1"/>
+        <param name="minsell" value="0"/>
         <param name="maxsell" value="5"/>
       </order>
     </orders>
@@ -1199,12 +1199,12 @@
     <orders>
       <order order="Police" default="true"/>
     </orders>
-    <category faction="mindatar" tags="[military, medium, police]" size="ship_m"/>
-    <quota galaxy="45" maxgalaxy="90" cluster="3" sector="3"/>
+    <category faction="mindatar" tags="[police]" size="ship_s"/>
+    <quota galaxy="45" maxgalaxy="90" cluster="6" sector="3"/>
     <location class="galaxy" macro="xu_ep2_universe_macro" policefaction="mindatar" relation="self" comparison="exact" matchextension="false" />
     <environment buildatshipyard="true"/>
     <ship>
-      <select faction="mindatar" tags="[military, medium]" size="ship_m"/>
+      <select faction="mindatar" tags="[fighter]" size="ship_s"/>
       <loadout>
         <level min="0.5" max="1.0"/>
 		<variation min="0.0" max="0.4"/>
@@ -1227,7 +1227,7 @@
     <environment buildatshipyard="true"/>
     <modifiers subordinate="true"/>
     <ship>
-      <select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+      <select faction="mindatar" tags="[military, escort]" size="ship_l"/>
       <loadout>
         <level min="0.8" max="1.0"/>
 		<variation min="0.0" max="0.4"/>
@@ -1493,7 +1493,7 @@
 		<variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.build" min="30"/>
+        <unit category="unitcategory.build" min="30" max="40"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>
@@ -1519,7 +1519,7 @@
 		<variation min="0.0" max="0.4"/>
       </loadout>
 	  <units>
-        <unit category="unitcategory.build" min="30"/>
+        <unit category="unitcategory.build" min="30" max="40"/>
       </units>
       <owner exact="mindatar" overridenpc="true"/>
     </ship>

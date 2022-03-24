@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dmi_l_1400mm_titanium_macro" class="turret">
+		<component ref="turret_dmi_l_1400mm"/>
+		<properties>
+			<identification name="{4816302,204}" basename="{4816302,290}" shortname="{4816302,205}" description="{4816302,302}" />
+			<bullet class="bullet_dmi_turret_l_1400mm_titanium_macro"/>
+			<rotationspeed max="5"/>
+			<rotationacceleration max="5"/>
+			<reload/>
+			<hull max="30000" threshold="0.2"/>
+		</properties>
+	</macro>
+</macros>
+

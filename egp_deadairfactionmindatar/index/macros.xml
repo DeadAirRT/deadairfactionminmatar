@@ -9,5 +9,34 @@
 	<entry name="cluster_DMI6_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DMI7_sector*" value="maps\xu_ep2_universe\sectors" />
 	<entry name="cluster_DMI8_sector*" value="maps\xu_ep2_universe\sectors" />
+	<!-- Weapons -->
+	<entry name="turret_dmi_l_1400mm_fusion_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_l_1400mm_fusion_macro" />
+	<entry name="turret_dmi_l_1400mm_nuclear_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_l_1400mm_nuclear_macro" />
+	<entry name="turret_dmi_l_1400mm_titanium_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_l_1400mm_titanium_macro" />
+	<entry name="turret_dmi_m_1400mm_fusion_01_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_m_1400mm_fusion_01_macro" />
+	<entry name="turret_dmi_m_1400mm_fusion_02_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_m_1400mm_fusion_02_macro" />
+	<entry name="turret_dmi_m_1400mm_nuclear_01_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_m_1400mm_nuclear_01_macro" />
+	<entry name="turret_dmi_m_1400mm_nuclear_02_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_m_1400mm_nuclear_02_macro" />
+	<entry name="turret_dmi_m_1400mm_titanium_01_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_m_1400mm_titanium_01_macro" />
+	<entry name="turret_dmi_m_1400mm_titanium_02_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_m_1400mm_titanium_02_macro" />
+	<entry name="weapon_dmi_l_fusion_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\capital\macros\weapon_dmi_l_fusion_macro" />
+	<entry name="weapon_dmi_l_nuclear_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\capital\macros\weapon_dmi_l_nuclear_macro" />
+	<entry name="weapon_dmi_l_titanium_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\capital\macros\weapon_dmi_l_titanium_macro" />
+	<entry name="weapon_dmi_xl_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\capital\macros\weapon_dmi_xl_macro" />
+	<!-- T3BC -->
+	<entry name="turret_dmi_t3bc_1400mm_fusion_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_t3bc_1400mm_fusion_macro" />
+	<entry name="turret_dmi_t3bc_1400mm_nuclear_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_t3bc_1400mm_nuclear_macro" />
+	<entry name="turret_dmi_t3bc_1400mm_titanium_macro" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\macros\turret_dmi_t3bc_1400mm_titanium_macro" />
+	<entry name="engine_dmi_t3bc_macro" value="extensions\egp_deadairfactionmindatar\assets\props\engines\macros\engine_dmi_t3bc_macro" />
+	<!-- Bullets -->
+	<entry name="bullet_dmi_turret_l_1400mm_fusion_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_dmi_turret_l_1400mm_fusion_macro" />
+	<entry name="bullet_dmi_turret_l_1400mm_nuclear_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_dmi_turret_l_1400mm_nuclear_macro" />
+	<entry name="bullet_dmi_turret_l_1400mm_titanium_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_dmi_turret_l_1400mm_titanium_macro" />
+	<entry name="bullet_dmi_turret_m_1400mm_fusion_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_dmi_turret_m_1400mm_fusion_macro" />
+	<entry name="bullet_dmi_turret_m_1400mm_nuclear_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_dmi_turret_m_1400mm_nuclear_macro" />
+	<entry name="bullet_dmi_turret_m_1400mm_titanium_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_dmi_turret_m_1400mm_titanium_macro" />
+	<entry name="bullet_weapon_dmi_l_fusion_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_weapon_dmi_l_fusion_macro" />
+	<entry name="bullet_weapon_dmi_l_titanium_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_weapon_dmi_l_titanium_macro" />
+	<entry name="bullet_weapon_dmi_l_nuclear_macro" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\macros\bullet_weapon_dmi_l_nuclear_macro" />
 </add>
 </diff>

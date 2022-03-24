@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dmi_m_1400mm_nuclear_02_macro" class="turret">
+		<component ref="turret_dmi_m_1400mm_02"/>
+		<properties>
+			<identification name="{4816302,207}" basename="{4816302,291}" shortname="{4816302,203}" description="{4816302,301}" />
+			<bullet class="bullet_dmi_turret_m_1400mm_nuclear_macro"/>
+			<rotationspeed max="16.7"/>
+			<rotationacceleration max="33.4"/>
+			<reload/>
+			<hull max="425" threshold="0.2" integrated="0"/>
+		</properties>
+	</macro>
+</macros>

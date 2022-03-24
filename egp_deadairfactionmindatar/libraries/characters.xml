@@ -169,8 +169,8 @@
   <character id="service_mindatar_random_elite" group="argon.service">
     <category tags="[crew, service, elite]" faction="[mindatar, faction.player]" race="argon"/>
     <skills>
-      <skill type="engineering" min="12"/>
-      <skill type="morale" min="12"/>
+      <skill type="engineering" min="12" max="15"/>
+      <skill type="morale" min="12" max="15"/>
       <skill type="piloting" min="6" max="12"/>
       <skill type="management" min="6" max="12"/>
       <skill type="boarding" min="6" max="12"/>
@@ -180,8 +180,8 @@
   <character id="marine_mindatar_random_elite" group="argon.marine">
     <category tags="[crew, marine, elite]" faction="[mindatar, faction.player]" race="argon"/>
     <skills>
-      <skill type="boarding" min="12"/>
-      <skill type="morale" min="12"/>
+      <skill type="boarding" min="12" max="15"/>
+      <skill type="morale" min="12" max="15"/>
       <skill type="engineering" min="6" max="12"/>
       <skill type="piloting" min="6" max="12"/>
       <skill type="management" min="6" max="12"/>
@@ -191,8 +191,8 @@
   <character id="fighter_mindatar_random_elite" group="argon.pilot">
     <category tags="[elitepilot]" faction="[mindatar, faction.player]" race="argon"/>
     <skills>
-      <skill type="piloting" min="12"/>
-      <skill type="morale" min="12"/>
+      <skill type="piloting" min="12" max="15"/>
+      <skill type="morale" min="12" max="15"/>
       <skill type="engineering" min="6" max="12"/>
       <skill type="management" min="6" max="12"/>
       <skill type="boarding" min="6" max="12"/>

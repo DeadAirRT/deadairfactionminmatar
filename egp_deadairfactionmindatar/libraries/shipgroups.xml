@@ -45,6 +45,9 @@
 		<group name="dmi_destroyer_l">
 			<select macro="ship_spl_l_destroyer_01_a_macro" weight="100"/>
 		</group>
+		<group name="dmi_escort_l">
+			<select macro="ship_spl_l_destroyer_01_a_macro" weight="100"/>
+		</group>
 		<group name="dmi_military_m">
 			<select macro="ship_spl_m_frigate_01_a_macro" weight="100"/>
 			<select macro="ship_spl_m_corvette_01_a_macro" weight="100"/>

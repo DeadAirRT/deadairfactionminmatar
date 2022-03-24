@@ -124,6 +124,14 @@
     <drop ref="ship_large_military"/>
     <people ref="argon_elite_military_crew"/>
   </ship>
+  <ship id="mindatar_escort_l" group="dmi_escort_l">
+    <category tags="[military, escort, mission]" faction="[mindatar]" size="ship_l"/>
+    <pilot>
+      <select faction="mindatar" tags="fighterpilot"/>
+    </pilot>
+    <drop ref="ship_large_military"/>
+    <people ref="argon_elite_military_crew"/>
+  </ship>
   <ship id="mindatar_frigate_m" group="dmi_frigate_m">
     <category tags="[military, medium, frigate, mission]" faction="[mindatar]" size="ship_m"/>
     <pilot>

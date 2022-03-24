@@ -37,6 +37,10 @@
 							<set_faction_relation faction="faction.mindatar" otherfaction="faction.galdente" value="0.32" />
 							<set_faction_relation faction="faction.galdente" otherfaction="faction.mindatar" value="0.32" />
 						</do_if>
+						<do_if value="(faction.terran?)">
+							<set_faction_relation faction="faction.mindatar" otherfaction="faction.terran" value="-0.32" />
+							<set_faction_relation faction="faction.terran" otherfaction="faction.mindatar" value="-0.32" />
+						</do_if>
 						<set_value name="$HasRun" exact="true" />
 						<debug_text text="'MOD: DeadAirFactionMindatar -- Relations Set'" context="false" filter="scripts" />
 					</actions>

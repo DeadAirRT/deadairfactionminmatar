@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirFactionMindatar" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir" version="004" date="2021-03-21" save="1" sync="false">
+<content id="DeadAirFactionMindatar" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir" version="006" date="2022-03-24" save="1" sync="false">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
   <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity" />
-  <text language="7" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="33" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="34" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="39" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="44" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="45" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="49" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="81" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="82" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="86" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
-  <text language="88" name="DeadAir Faction Mindatar" description="Adds the faction Mindatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+  <text language="7" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="33" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="34" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="39" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="44" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="45" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="49" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="81" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="82" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="86" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
+  <text language="88" name="DeadAir Faction Minmatar" description="Adds the faction Minmatar Republic with logic, sectors, and complete economy" author="DeadAir"></text>
 </content>

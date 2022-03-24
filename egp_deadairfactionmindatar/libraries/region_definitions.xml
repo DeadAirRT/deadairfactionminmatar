@@ -486,6 +486,7 @@
       <resource ware="ore" yield="medium" />
 	  <resource ware="silicon" yield="verylow" />
       <resource ware="nividium" yield="low" />
+	  <resource ware="rawscrap" yield="low" />
     </resources>
   </region>
   <region name="region_dmi5_gas_01" density="1.0" rotation="0" >

@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<components>
+	<component name="turret_dmi_l_1400mm" class="turret">
+		<source geometry="extensions\ego_dlc_split\assets\props\WeaponSystems\heavy\turret_spl_l_plasma_01_mk1_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-27.52978" y="2.767267" z="-11.06963"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni002" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-27.52978" y="2.767267" z="1.109269"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni003" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="27.4822" y="2.767267" z="1.109269"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni004" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="27.4822" y="2.767267" z="-11.06963"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni005" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-12.23282" y="7.624358" z="9.96876"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni006" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-12.23282" y="7.624358" z="-7.710063"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni007" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="12.50693" y="7.624358" z="9.96876"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni008" shadow="0" r="255" g="227" b="197" range="10" shadowrange="10" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="12.50693" y="7.624358" z="-7.710063"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part animation  ">
+				<offset/>
+				<animations>
+					<animation name="turret_inactive" start="150" end="150"/>
+					<animation name="turret_activating" start="1" end="60"/>
+					<animation name="turret_active" start="60" end="61"/>
+					<animation name="turret_deactivating" start="90" end="150"/>
+					<animation name="gun_firing" start="70" end="80"/>
+				</animations>
+				<parts>
+					<part name="part_socket" wreck="part_socket_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="30.52602" y="5.637193" z="32"/>
+							<center x="0" y="5.637193" z="0"/>
+						</size>
+						<size_raw>
+							<max x="30.52602" y="5.637193" z="32"/>
+							<center x="0" y="5.637193" z="0"/>
+						</size_raw>
+						<lights>
+							<arealight name="XU AreaLight002" areax="0" areay="0" radius="0.6" r="255" g="0" b="0" lighteffect="1" range="50" spotattenuation="0" specularintensity="1" trigger="1" intensity="0">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="0"/>
+										<key frame="40" value="2.000002"/>
+										<key frame="60" value="2.000002"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="-3.912449E-03" y="4.740956" z="-28.09016"/>
+									<quaternion qx="-0" qy="-0" qz="-1" qw="4.371139E-08"/>
+								</offset>
+							</arealight>
+							<arealight name="XU AreaLight01" areax="0" areay="0" radius="0.6" r="255" g="0" b="0" lighteffect="1" range="50" spotattenuation="0" specularintensity="1" trigger="1" intensity="0">
+								<lightanimations>
+									<lightanimation name="intensity" controller="linear_float">
+										<key frame="0" value="0"/>
+										<key frame="40" value="2.000002"/>
+										<key frame="60" value="2.000002"/>
+										<key frame="100" value="0"/>
+									</lightanimation>
+								</lightanimations>
+								<offset>
+									<position x="-3.912449E-03" y="4.752774" z="28.75271"/>
+									<quaternion qx="-0" qy="-0" qz="-1" qw="4.371139E-08"/>
+								</offset>
+							</arealight>
+						</lights>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink nocollision forceoutline " parent="part_socket">
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<offset>
+					<position x="0" y="4.173088" z="1.412698"/>
+				</offset>
+				<parts>
+					<part name="part_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="5.825862" y="2.238276" z="9.204402"/>
+							<center x="0" y="-0.3656108" z="-2.443119"/>
+						</size>
+						<size_raw>
+							<max x="5.825862" y="2.603887" z="11.64752"/>
+							<center x="0" y="-0.3656108" z="-2.443119"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part iklink  " parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-5.0 "/>
+							<max value="80 "/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<offset>
+					<position x="0" y="10.85334" z="-1.412697"/>
+				</offset>
+				<parts>
+					<part name="part_gun">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="p1split.split_p1_hulltexture_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="11.20159" y="10.37385" z="19.11601"/>
+							<center x="0" y="-4.085156" z="7.06131"/>
+						</size>
+						<size_raw>
+							<max x="11.20159" y="5.45901" z="12.0547"/>
+							<center x="0" y="0.4148436" z="7.06131"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part iklink nocollision forceoutline  " parent="part_gun">
+				<offset>
+					<position x="-4.62532E-03" y="0.1613064" z="41.10868"/>
+				</offset>
+				<parts>
+					<part name="part_barrel">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7.068964" y="6.233164" z="31.75156"/>
+							<center x="0" y="-4.687731" z="-13.74086"/>
+						</size>
+						<size_raw>
+							<max x="7.068964" y="1.920894" z="18.49241"/>
+							<center x="0" y="-0.1877308" z="-0.2408562"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="con_laser_01" tags="laser " parent="part_barrel">
+				<offset>
+					<position x="3.282419" y="0.0617857" z="17.77147"/>
+				</offset>
+			</connection>
+			<connection name="con_laser_02" tags="laser " parent="part_barrel">
+				<offset>
+					<position x="-3.254139" y="0.1923494" z="17.77146"/>
+				</offset>
+			</connection>
+			<connection name="Connection05" tags="part animation iklink nocollision forceoutline  " parent="part_rotator">
+				<offset>
+					<quaternion qx="0.3420201" qy="-0" qz="-0" qw="0.9396927"/>
+				</offset>
+				<animations/>
+				<parts>
+					<part name="part_connector">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.321547" y="5.559358" z="7.091651"/>
+							<center x="0" y="1.750404" z="-5.175117"/>
+						</size>
+						<size_raw>
+							<max x="2.321547" y="2" z="11.69786"/>
+							<center x="0" y="3.718922" z="-3.207882"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part animation textureanimation nocollision forceoutline detail_l iklink " parent="part_socket">
+				<animations/>
+				<parts>
+					<part name="anim_lights">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_gradient_colour"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="22.77149" y="0.8372927" z="28.61085"/>
+							<center x="1.921272E-02" y="3.881931" z="0.7184372"/>
+						</size>
+						<size_raw>
+							<max x="22.75228" y="3.044638" z="27.89241"/>
+							<center x="1.921272E-02" y="3.881931" z="0.7184372"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="1" value="0"/>
+									<key frame="45" value="0.67"/>
+									<key frame="95" value="0.67"/>
+									<key frame="150" value="0"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part iklink nocollision forceoutline detail_xl  " parent="part_socket">
+				<offset>
+					<position x="0" y="5" z="5"/>
+					<quaternion qx="0.5372995" qy="-0" qz="-0" qw="0.8433915"/>
+				</offset>
+				<parts>
+					<part name="detail_xl_damper">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.628544" y="6.285305" z="6.026692"/>
+							<center x="-9.536743E-07" y="3.836297" z="-5.998007"/>
+						</size>
+						<size_raw>
+							<max x="4.628545" y="0.4676454" z="11.94564"/>
+							<center x="-1.192093E-06" y="6.175943" z="-1.774907"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part detail_l nocollision forceoutline  ">
+				<offset/>
+				<parts>
+					<part name="detail_l_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture_01_aged"/>
+									<material id="2" ref="generic.generic_p1_alphatexture"/>
+									<material id="3" ref="generic.generic_p1_fx"/>
+									<material id="4" ref="p1effects.p1_lightcone_soft"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="28.4125" y="4.522058" z="29.15999"/>
+							<center x="0" y="3.840348" z="2.366174"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part nocollision forceoutline detail_m  ">
+				<offset/>
+				<parts>
+					<part name="fx_decals">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="29.65807" y="4.137446" z="28.28389"/>
+							<center x="4.698944E-02" y="5.049346" z="-1.150449"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="con_turret_laser_l" tags="turret large standard component ">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

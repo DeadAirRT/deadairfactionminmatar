@@ -630,7 +630,7 @@
 			<use threshold="0"/>
 			<owner faction="mindatar"/>
 		</ware>
-		<ware id="engine_dmi_t3bc" name="{20107,3084}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
+		<ware id="engine_dmi_t3bc" name="{4816302,280}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
 			<price min="321518" average="357242" max="392966"/>
 			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>

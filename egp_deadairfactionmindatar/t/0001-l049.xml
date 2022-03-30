@@ -1,56 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <language id="49">
-
-<page id="4816302" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
-<!-- 3323247 == deadair --><!--48163x69 == 3323247 since there is a character limit --><!--48163##-->
- <t id="100">Minmatar Republic</t>
- <t id="101">The Minmatar Republic was formed over a century ago when the Matari threw out their Amarrian overlords in what is known as the Minmatar Rebellion. Yet, only a quarter of the Matari people reside within the Republic. The rest are scattered around the world, including a large portion still enslaved within the Amarr Empire. Minmatar individuals are independent and proud, possessing a strong will and a multitude of tribal traditions.</t>
- <t id="102">DMI</t>
- <t id="103">Minmatar Capital Equipment Licence</t>
- <t id="104">Minmatar Capital Ship Licence</t>
- <t id="105">Warrior of the Matari</t>
- <t id="106">Friend of the Matari</t>
- <t id="107">Minmatar General Use Equipment Licence</t>
- <t id="108">Minmatar General Use Ship Licence</t>
- <t id="109">Minmatar Military Equipment Licence</t>
- <t id="110">Minmatar Military Ship Licence</t>
- <t id="111">Minmatar Police Licence</t>
- <t id="112">Minmatar Capital Ship Building Module Licence</t>
- <t id="113">Minmatar Ancillary Ship Building Module Licence</t>
- <t id="114">Minmatar Advanced Module Licence</t>
- <t id="115">Minmatar Basic Module Licence</t>
- <t id="116">Minmatar Intermediate Module Licence</t>
- <t id="117">Minmatar Trade Offer Subscription</t>
- <t id="118">Republic</t>
- <t id="119">Minmatar Ship Sale Contract</t>
- <t id="120">(CL-85V){20403,3}{20403,12}{20005,8004}{20404,8}{20404,5}{20403,22}</t>
- <t id="121">(8G-MQV){20404,8}{20403,7}{20005,8004}{20403,13}{20403,17}{20403,22}</t>
- <t id="122">(K-QWHE){20403,11}{20005,8004}{20403,17}{20403,23}{20403,8}{20403,5}</t>
- <t id="123">(AAM-1A){20403,1}{20403,1}{20403,13}{20005,8004}{20404,1}{20403,1}</t>
- <t id="124">(RMOC-W){20403,18}{20403,13}{20403,15}{20403,3}{20005,8004}{20403,23}</t>
- <t id="125">(YKE4-3){20403,25}{20403,11}{20403,5}{20404,4}{20005,8004}{20404,3}</t>
- <t id="126">(VOL-MI){20403,22}{20403,15}{20403,12}{20005,8004}{20403,13}{20403,9}</t>
- <t id="127">xxx</t>
- <t id="128">xxx</t>
- <t id="129">xxx</t>
- <t id="130">(EW-JR5){20403,5}{20403,23}{20005,8004}{20403,10}{20403,18}{20404,5}</t>
- <t id="131">xxx</t>
- <t id="132">xxx</t>
- <!-- Weapons -->
- <t id="200">{4816302,102}(DMI) {20111,5031}(L) 1400MM Fusion {20105,1251}(Blast Mortar)</t>
- <t id="201">Fusion</t>
- <t id="202">{4816302,102}(DMI) {20111,5031}(L) 1400MM Nuclear {20105,1251}(Blast Mortar)</t>
- <t id="203">Nuclear</t>
- <t id="204">{4816302,102}(DMI) {20111,5031}(L) 1400MM Titanium {20105,1251}(Blast Mortar)</t>
- <t id="205">Titanium</t>
- <t id="206">{4816302,102}(DMI) {20111,5021}(M) 720MM Fusion {20105,1251}(Blast Mortar)</t>
- <t id="207">{4816302,102}(DMI) {20111,5021}(M) 720MM Nuclear {20105,1251}(Blast Mortar)</t>
- <t id="208">{4816302,102}(DMI) {20111,5021}(M) 720MM Titanium Sabot {20105,1251}(Blast Mortar)</t>
- <t id="212">{4816302,102}(DMI) {20111,3001}(XL) Gjallarhorn Explosive Doomsday</t>
- <!-- Weapon Description -->
- <t id="300">The destructive power of a fusion warhead is superior to most other projectile warheads available, although it has problems penetrating heavy shield systems.</t>
- <t id="301">Nuclear weapons are considered by most races to be crude and primitive. However, the Minmatar still favor them over more sophisticated weapons due to the abundance of materials for plutonium production in Minmatar space.</t>
- <t id="302">This is among the most feared ammunition around. It has excellent penetration. Once the ship's outer layer is penetrated, the core explodes, spraying the interior with a cloud of fragmentation fletchets that cause considerable damage to the vulnerable interior structure.</t>
- <t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
-</page>
+	<page id="4816302" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="no">
+		<!-- 3323247 == deadair -->
+		<!--48163x69 == 3323247 since there is a character limit -->
+		<!--48163##-->
+		<t id="100">Minmatar Republic</t>
+		<t id="101">The Minmatar Republic was formed over a century ago when the Matari threw out their Amarrian overlords in what is known as the Minmatar Rebellion. Yet, only a quarter of the Matari people reside within the Republic. The rest are scattered around the world, including a large portion still enslaved within the Amarr Empire. Minmatar individuals are independent and proud, possessing a strong will and a multitude of tribal traditions.</t>
+		<t id="102">DMI</t>
+		<t id="103">Minmatar Capital Equipment Licence</t>
+		<t id="104">Minmatar Capital Ship Licence</t>
+		<t id="105">Warrior of the Matari</t>
+		<t id="106">Friend of the Matari</t>
+		<t id="107">Minmatar General Use Equipment Licence</t>
+		<t id="108">Minmatar General Use Ship Licence</t>
+		<t id="109">Minmatar Military Equipment Licence</t>
+		<t id="110">Minmatar Military Ship Licence</t>
+		<t id="111">Minmatar Police Licence</t>
+		<t id="112">Minmatar Capital Ship Building Module Licence</t>
+		<t id="113">Minmatar Ancillary Ship Building Module Licence</t>
+		<t id="114">Minmatar Advanced Module Licence</t>
+		<t id="115">Minmatar Basic Module Licence</t>
+		<t id="116">Minmatar Intermediate Module Licence</t>
+		<t id="117">Minmatar Trade Offer Subscription</t>
+		<t id="118">Republic</t>
+		<t id="119">Minmatar Ship Sale Contract</t>
+		<t id="120">(CL-85V){20403,3}{20403,12}{20005,8004}{20404,8}{20404,5}{20403,22}</t>
+		<t id="121">(8G-MQV){20404,8}{20403,7}{20005,8004}{20403,13}{20403,17}{20403,22}</t>
+		<t id="122">(K-QWHE){20403,11}{20005,8004}{20403,17}{20403,23}{20403,8}{20403,5}</t>
+		<t id="123">(AAM-1A){20403,1}{20403,1}{20403,13}{20005,8004}{20404,1}{20403,1}</t>
+		<t id="124">(RMOC-W){20403,18}{20403,13}{20403,15}{20403,3}{20005,8004}{20403,23}</t>
+		<t id="125">(YKE4-3){20403,25}{20403,11}{20403,5}{20404,4}{20005,8004}{20404,3}</t>
+		<t id="126">(VOL-MI){20403,22}{20403,15}{20403,12}{20005,8004}{20403,13}{20403,9}</t>
+		<t id="127">xxx</t>
+		<t id="128">xxx</t>
+		<t id="129">xxx</t>
+		<t id="130">(EW-JR5){20403,5}{20403,23}{20005,8004}{20403,10}{20403,18}{20404,5}</t>
+		<t id="131">xxx</t>
+		<t id="132">xxx</t>
+		<!-- Equipment -->
+		<t id="200">{4816302,102}(DMI) {20111,5031}(L) 1400MM Fusion Howitzer Artillery</t>
+		<t id="201">Fusion</t>
+		<t id="202">{4816302,102}(DMI) {20111,5031}(L) 1400MM Nuclear Howitzer Artillery</t>
+		<t id="203">Nuclear</t>
+		<t id="204">{4816302,102}(DMI) {20111,5031}(L) 1400MM Titanium Howitzer Artillery</t>
+		<t id="205">Titanium</t>
+		<t id="206">{4816302,102}(DMI) {20111,5021}(M) 720MM Fusion Howitzer Artillery</t>
+		<t id="207">{4816302,102}(DMI) {20111,5021}(M) 720MM Nuclear Howitzer Artillery</t>
+		<t id="208">{4816302,102}(DMI) {20111,5021}(M) 720MM Titanium Sabot Howitzer Artillery</t>
+		<t id="212">{4816302,102}(DMI) {20111,3001}(XL) Gjallarhorn Explosive Doomsday</t>
+		<t id="280">{4816302,102}(DMI) {20111,5031}(L) {20107,3021}(All-round Engine)</t>
+		<t id="290">1400MM Howitzer Artillery</t>
+		<t id="291">720MM Howitzer Artillery</t>
+		<!-- Weapon Description -->
+		<t id="300">The destructive power of a fusion warhead is superior to most other projectile warheads available, although it has problems penetrating heavy shield systems.</t>
+		<t id="301">Nuclear weapons are considered by most races to be crude and primitive. However, the Minmatar still favor them over more sophisticated weapons due to the abundance of materials for plutonium production in Minmatar space.</t>
+		<t id="302">This is among the most feared ammunition around. It has excellent penetration. Once the ship's outer layer is penetrated, the core explodes, spraying the interior with a cloud of fragmentation fletchets that cause considerable damage to the vulnerable interior structure.</t>
+		<t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
+	</page>
 </language>

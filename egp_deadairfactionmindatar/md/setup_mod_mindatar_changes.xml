@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Mindatar_Mod_Changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
+    <cue name="Game_Loaded" namespace="this" instantiate="true">
+      <conditions>
+        <event_game_loaded/>
+      </conditions>
+      <actions>
+        <include_actions ref="Change_Actions"/>
+      </actions>
+    </cue>
+
+    <library name="Change_Actions">
+      <actions>
+        <get_ware_definition result="md.$EquipmentTable.{faction.mindatar}" faction="faction.mindatar" flags="equipment" comment="This should update the equipment table on game load for future content updates"/>
+      </actions>
+    </library>
+  </cues>
+</mdscript>

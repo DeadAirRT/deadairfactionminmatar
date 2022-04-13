@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="//soundlibrary">
+		<sound id="4816302_normal" description="Betty2" repeat="1" is3d="1" preload="0">
+			<sample start="extensions\egp_deadairfactionmindatar\voice\4816302\normal"/>
+			<effects>
+				<filter mode="bandpass" frequency="0.26" oneoverq="1.45"/>
+				<reverb room="sewer pipe" roomsize="10" drymix="5" density="90"/>
+			</effects>
+		</sound>
+		<sound id="4816302_comm" description="Betty2" repeat="1" is3d="1" preload="0">
+			<sample start="extensions\egp_deadairfactionmindatar\voice\4816302\normal"/>
+			<effects>
+				<filter mode="bandpass" frequency="0.26" oneoverq="1.45"/>
+				<reverb room="sewer pipe" roomsize="10" drymix="5" density="90"/>
+			</effects>
+		</sound>
+	</add>
+</diff>

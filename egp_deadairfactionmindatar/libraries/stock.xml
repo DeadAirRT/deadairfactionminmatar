@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <diff> 
 	<add pos="prepend" sel="/stocks/stock[@id='default_trader']">
-		<ware ref="paintmod_hexagon_rusty" min="15" max="15" chance="100" />
-		<ware ref="paintmod_hexagon3_rusty" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0024_mindatar" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0025_mindatar" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0026_mindatar" min="15" max="15" chance="100" />
-		<ware ref="paintmod_mindatar_plain" min="15" max="15" chance="100" />
 	</add> 
 	<add pos="prepend" sel="/stocks/stock[@id='pirate_trader']">
-		<ware ref="paintmod_hexagon_rusty" min="15" max="15" chance="100" />
-		<ware ref="paintmod_hexagon3_rusty" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0024_mindatar" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0025_mindatar" min="15" max="15" chance="100" />
 		<ware ref="paintmod_0026_mindatar" min="15" max="15" chance="100" />
-		<ware ref="paintmod_mindatar_plain" min="15" max="15" chance="100" />
 	</add>
 </diff>

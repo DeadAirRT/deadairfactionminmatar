@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_weapon_dmi_l" class="bullet">
-		<source geometry="assets\fx\weaponFx\bullet_gen_s_cannon_01_mk1_data"/>
+		<source geometry="assets\fx\weaponFx\bullet_gen_s_cannon_01_mk2_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
@@ -39,12 +39,12 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="4.76184" y="4.76184" z="95.29597"/>
-							<center x="0" y="-2.015167E-08" z="-57.0428"/>
+							<max x="5.294893" y="5.294893" z="106.1584"/>
+							<center x="0" y="-2.015167E-08" z="-57.96151"/>
 						</size>
 						<size_raw>
-							<max x="4.315659" y="4.761801" z="95.29597"/>
-							<center x="-3.526211E-04" y="-3.91208E-05" z="-57.0428"/>
+							<max x="5.292519" y="5.292519" z="106.1584"/>
+							<center x="-2.131462E-03" y="1.226405E-03" z="-57.96151"/>
 						</size_raw>
 					</part>
 				</parts>

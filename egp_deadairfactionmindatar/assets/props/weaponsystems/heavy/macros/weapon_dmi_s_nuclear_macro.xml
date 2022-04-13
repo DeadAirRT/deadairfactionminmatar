@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="weapon_dmi_s_nuclear_macro" class="weapon">
+		<component ref="weapon_dmi_s"/>
+		<properties>
+			<identification name="{4816302,210}" basename="{4816302,292}" shortname="{4816302,203}" description="{4816302,301}"/>
+			<bullet class="bullet_weapon_dmi_s_nuclear_macro"/>
+			<heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="9500"/>
+			<rotationspeed max="24.8"/>
+			<rotationacceleration max="49.6"/>
+			<reload/>
+			<hull max="1001" hittable="0"/>
+			<effects>
+				<firing start="startshooting_gen_s_shotgun_01_mk1" stop="stopshooting_gen_s_shotgun_01_mk1"/>
+			</effects>
+			<sounds>
+				<firing ref="flak"/>
+			</sounds>
+		</properties>
+	</macro>
+</macros>

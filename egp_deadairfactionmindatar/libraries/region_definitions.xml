@@ -1,858 +1,632 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd" >
-<add sel="//regions">
-  <region name="audioregion_Cluster_DMI1_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI2_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI3_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI4_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI5_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI6_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI7_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="audioregion_Cluster_DMI8_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-	<boundary class="sphere">
-		<size r="500000" />
-	</boundary>
-	<falloff>
-	</falloff>
-	<fields>
-      <ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20" />
-      <ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20" />
-	</fields>
-  </region>
-  <region name="region_cluster_DMI1_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI2_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI3_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI4_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI5_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI6_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI7_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_cluster_DMI8_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="sphere">
-      <size r="1000000" />
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-    </fields>
-    <resources>
-    </resources>
-  </region>
-  <region name="region_dmi1_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="154200" y="0" z="62800" />
-	  <splineposition x="124200" y="0" z="62800" />
-      <splineposition x="50000" y="0" z="-33333" />
-	  <splineposition x="20000" y="0" z="-150000" />
-	  <splineposition x="20000" y="0" z="-180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_ore_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_silicon_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="ore" yield="low" />
-      <resource ware="silicon" yield="low" />
-      <resource ware="nividium" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi1_gas_01" density="1.0" rotation="0" >
-    <boundary class="splinetube">
-      <size r="20000" />
-      <splineposition x="154200" y="0" z="62800" />
-	  <splineposition x="124200" y="0" z="62800" />
-      <splineposition x="50000" y="0" z="-33333" />
-	  <splineposition x="20000" y="0" z="-150000" />
-	  <splineposition x="20000" y="0" z="-180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
-	  <volumetricfog multiplier="0.25" medium="hydrogen" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-      <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
-    </fields>
-    <resources>
-	  <resource ware="hydrogen" yield="low" />
-    </resources>
-  </region>
-  <region name="region_dmi2_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="154200" y="0" z="-62800" />
-	  <splineposition x="124200" y="0" z="-62800" />
-      <splineposition x="50000" y="0" z="33333" />
-	  <splineposition x="20000" y="0" z="150000" />
-	  <splineposition x="20000" y="0" z="180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_ore_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="ice" yield="high" />
-	  <resource ware="ore" yield="medium" />
-    </resources>
-  </region>
-  <region name="region_dmi2_gas_01" density="1.0" rotation="0" >
-    <boundary class="splinetube">
-      <size r="20000" />
-      <splineposition x="154200" y="0" z="-62800" />
-	  <splineposition x="124200" y="0" z="-62800" />
-      <splineposition x="50000" y="0" z="33333" />
-	  <splineposition x="20000" y="0" z="150000" />
-	  <splineposition x="20000" y="0" z="180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="helium" />
-	  <volumetricfog multiplier="0.25" medium="fog_blue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-      <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
-    </fields>
-    <resources>
-	  <resource ware="helium" yield="low" />
-    </resources>
-  </region>
-  <region name="region_dmi3_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="-135000" y="0" z="-105000" />
-	  <splineposition x="-105000" y="0" z="-105000" />
-      <splineposition x="0" y="0" z="-33333" />
-	  <splineposition x="105000" y="0" z="-105000" />
-	  <splineposition x="135000" y="0" z="-105000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_nividium_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_silicon_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="ore" yield="low" />
-      <resource ware="silicon" yield="high" />
-      <resource ware="nividium" yield="low" />
-    </resources>
-  </region>
-  <region name="region_dmi3_gas_01" density="1.0" rotation="0" >
-    <boundary class="splinetube">
-      <size r="20000" />
-      <splineposition x="-135000" y="0" z="-105000" />
-	  <splineposition x="-105000" y="0" z="-105000" />
-      <splineposition x="0" y="0" z="-33333" />
-	  <splineposition x="105000" y="0" z="-105000" />
-	  <splineposition x="135000" y="0" z="-105000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="methane" />
-	  <volumetricfog multiplier="0.25" medium="fog_grey" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-      <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
-    </fields>
-    <resources>
-	  <resource ware="methane" yield="medium" />
-    </resources>
-  </region>
-  <region name="region_dmi4_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500" />
-	  <splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500" />
-	  <splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500" />
-	  <splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500" />
-	  <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="nividium" yield="medium" />
-    </resources>
-  </region>
-  <region name="region_dmi4_gas_01" density="1.0" rotation="0" >
-    <boundary class="cylinder">
-      <size r="175000" linear="20000"/>
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="helium" />
-    </fields>
-    <resources>
-	  <resource ware="helium" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi4_volumetricfog_01" density="1.0" rotation="0" >
-    <boundary class="sphere">
-      <size r="200000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="0.0" />
-        <step position="0.5" value="0.0" />
-        <step position="0.6" value="0.5" />
-		<step position="0.7" value="1.0" />
-        <step position="1.0" value="1.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
-      <volumetricfog multiplier="0.05" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
-    </fields>
-  </region>
-  <region name="region_dmi5_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="-135000" y="0" z="105000" />
-	  <splineposition x="-105000" y="0" z="105000" />
-      <splineposition x="0" y="0" z="33333" />
-	  <splineposition x="105000" y="0" z="105000" />
-	  <splineposition x="135000" y="0" z="105000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_ore_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <asteroid groupref="asteroid_nividium_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <debris groupref="debris_xenon_l" densityfactor="0.0375" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0" distancefactor="2.0"/>
-      <debris groupref="debris_l" densityfactor="0.0375" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="ore" yield="medium" />
-	  <resource ware="silicon" yield="verylow" />
-      <resource ware="nividium" yield="low" />
-	  <resource ware="rawscrap" yield="low" />
-    </resources>
-  </region>
-  <region name="region_dmi5_gas_01" density="1.0" rotation="0" >
-    <boundary class="splinetube">
-      <size r="20000" />
-      <splineposition x="-135000" y="0" z="105000" />
-	  <splineposition x="-105000" y="0" z="105000" />
-      <splineposition x="0" y="0" z="33333" />
-	  <splineposition x="105000" y="0" z="105000" />
-	  <splineposition x="135000" y="0" z="105000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
-	  <volumetricfog multiplier="0.25" medium="fog_bluepink" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-      <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
-    </fields>
-    <resources>
-	  <resource ware="hydrogen" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi6_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="-154200" y="0" z="62800" />
-	  <splineposition x="-124200" y="0" z="62800" />
-      <splineposition x="-50000" y="0" z="-33333" />
-	  <splineposition x="-20000" y="0" z="-150000" />
-	  <splineposition x="-20000" y="0" z="-180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="ore" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi6_gas_01" density="1.0" rotation="0" >
-    <boundary class="splinetube">
-      <size r="20000" />
-      <splineposition x="-154200" y="0" z="62800" />
-	  <splineposition x="-124200" y="0" z="62800" />
-      <splineposition x="-50000" y="0" z="-33333" />
-	  <splineposition x="-20000" y="0" z="-150000" />
-	  <splineposition x="-20000" y="0" z="-180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="methane" />
-	  <volumetricfog multiplier="0.25" medium="helium" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-      <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
-    </fields>
-    <resources>
-	  <resource ware="methane" yield="medium" />
-    </resources>
-  </region>
-  <region name="region_dmi7_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="-154200" y="0" z="-62800" />
-	  <splineposition x="-124200" y="0" z="-62800" />
-      <splineposition x="-50000" y="0" z="33333" />
-	  <splineposition x="-20000" y="0" z="150000" />
-	  <splineposition x="-20000" y="0" z="180000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-      <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="ice" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi7_gas_01" density="1.0" rotation="0" >
-    <boundary class="splinetube">
-      <size r="20000" />
-      <splineposition x="-154200" y="0" z="-62800" />
-	  <splineposition x="-124200" y="0" z="-62800" />
-      <splineposition x="-50000" y="0" z="33333" />
-	  <splineposition x="-20000" y="0" z="150000" />
-	  <splineposition x="-20000" y="0" z="180000" />
-    </boundary>
-	<falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="hydrogen methane helium" />
-	  <volumetricfog multiplier="0.25" medium="fog_turquoise" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-      <volumetricfog multiplier="1" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
-    </fields>
-    <resources>
-	  <resource ware="hydrogen" yield="medium" />
-	  <resource ware="methane" yield="medium" />
-	  <resource ware="helium" yield="medium" />
-    </resources>
-  </region>
-  <region name="region_dmi_veryhigh_nividium" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-    </fields>
-    <resources>
-      <resource ware="nividium" yield="veryhigh" />
-    </resources>
-  </region>
-  <region name="region_dmi_veryhigh_ore" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-    </fields>
-    <resources>
-      <resource ware="ore" yield="veryhigh" />
-    </resources>
-  </region>
-  <region name="region_dmi_veryhigh_silicon" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-    </fields>
-    <resources>
-      <resource ware="silicon" yield="veryhigh" />
-    </resources>
-  </region>
-  <region name="region_dmi_high_ice" density="2.5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-    </fields>
-    <resources>
-      <resource ware="ice" yield="veryhigh" />
-    </resources>
-  </region>
-  <region name="region_dmi_high_methane" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <nebula ref="fogpattern_v2_macro" resources="methane" />
-    </fields>
-    <resources>
-      <resource ware="methane" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi_high_hydrogen" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
-    </fields>
-    <resources>
-      <resource ware="hydrogen" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi_high_helium" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="cylinder">
-      <size r="40000" linear="20000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <nebula ref="fogpattern_v2_macro" resources="helium" />
-    </fields>
-    <resources>
-      <resource ware="helium" yield="high" />
-    </resources>
-  </region>
-  <region name="region_dmi8_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
-    <boundary class="splinetube">
-      <size r="10000" />
-      <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500" />
-	  <splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500" />
-	  <splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500" />
-	  <splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500" />
-	  <splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="1.0" />
-        <step position="0.5" value="1.0" />
-        <step position="0.6" value="0.8" />
-		<step position="0.7" value="0.6" />
-		<step position="0.8" value="0.4" />
-        <step position="1.0" value="0.0" />
-      </radial>
-    </falloff>
-    <fields>
-      <asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
-	  <object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
-    </fields>
-    <resources>
-      <resource ware="nividium" yield="low" />
-	  <resource ware="ore" yield="low" />
-	  <resource ware="silicon" yield="low" />
-	  <resource ware="ice" yield="low" />
-    </resources>
-  </region>
-  <region name="region_dmi8_gas_01" density="1.0" rotation="0" >
-    <boundary class="cylinder">
-      <size r="175000" linear="20000"/>
-    </boundary>
-    <falloff>
-    </falloff>
-    <fields>
-	  <nebula ref="fogpattern_v2_macro" resources="helium" />
-	  <nebula ref="fogpattern_v2_macro" resources="methane" />
-	  <nebula ref="fogpattern_v2_macro" resources="hydrogen" />
-	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
-    </fields>
-    <resources>
-	  <resource ware="helium" yield="low" />
-	  <resource ware="methane" yield="low" />
-	  <resource ware="hydrogen" yield="low" />
-    </resources>
-  </region>
-  <region name="region_dmi8_volumetricfog_01" density="1.0" rotation="0" >
-    <boundary class="sphere">
-      <size r="200000" />
-    </boundary>
-    <falloff>
-	  <radial>
-        <step position="0.0" value="0.0" />
-        <step position="0.5" value="0.0" />
-        <step position="0.6" value="0.5" />
-		<step position="0.7" value="1.0" />
-        <step position="1.0" value="1.0" />
-      </radial>
-    </falloff>
-    <fields>
-	  <!--<volumetricfog multiplier="1" medium="fog_whiteblue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="60000" sizevariation="0.5" densityfactor="0.1" rotation="0" rotationvariation="0.05" minnoisevalue="0.8" maxnoisevalue="1.0" noisescale="50000" distancefactor="0.60"/>-->
-      <volumetricfog multiplier="0.05" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
-    </fields>
-  </region>
-</add>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd">
+	<add sel="//regions">
+		<region name="audioregion_Cluster_DMI1_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI2_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI3_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI4_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI5_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI6_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI7_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="audioregion_Cluster_DMI8_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="500000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<ambientsound soundid="zoned_sound_01" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_02" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_03" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_04" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_05" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_06" minnoisevalue="0.8" playtime="20"/>
+				<ambientsound soundid="zoned_sound_07" minnoisevalue="0.8" playtime="20"/>
+			</fields>
+		</region>
+		<region name="region_cluster_DMI1_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI2_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI3_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI4_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI5_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI6_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI7_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_cluster_DMI8_sector_001" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="sphere">
+				<size r="1000000"/>
+			</boundary>
+			<falloff/>
+			<fields/>
+			<resources/>
+		</region>
+		<region name="region_dmi1_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="154200" y="0" z="62800"/>
+				<splineposition x="124200" y="0" z="62800"/>
+				<splineposition x="50000" y="0" z="-33333"/>
+				<splineposition x="20000" y="0" z="-150000"/>
+				<splineposition x="20000" y="0" z="-180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="ore" yield="low"/>
+				<resource ware="silicon" yield="low"/>
+				<resource ware="nividium" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi1_gas_01" density="1.0" rotation="0">
+			<boundary class="splinetube">
+				<size r="20000"/>
+				<splineposition x="154200" y="0" z="62800"/>
+				<splineposition x="124200" y="0" z="62800"/>
+				<splineposition x="50000" y="0" z="-33333"/>
+				<splineposition x="20000" y="0" z="-150000"/>
+				<splineposition x="20000" y="0" z="-180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
+				<volumetricfog multiplier="0.125" medium="hydrogen" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
+				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+			</fields>
+			<resources>
+				<resource ware="hydrogen" yield="low"/>
+			</resources>
+		</region>
+		<region name="region_dmi2_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="154200" y="0" z="-62800"/>
+				<splineposition x="124200" y="0" z="-62800"/>
+				<splineposition x="50000" y="0" z="33333"/>
+				<splineposition x="20000" y="0" z="150000"/>
+				<splineposition x="20000" y="0" z="180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="ice" yield="high"/>
+				<resource ware="ore" yield="medium"/>
+			</resources>
+		</region>
+		<region name="region_dmi2_gas_01" density="1.0" rotation="0">
+			<boundary class="splinetube">
+				<size r="20000"/>
+				<splineposition x="154200" y="0" z="-62800"/>
+				<splineposition x="124200" y="0" z="-62800"/>
+				<splineposition x="50000" y="0" z="33333"/>
+				<splineposition x="20000" y="0" z="150000"/>
+				<splineposition x="20000" y="0" z="180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="helium"/>
+				<volumetricfog multiplier="0.125" medium="fog_blue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
+				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+			</fields>
+			<resources>
+				<resource ware="helium" yield="low"/>
+			</resources>
+		</region>
+		<region name="region_dmi3_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="-135000" y="0" z="-105000"/>
+				<splineposition x="-105000" y="0" z="-105000"/>
+				<splineposition x="0" y="0" z="-33333"/>
+				<splineposition x="105000" y="0" z="-105000"/>
+				<splineposition x="135000" y="0" z="-105000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="ore" yield="low"/>
+				<resource ware="silicon" yield="high"/>
+				<resource ware="nividium" yield="low"/>
+			</resources>
+		</region>
+		<region name="region_dmi3_gas_01" density="1.0" rotation="0">
+			<boundary class="splinetube">
+				<size r="20000"/>
+				<splineposition x="-135000" y="0" z="-105000"/>
+				<splineposition x="-105000" y="0" z="-105000"/>
+				<splineposition x="0" y="0" z="-33333"/>
+				<splineposition x="105000" y="0" z="-105000"/>
+				<splineposition x="135000" y="0" z="-105000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="methane"/>
+				<volumetricfog multiplier="0.125" medium="fog_grey" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
+				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+			</fields>
+			<resources>
+				<resource ware="methane" yield="medium"/>
+			</resources>
+		</region>
+		<region name="region_dmi4_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500"/>
+				<splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500"/>
+				<splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="nividium" yield="medium"/>
+			</resources>
+		</region>
+		<region name="region_dmi4_gas_01" density="1.0" rotation="0">
+			<boundary class="cylinder">
+				<size r="175000" linear="20000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="helium"/>
+			</fields>
+			<resources>
+				<resource ware="helium" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi4_volumetricfog_01" density="1.0" rotation="0">
+			<boundary class="sphere">
+				<size r="200000"/>
+			</boundary>
+			<falloff>
+				<radial>
+					<step position="0.0" value="0.0"/>
+					<step position="0.5" value="0.0"/>
+					<step position="0.6" value="0.5"/>
+					<step position="0.7" value="1.0"/>
+					<step position="1.0" value="1.0"/>
+				</radial>
+			</falloff>
+			<fields>
+				<volumetricfog multiplier="0.025" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
+			</fields>
+		</region>
+		<region name="region_dmi5_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="-135000" y="0" z="105000"/>
+				<splineposition x="-105000" y="0" z="105000"/>
+				<splineposition x="0" y="0" z="33333"/>
+				<splineposition x="105000" y="0" z="105000"/>
+				<splineposition x="135000" y="0" z="105000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<debris groupref="debris_xenon_l" densityfactor="0.0375" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0" distancefactor="2.0"/>
+				<debris groupref="debris_l" densityfactor="0.0375" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="ore" yield="medium"/>
+				<resource ware="silicon" yield="verylow"/>
+				<resource ware="nividium" yield="low"/>
+				<resource ware="rawscrap" yield="low"/>
+			</resources>
+		</region>
+		<region name="region_dmi5_gas_01" density="1.0" rotation="0">
+			<boundary class="splinetube">
+				<size r="20000"/>
+				<splineposition x="-135000" y="0" z="105000"/>
+				<splineposition x="-105000" y="0" z="105000"/>
+				<splineposition x="0" y="0" z="33333"/>
+				<splineposition x="105000" y="0" z="105000"/>
+				<splineposition x="135000" y="0" z="105000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
+				<volumetricfog multiplier="0.125" medium="fog_bluepink" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
+				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+			</fields>
+			<resources>
+				<resource ware="hydrogen" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi6_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="-154200" y="0" z="62800"/>
+				<splineposition x="-124200" y="0" z="62800"/>
+				<splineposition x="-50000" y="0" z="-33333"/>
+				<splineposition x="-20000" y="0" z="-150000"/>
+				<splineposition x="-20000" y="0" z="-180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="ore" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi6_gas_01" density="1.0" rotation="0">
+			<boundary class="splinetube">
+				<size r="20000"/>
+				<splineposition x="-154200" y="0" z="62800"/>
+				<splineposition x="-124200" y="0" z="62800"/>
+				<splineposition x="-50000" y="0" z="-33333"/>
+				<splineposition x="-20000" y="0" z="-150000"/>
+				<splineposition x="-20000" y="0" z="-180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="methane"/>
+				<volumetricfog multiplier="0.125" medium="helium" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
+				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+			</fields>
+			<resources>
+				<resource ware="methane" yield="medium"/>
+			</resources>
+		</region>
+		<region name="region_dmi7_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="-154200" y="0" z="-62800"/>
+				<splineposition x="-124200" y="0" z="-62800"/>
+				<splineposition x="-50000" y="0" z="33333"/>
+				<splineposition x="-20000" y="0" z="150000"/>
+				<splineposition x="-20000" y="0" z="180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="ice" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi7_gas_01" density="1.0" rotation="0">
+			<boundary class="splinetube">
+				<size r="20000"/>
+				<splineposition x="-154200" y="0" z="-62800"/>
+				<splineposition x="-124200" y="0" z="-62800"/>
+				<splineposition x="-50000" y="0" z="33333"/>
+				<splineposition x="-20000" y="0" z="150000"/>
+				<splineposition x="-20000" y="0" z="180000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen methane helium"/>
+				<volumetricfog multiplier="0.125" medium="fog_turquoise" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
+				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+			</fields>
+			<resources>
+				<resource ware="hydrogen" yield="medium"/>
+				<resource ware="methane" yield="medium"/>
+				<resource ware="helium" yield="medium"/>
+			</resources>
+		</region>
+		<region name="region_dmi_veryhigh_nividium" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+			</fields>
+			<resources>
+				<resource ware="nividium" yield="veryhigh"/>
+			</resources>
+		</region>
+		<region name="region_dmi_veryhigh_ore" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+			</fields>
+			<resources>
+				<resource ware="ore" yield="veryhigh"/>
+			</resources>
+		</region>
+		<region name="region_dmi_veryhigh_silicon" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+			</fields>
+			<resources>
+				<resource ware="silicon" yield="veryhigh"/>
+			</resources>
+		</region>
+		<region name="region_dmi_high_ice" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+			</fields>
+			<resources>
+				<resource ware="ice" yield="veryhigh"/>
+			</resources>
+		</region>
+		<region name="region_dmi_high_methane" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="methane"/>
+			</fields>
+			<resources>
+				<resource ware="methane" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi_high_hydrogen" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
+			</fields>
+			<resources>
+				<resource ware="hydrogen" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi_high_helium" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="cylinder">
+				<size r="20000" linear="10000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="helium"/>
+			</fields>
+			<resources>
+				<resource ware="helium" yield="high"/>
+			</resources>
+		</region>
+		<region name="region_dmi8_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
+			<boundary class="splinetube">
+				<size r="10000"/>
+				<splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500"/>
+				<splineposition x="175000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="-175000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500"/>
+				<splineposition x="-175000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="175000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
+				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
+			</fields>
+			<resources>
+				<resource ware="nividium" yield="low"/>
+				<resource ware="ore" yield="low"/>
+				<resource ware="silicon" yield="low"/>
+				<resource ware="ice" yield="low"/>
+			</resources>
+		</region>
+		<region name="region_dmi8_gas_01" density="1.0" rotation="0">
+			<boundary class="cylinder">
+				<size r="175000" linear="20000"/>
+			</boundary>
+			<falloff/>
+			<fields>
+				<nebula ref="fogpattern_v2_macro" resources="helium"/>
+				<nebula ref="fogpattern_v2_macro" resources="methane"/>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
+			</fields>
+			<resources>
+				<resource ware="helium" yield="low"/>
+				<resource ware="methane" yield="low"/>
+				<resource ware="hydrogen" yield="low"/>
+			</resources>
+		</region>
+		<region name="region_dmi8_volumetricfog_01" density="1.0" rotation="0">
+			<boundary class="sphere">
+				<size r="200000"/>
+			</boundary>
+			<falloff>
+				<radial>
+					<step position="0.0" value="0.0"/>
+					<step position="0.5" value="0.0"/>
+					<step position="0.6" value="0.5"/>
+					<step position="0.7" value="1.0"/>
+					<step position="1.0" value="1.0"/>
+				</radial>
+			</falloff>
+			<fields>
+				<volumetricfog multiplier="0.025" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
+			</fields>
+		</region>
+	</add>
 </diff>
 <!--OLD GAS
 <nebula ref="fogpattern_v2_macro" localred="12" localgreen="12" localblue="12" localdensity="0.1" uniformred="12" uniformgreen="12" uniformblue="12" uniformdensity="0.1" backgroundfog="false" resources="helium" />

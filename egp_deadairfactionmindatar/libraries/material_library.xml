@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<diff>
+<add sel="//materiallibrary">
+  <collection name="minmatarsky">
+	<material name="onga" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\onga" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="ameinaka" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\ameinaka" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="ammold" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\ammold" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="pator" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\pator" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="urlen" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\urlen" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="ivar" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\ivar" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="rens" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\rens" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+	<material name="amamake" shader="P1_simple_unlit.fx" blendmode="NONE" preview="none">
+      <properties>
+        <property type="BitMap" preload="1" name="diffuse_map" value="extensions\egp_deadairfactionmindatar\assets\environments\cluster\evesky\amamake" />
+		<property type="Float" name="diffuseStr" value="0.9" />
+      </properties>
+    </material>
+  </collection>
+</add>
+</diff>

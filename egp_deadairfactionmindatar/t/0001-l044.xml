@@ -37,6 +37,7 @@
 		<t id="130">Amamake</t>
 		<t id="131">xxx</t>
 		<t id="132">xxx</t>
+		<t id="199">Minmatar</t>
 		<!-- Equipment -->
 		<t id="200">{4816302,102}(MNM) {20111,5031}(L) 1400MM Fusion Howitzer Artillery</t>
 		<t id="201">Fusion</t>
@@ -60,5 +61,11 @@
 		<t id="301">Nuclear weapons are considered by most races to be crude and primitive. However, the Minmatar still favor them over more sophisticated weapons due to the abundance of materials for plutonium production in Minmatar space.</t>
 		<t id="302">This is among the most feared ammunition around. It has excellent penetration. Once the ship's outer layer is penetrated, the core explodes, spraying the interior with a cloud of fragmentation fletchets that cause considerable damage to the vulnerable interior structure.</t>
 		<t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
+		<!-- Stations -->
+		<t id="1101">Minmatar Defence Platform</t>
+		<t id="1111">Minmatar Trading Station</t>
+		<t id="1121">Minmatar Equipment Dock</t>
+		<t id="1131">Minmatar Shipyard</t>
+		<t id="1141">Minmatar Wharf</t>
 	</page>
 </language>

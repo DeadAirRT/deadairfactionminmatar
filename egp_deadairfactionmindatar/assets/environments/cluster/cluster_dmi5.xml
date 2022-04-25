@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <components>
 	<component name="Cluster_DMI5" class="celestialbody">
-		<source geometry="assets\environments\cluster\Cluster_44_data"/>
+		<source geometry="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi5_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
 				<lights>
-					<omni name="XU Omni01" shadow="0" r="255" g="225" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_08" trigger="1" intensity="1.1">
+					<omni name="XU Omni01" shadow="0" r="255" g="225" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_08" trigger="1" intensity="0.75">
 						<lightanimations/>
 						<offset>
 							<position x="-3.508782E+08" y="-4.3316E+07" z="-1.672135E+08"/>
 						</offset>
 					</omni>
-					<ambient name="XU Ambient01" r="68" g="51" b="61" range="1E+11" intensity="1">
+					<ambient name="XU Ambient01" r="68" g="51" b="61" range="1E+11" intensity="0.75">
 					  <lightanimations/>
 					  <offset>
 						<position x="1.736531E+07" y="0" z="3216274"/>
@@ -27,41 +27,26 @@
 			<connection name="space" tags="celestialbody">
 				<offset/>
 			</connection>
-			<connection name="Connection001" tags="part  ">
-				<offset/>
+			<connection name="Connection01" tags="part">
 				<parts>
-					<part name="part_c08_neb_06_03">
+					<part name="eveskybox">
+						<size>
+							<max x="3.92425e+008" y="3.92425e+008" z="3.96536e+008" />
+							<center x="512" y="-480" z="0" />
+						</size>
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="p1.p1_env_nebular_06"/>
+									<material id="1" ref="minmatarsky.urlen" />
 								</materials>
 							</lod>
 						</lods>
-						<size>
-							<max x="2.644501E+08" y="3.152151E+08" z="2.228493E+08"/>
-							<center x="-1.824662E+08" y="6.461555E+07" z="2.231381E+08"/>
-						</size>
 					</part>
 				</parts>
-			</connection>
-			<connection name="Connection002" tags="part  ">
-				<offset/>
-				<parts>
-					<part name="part_c08_bg001">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="4.918836E+08" y="4.925595E+08" z="4.918649E+08"/>
-							<center x="0" y="0" z="0"/>
-						</size>
-					</part>
-				</parts>
+				<offset>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<quaternion qx="0.707" qy="0" qz="0" qw="0.707"/>
+				</offset>
 			</connection>
 			<connection name="Connection003" tags="part  ">
 				<offset>
@@ -120,32 +105,6 @@
 							<max x="4.312398E+08" y="3.871544E+08" z="4.86025E+08"/>
 							<center x="-1.665568E+07" y="-4.514437E+07" z="2029813"/>
 						</size>
-					</part>
-				</parts>
-			</connection>
-			<connection name="Connection007" tags="part  ">
-				<offset>
-					<position x="0" y="0" z="8100438"/>
-					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
-				</offset>
-				<parts>
-					<part name="Background">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.backgroundstars"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="4.255449E+08" y="4.25545E+08" z="4.25545E+08"/>
-							<center x="62.63591" y="31.25" z="0.9765625"/>
-						</size>
-						<pivot>
-							<offset>
-								<position x="0" y="-50000" z="0"/>
-							</offset>
-						</pivot>
 					</part>
 				</parts>
 			</connection>

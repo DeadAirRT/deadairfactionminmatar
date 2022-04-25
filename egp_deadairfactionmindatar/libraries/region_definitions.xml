@@ -219,9 +219,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
-				<volumetricfog multiplier="0.125" medium="hydrogen" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="hydrogen" yield="low"/>
@@ -259,9 +257,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="helium"/>
-				<volumetricfog multiplier="0.125" medium="fog_blue" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+				<nebula ref="fogpattern_v2_macro" resources="helium"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="helium" yield="low"/>
@@ -301,9 +297,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="methane"/>
-				<volumetricfog multiplier="0.125" medium="fog_grey" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+				<nebula ref="fogpattern_v2_macro" resources="methane"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="methane" yield="medium"/>
@@ -334,28 +328,11 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="helium"/>
+				<nebula ref="fogpattern_v2_macro" resources="helium"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="helium" yield="high"/>
 			</resources>
-		</region>
-		<region name="region_dmi4_volumetricfog_01" density="1.0" rotation="0">
-			<boundary class="sphere">
-				<size r="200000"/>
-			</boundary>
-			<falloff>
-				<radial>
-					<step position="0.0" value="0.0"/>
-					<step position="0.5" value="0.0"/>
-					<step position="0.6" value="0.5"/>
-					<step position="0.7" value="1.0"/>
-					<step position="1.0" value="1.0"/>
-				</radial>
-			</falloff>
-			<fields>
-				<volumetricfog multiplier="0.025" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
-			</fields>
 		</region>
 		<region name="region_dmi5_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
 			<boundary class="splinetube">
@@ -394,9 +371,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
-				<volumetricfog multiplier="0.125" medium="fog_bluepink" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="hydrogen" yield="high"/>
@@ -432,9 +407,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="methane"/>
-				<volumetricfog multiplier="0.125" medium="helium" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
+				<nebula ref="fogpattern_v2_macro" resources="methane"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="methane" yield="medium"/>
@@ -471,8 +444,6 @@
 			<falloff/>
 			<fields>
 				<nebula ref="fogpattern_v2_macro" resources="hydrogen methane helium"/>
-				<volumetricfog multiplier="0.125" medium="fog_turquoise" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebulafar" size="10000" sizevariation="0.932" densityfactor="0.255" rotation="0" rotationvariation="0.05" minnoisevalue="0.25" maxnoisevalue="0.85" noisescale="50000" distancefactor="0.40"/>
-				<volumetricfog multiplier="0.5" medium="fog_grey_emissive" texture="assets/textures/environments/fog_patterncloud_03" lodrule="nebulafar" size="10000" sizevariation="0.15" densityfactor="0.0375" rotation="0" rotationvariation="0.5" minnoisevalue="0.0" maxnoisevalue="0.4" noisescale="50000" distancefactor="0.60"/>
 			</fields>
 			<resources>
 				<resource ware="hydrogen" yield="medium"/>
@@ -538,7 +509,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="methane"/>
+				<nebula ref="fogpattern_v2_macro" resources="methane"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="methane" yield="high"/>
@@ -550,7 +521,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="hydrogen" yield="high"/>
@@ -562,7 +533,7 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="helium"/>
+				<nebula ref="fogpattern_v2_macro" resources="helium"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="helium" yield="high"/>
@@ -599,32 +570,15 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<nebula ref="fogpattern_v2_macro" resources="helium"/>
-				<nebula ref="fogpattern_v2_macro" resources="methane"/>
-				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
+				<nebula ref="fogpattern_v2_macro" resources="helium"><color a="0" v="0"/></nebula>
+				<nebula ref="fogpattern_v2_macro" resources="methane"><color a="0" v="0"/></nebula>
+				<nebula ref="fogpattern_v2_macro" resources="hydrogen"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
 				<resource ware="helium" yield="low"/>
 				<resource ware="methane" yield="low"/>
 				<resource ware="hydrogen" yield="low"/>
 			</resources>
-		</region>
-		<region name="region_dmi8_volumetricfog_01" density="1.0" rotation="0">
-			<boundary class="sphere">
-				<size r="200000"/>
-			</boundary>
-			<falloff>
-				<radial>
-					<step position="0.0" value="0.0"/>
-					<step position="0.5" value="0.0"/>
-					<step position="0.6" value="0.5"/>
-					<step position="0.7" value="1.0"/>
-					<step position="1.0" value="1.0"/>
-				</radial>
-			</falloff>
-			<fields>
-				<volumetricfog multiplier="0.025" medium="fog_whiteblue_emissive" texture="assets/textures/environments/fog_smoothclouds_03" lodrule="nebulafar" size="50000" sizevariation="0.1" densityfactor="0.0025" rotation="10" rotationvariation="0.05" distancefactor="0.6"/>
-			</fields>
 		</region>
 	</add>
 </diff>

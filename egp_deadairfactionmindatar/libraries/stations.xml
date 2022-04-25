@@ -1,24 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
-<add sel="//stations">
-  <station id="shipyard_dmi" group="shipyard_arg">
-    <category tags="shipyard" faction="[mindatar]" />
-  </station>
-
-  <station id="wharf_dmi" group="wharf_arg">
-    <category tags="wharf" faction="[mindatar]" />
-  </station>
-
-  <station id="equipmentdock_dmi" group="equipmentdock_arg">
-    <category tags="equipmentdock" faction="[mindatar]" />
-  </station>
-
-  <station id="tradestation_dmi" group="tradestation_arg">
-    <category tags="tradestation" faction="[mindatar]" />
-  </station>
-
-  <station id="defence_dmi" group="defence_arg">
-    <category tags="defence" faction="[mindatar]" />
-  </station>
-</add>
+	<add sel="//stations">
+		<station id="shipyard_dmi" group="shipyard_dmi">
+			<category tags="shipyard" faction="[mindatar]"/>
+		</station>
+		<station id="wharf_dmi" group="wharf_dmi">
+			<category tags="wharf" faction="[mindatar]"/>
+		</station>
+		<station id="equipmentdock_dmi" group="equipmentdock_dmi">
+			<category tags="equipmentdock" faction="[mindatar]"/>
+		</station>
+		<station id="tradestation_dmi" group="tradestation_dmi">
+			<category tags="tradestation" faction="[mindatar]"/>
+		</station>
+		<station id="defence_dmi" group="defence_dmi">
+			<category tags="defence" faction="[mindatar]"/>
+		</station>
+	</add>
 </diff>

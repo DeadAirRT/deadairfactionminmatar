@@ -8,7 +8,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI1_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI2_sector001" race="argon" owner="mindatar" type="factory">
@@ -17,7 +17,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI2_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI3_sector001" race="argon" owner="mindatar" type="factory">
@@ -26,7 +26,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI3_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI4_sector001" race="argon" owner="mindatar" type="factory">
@@ -35,7 +35,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI4_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI5_sector001" race="argon" owner="mindatar" type="factory">
@@ -44,7 +44,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMI3_Cluster_DMI5_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI5_sector001_02" race="argon" owner="mindatar" type="factory">
@@ -53,7 +53,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMI5_Cluster_DMI5_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI6_sector001" race="argon" owner="mindatar" type="factory">
@@ -62,7 +62,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI6_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="dmi_defence_cluster_DMI7_sector001" race="argon" owner="mindatar" type="factory">
@@ -71,7 +71,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI7_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 			</station>
 		</station>
 		<station id="shipyard_mindatar_01" race="argon" owner="mindatar" type="factory">
@@ -80,7 +80,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMI3_Cluster_DMI4_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[shipyard]"/>
+				<select faction="mindatar" tags="[shipyard]"/>
 				<loadout>
 					<level exact="1.0"/>
 				</loadout>
@@ -92,7 +92,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMI5_Cluster_DMI4_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[wharf]"/>
+				<select faction="mindatar" tags="[wharf]"/>
 				<loadout>
 					<level exact="1.0"/>
 				</loadout>
@@ -104,7 +104,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI5_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[tradestation]"/>
+				<select faction="mindatar" tags="[tradestation]"/>
 				<loadout>
 					<level min="0.75" max="1.0"/>
 				</loadout>
@@ -116,7 +116,7 @@
 			</quotas>
 			<location class="zone" macro="ZoneDMIc_Cluster_DMI5_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[equipmentdock]"/>
+				<select faction="mindatar" tags="[equipmentdock]"/>
 				<loadout>
 					<level exact="1.0"/>
 				</loadout>
@@ -128,31 +128,35 @@
 	<add sel="//god/products">
 		<product id="dmi_advancedcomposites" ware="advancedcomposites" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="4"/>
+				<quota galaxy="4" sector="4"/>
 				<!--minoradvancedcomposites-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="advancedcomposites" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_advancedelectronics" ware="advancedelectronics" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="16" sector="8"/>
+				<quota galaxy="16" sector="12"/>
 				<!--minoradvancedelectronics-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="advancedelectronics" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_antimattercells" ware="antimattercells" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="4"/>
+				<quota galaxy="4" sector="4"/>
 				<!--minorantimattercells-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<region ware="hydrogen" max="120000"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<region ware="hydrogen" max="100000"/>
 			</location>
 			<module>
 				<select ware="antimattercells" race="argon"/>
@@ -160,10 +164,12 @@
 		</product>
 		<product id="dmi_antimatterconverters" ware="antimatterconverters" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="8" sector="6"/>
+				<quota galaxy="10" sector="10"/>
 				<!--minorantimatterconverters-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="antimatterconverters" race="argon"/>
 			</module>
@@ -173,28 +179,33 @@
 				<quota galaxy="16" sector="8"/>
 				<!--minorclaytronics-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="claytronics" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_dronecomponents" ware="dronecomponents" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="4"/>
+				<quota galaxy="4" sector="4"/>
 				<!--minordronecomponents-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="dronecomponents" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_energycells" ware="energycells" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="40" sector="18"/>
+				<quota galaxy="40" sector="20"/>
 				<!--minorenergycells-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<sunlight min="0.5"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<sunlight min="1.0"/>
+				<security min="0.6" max="0.95"/>
 			</location>
 			<module>
 				<select ware="energycells" race="argon"/>
@@ -202,30 +213,36 @@
 		</product>
 		<product id="dmi_engineparts" ware="engineparts" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="10" sector="8"/>
+				<quota galaxy="12" sector="12"/>
 				<!--minorengineparts-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="engineparts" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_fieldcoils" ware="fieldcoils" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="4"/>
+				<quota galaxy="4" sector="4"/>
 				<!--minorfieldcoils-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="fieldcoils" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_foodrations" ware="foodrations" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="25" sector="8"/>
+				<quota galaxy="25" sector="20"/>
 				<!--minorfood-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="foodrations" race="argon"/>
 			</module>
@@ -235,8 +252,8 @@
 				<quota galaxy="26"/>
 				<!--minorgraphene-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<region ware="methane" max="120000"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<region ware="methane" max="100000"/>
 			</location>
 			<module>
 				<select ware="graphene" race="argon"/>
@@ -244,40 +261,46 @@
 		</product>
 		<product id="dmi_hullparts" ware="hullparts" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="72" sector="16"/>
+				<quota galaxy="70" sector="36"/>
 				<!--minorhullparts-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="hullparts" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_meat" ware="meat" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="8"/>
+				<quota galaxy="8" sector="8"/>
 				<!--minorsubfood-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="meat" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_medicalsupplies" ware="medicalsupplies" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="40" sector="10"/>
+				<quota galaxy="40" sector="24"/>
 				<!--minormedicalsupplies-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false"/>
 			<module>
 				<select ware="medicalsupplies" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_microchips" ware="microchips" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="42" sector="16"/>
+				<quota galaxy="42" sector="24"/>
 				<!--minormicrochips-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="microchips" race="argon"/>
 			</module>
@@ -287,17 +310,21 @@
 				<quota galaxy="8"/>
 				<!--minormissilecomponents-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="missilecomponents" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_plasmaconductors" ware="plasmaconductors" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="18" sector="8"/>
+				<quota galaxy="18" sector="16"/>
 				<!--minorplasmaconductors-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="plasmaconductors" race="argon"/>
 			</module>
@@ -307,7 +334,9 @@
 				<quota galaxy="24"/>
 				<!--minorquantumtubes-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="quantumtubes" race="argon"/>
 			</module>
@@ -317,8 +346,8 @@
 				<quota galaxy="46"/>
 				<!--minorrefinedmetals-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<region ware="ore" max="120000"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<region ware="ore" max="100000"/>
 			</location>
 			<module>
 				<select ware="refinedmetals" race="argon"/>
@@ -329,17 +358,21 @@
 				<quota galaxy="8"/>
 				<!--minorscanningarrays-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="scanningarrays" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_shieldcomponents" ware="shieldcomponents" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="16" sector="8"/>
+				<quota galaxy="16" sector="10"/>
 				<!--minorshieldcomponents-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="shieldcomponents" race="argon"/>
 			</module>
@@ -349,8 +382,8 @@
 				<quota galaxy="28"/>
 				<!--minorsiliconwafers-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<region ware="silicon" max="120000"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<region ware="silicon" max="100000"/>
 			</location>
 			<module>
 				<select ware="siliconwafers" race="argon"/>
@@ -358,20 +391,24 @@
 		</product>
 		<product id="dmi_smartchips" ware="smartchips" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="16" sector="8"/>
+				<quota galaxy="20" sector="10"/>
 				<!--minorsmartchips-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="smartchips" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_spices" ware="spices" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="12" sector="6"/>
+				<quota galaxy="12" sector="12"/>
 				<!--minorsubfood-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="spices" race="argon"/>
 			</module>
@@ -381,8 +418,8 @@
 				<quota galaxy="10"/>
 				<!--minorsuperfluidcoolant-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<region ware="helium" max="120000"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<region ware="helium" max="100000"/>
 			</location>
 			<module>
 				<select ware="superfluidcoolant" race="argon"/>
@@ -390,21 +427,23 @@
 		</product>
 		<product id="dmi_turretcomponents" ware="turretcomponents" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="20" sector="8"/>
+				<quota galaxy="20" sector="10"/>
 				<!--minorturretcomponents-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="turretcomponents" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_water" ware="water" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="8"/>
+				<quota galaxy="8" sector="8"/>
 				<!--minorwater-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false">
-				<region ware="ice" max="120000"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<region ware="ice" max="100000"/>
 			</location>
 			<module>
 				<select ware="water" race="argon"/>
@@ -415,17 +454,21 @@
 				<quota galaxy="16" sector="8"/>
 				<!--minorweaponcomponents-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.75"/>
+			</location>
 			<module>
 				<select ware="weaponcomponents" race="argon"/>
 			</module>
 		</product>
 		<product id="dmi_wheat" ware="wheat" owner="mindatar" type="factory">
 			<quotas>
-				<quota galaxy="9"/>
+				<quota galaxy="9" sector="9"/>
 				<!--minorsubfood-->
 			</quotas>
-			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" matchextension="false"/>
+			<location class="galaxy" macro="xu_ep2_universe_macro" faction="[mindatar]" relation="self" comparison="exact" newzonechance="0.0" matchextension="false">
+				<security min="0.6" max="0.95"/>
+			</location>
 			<module>
 				<select ware="wheat" race="argon"/>
 			</module>
@@ -439,7 +482,7 @@
 			</quotas>
 			<location class="zone" macro="Zone002_Cluster_46_Sector001_macro" matchextension="false"/>
 			<station>
-				<select faction="argon" tags="[defence]"/>
+				<select faction="mindatar" tags="[defence]"/>
 				<loadout>
 					<level exact="1.0"/>
 				</loadout>

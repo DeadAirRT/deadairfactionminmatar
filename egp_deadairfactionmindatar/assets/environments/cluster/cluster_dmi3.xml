@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <components>
 	<component name="Cluster_DMI3" class="celestialbody">
-		<source geometry="assets\environments\cluster\Cluster_40_data"/>
+		<source geometry="extensions\egp_deadairfactionmindatar\assets\environments\cluster\cluster_dmi3_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
 				<lights>
-					<omni name="XU Omni01" shadow="0" r="255" g="225" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_13" trigger="1" intensity="1.1" specularintensity="1">
+					<omni name="XU Omni01" shadow="0" r="255" g="225" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_13" trigger="1" intensity="0.75">
 						<lightanimations/>
 						<offset>
 							<position x="-3.9022E+08" y="1.10228E+08" z="4.25155E+07"/>
 						</offset>
 					</omni>
-					<ambient name="XU Ambient01" r="34" g="16" b="7" range="1E+11" intensity="1">
+					<ambient name="XU Ambient01" r="34" g="16" b="7" range="1E+11" intensity="0.75">
 						<lightanimations/>
 						<offset>
 							<position x="1.486322E+07" y="0" z="-1.4658E+07"/>
@@ -27,51 +27,26 @@
 			<connection name="space" tags="celestialbody">
 				<offset/>
 			</connection>
-			<connection name="Connection01" tags="part  ">
-				<offset>
-					<position x="-7093243" y="0" z="1041554"/>
-				</offset>
+			<connection name="Connection01" tags="part">
 				<parts>
-					<part name="part_c13_bg">
+					<part name="eveskybox">
+						<size>
+							<max x="3.92425e+008" y="3.92425e+008" z="3.96536e+008" />
+							<center x="512" y="-480" z="0" />
+						</size>
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+									<material id="1" ref="minmatarsky.ammold" />
 								</materials>
 							</lod>
 						</lods>
-						<size>
-							<max x="5.838359E+08" y="5.838383E+08" z="5.83836E+08"/>
-							<center x="23.92578" y="62.5" z="8.789063"/>
-						</size>
 					</part>
 				</parts>
-			</connection>
-			<connection name="Connection08" tags="part  ">
 				<offset>
-					<position x="1.226121E+07" y="0" z="8100438"/>
-					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
+					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<quaternion qx="0.707" qy="0" qz="0" qw="0.707"/>
 				</offset>
-				<parts>
-					<part name="Background">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1.backgroundstars"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="4.255449E+08" y="4.25545E+08" z="4.25545E+08"/>
-							<center x="76.17188" y="31.25" z="-0.9765625"/>
-						</size>
-						<pivot>
-							<offset>
-								<position x="0" y="-50000" z="0"/>
-							</offset>
-						</pivot>
-					</part>
-				</parts>
 			</connection>
 			<connection name="Connection10" tags="part  ">
 				<offset>

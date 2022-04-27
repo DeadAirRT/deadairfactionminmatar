@@ -95,6 +95,16 @@
 	<connection name="ClusterGateDMI8To07" ref="destination" path="../Cluster_DMI8_connection/Cluster_DMI8_Sector001_connection/ZoneDMI4_Cluster_DMI8_Sector001_connection/connection_ClusterGateDMI8To07">
 		<macro connection="destination" path="../../../../../Cluster_07_connection/Cluster_07_Sector001_connection/ZoneDMI1_Cluster_07_Sector001_connection/connection_ClusterGate07ToDMI8" />
 	</connection>
+	<!-- Inactive Gates -->
+	<connection name="ClusterGateDMI7To417" ref="destination" path="../Cluster_DMI7_connection/Cluster_DMI7_Sector001_connection/ZoneDMI2_Cluster_DMI7_Sector001_connection/connection_ClusterGateDMI7To417">
+		<macro connection="destination" path="../../../../../Cluster_417_connection/Cluster_417_Sector001_connection/ZoneDMI1_Cluster_417_Sector001_connection/connection_ClusterGate417ToDMI7" />
+	</connection>
+	<connection name="ClusterGateDMI3To424" ref="destination" path="../Cluster_DMI3_connection/Cluster_DMI3_Sector001_connection/ZoneDMI6_Cluster_DMI3_Sector001_connection/connection_ClusterGateDMI3To424">
+		<macro connection="destination" path="../../../../../Cluster_424_connection/Cluster_424_Sector001_connection/ZoneDMI1_Cluster_424_Sector001_connection/connection_ClusterGate424ToDMI3" />
+	</connection>
+	<connection name="ClusterGate424To106" ref="destination" path="../Cluster_424_connection/Cluster_424_Sector001_connection/ZoneDMI5_Cluster_424_Sector001_connection/connection_ClusterGate424To106">
+		<macro connection="destination" path="../../../../../Cluster_106_connection/Cluster_106_Sector001_connection/ZoneDMI1_Cluster_106_Sector001_connection/connection_ClusterGate106To424" />
+	</connection>
 	<!--<connection name="Cluster_AAA_connection" ref="clusters">
 		<offset>
 			<position x="YYY" y="0" z="ZZZ" />

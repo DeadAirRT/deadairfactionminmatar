@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Mindatar_Gate_Research" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<conditions>
+				<event_universe_generated/>
+			</conditions>
+			<actions>
+				<set_value name="$ResearchPrereq" exact="ware.research_teleportation.research.unlocked or ware.research_teleportation_range_01.research.unlocked or ware.research_teleportation_range_02.research.unlocked or ware.research_teleportation_range_03.research.unlocked"/>
+				<set_value name="$RelationPrereq" exact="faction.player.relationto.{faction.mindatar} ge 0.1"/>
+				<!-- DMI7 to C417 -->
+				<find_sector name="$DMI7" macro="macro.Cluster_DMI7_Sector001_macro" required="true"/>
+				<find_zone name="$DMI7Zone" space="$DMI7" macro="macro.ZoneDMI2_Cluster_DMI7_Sector001_macro" required="true"/>
+				<find_gate name="$DMI7Gate" space="$DMI7Zone" active="false" required="true"/>
+				<!-- C417 to DMI7 -->
+				<find_sector name="$C417" macro="macro.Cluster_417_Sector001_macro" required="true"/>
+				<find_zone name="$C417Zone" space="$C417" macro="macro.ZoneDMI1_Cluster_417_Sector001_macro" required="true"/>
+				<find_gate name="$C417Gate" space="$C417Zone" active="false" required="true"/>
+				<!-- DMI3 to C424 -->
+				<find_sector name="$DMI3" macro="macro.Cluster_DMI3_Sector001_macro" required="true"/>
+				<find_zone name="$DMI3Zone" space="$DMI3" macro="macro.ZoneDMI6_Cluster_DMI3_Sector001_macro" required="true"/>
+				<find_gate name="$DMI3Gate" space="$DMI3Zone" active="false" required="true"/>
+				<!-- C424 -->
+				<find_sector name="$C424" macro="macro.Cluster_424_Sector001_macro" required="true"/>
+				<!-- C424 to DMI3 -->
+				<find_zone name="$C424ZoneDMI1" space="$C424" macro="macro.ZoneDMI1_Cluster_424_Sector001_macro" required="true"/>
+				<find_gate name="$C424GateDMI3" space="$C424ZoneDMI1" active="false" required="true"/>
+				<!-- C424 to 106 -->
+				<find_zone name="$C424ZoneDMI5" space="$C424" macro="macro.ZoneDMI5_Cluster_424_Sector001_macro" required="true"/>
+				<find_gate name="$C424GateC106" space="$C424ZoneDMI5" active="false" required="true"/>
+				<!-- C106 to C424 -->
+				<find_sector name="$C106" macro="macro.Cluster_106_Sector001_macro" required="true"/>
+				<find_zone name="$C106Zone" space="$C106" macro="macro.ZoneDMI1_Cluster_106_Sector001_macro" required="true"/>
+				<find_gate name="$C106Gate" space="$C106Zone" active="false" required="true"/>
+				<!-- DEBUG -->
+				<debug_text text="'MOD: DeadAirFactionMindatar -- DMI7? %1 DMI7Gate? %2 / Zone %3 -- C417Gate? %4 / Zone %5'.[$DMI7?,@$DMI7Gate.macro,@$DMI7Gate.zone.macro,@$C417Gate.macro,@$C417Gate.zone.macro]" context="false" filter="scripts"/>
+				<debug_text text="'MOD: DeadAirFactionMindatar -- DMI3? %1 DMI3Gate? %2 / Zone %3 -- C424GateDMI3 %4 / Zone %5'.[$DMI3?,@$DMI3Gate.macro,@$DMI3Gate.zone.macro,@$C424GateDMI3.macro,@$C424GateDMI3.zone.macro]" context="false" filter="scripts"/>
+				<debug_text text="'MOD: DeadAirFactionMindatar -- C106? %1 C106Gate? %2 / Zone %3 -- C424GateC106 %4 / Zone %5'.[$C106?,@$C106Gate.macro,@$C106Gate.zone.macro,@$C424GateC106.macro,@$C424GateC106.zone.macro]" context="false" filter="scripts"/>
+			</actions>
+			<cues>
+				<cue name="ResearchCompleted" instantiate="true">
+					<conditions>
+						<event_player_production_finished research="true"/>
+					</conditions>
+					<actions>
+						<do_if value="[ware.research_teleportation,ware.research_teleportation_range_01,ware.research_teleportation_range_02,ware.research_teleportation_range_03].indexof.{event.param2}">
+							<set_value name="$ResearchPrereq" exact="true"/>
+							<signal_cue cue="PeriodicCheck"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="ReputationGained" instantiate="true">
+					<conditions>
+						<event_player_relation_changed faction="faction.mindatar"/>
+					</conditions>
+					<actions>
+						<do_if value="$ResearchPrereq and faction.player.relationto.{faction.mindatar} ge 0.1">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<signal_cue cue="PeriodicCheck"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="InitialCheck">
+					<actions>
+						<do_if value="$ResearchPrereq">
+							<set_value name="$ResearchPrereq" exact="true"/>
+							<cancel_cue cue="ResearchCompleted"/>
+						</do_if>
+						<do_if value="$RelationPrereq">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<cancel_cue cue="ReputationGained"/>
+						</do_if>
+						<do_if value="$ResearchPrereq and $RelationPrereq">
+							<signal_cue cue="PeriodicCheck"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="PeriodicCheck" instantiate="true">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<do_if value="$ResearchPrereq">
+							<set_value name="$ResearchPrereq" exact="true"/>
+							<cancel_cue cue="ResearchCompleted"/>
+						</do_if>
+						<do_if value="$RelationPrereq">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<cancel_cue cue="ReputationGained"/>
+						</do_if>
+						<do_if value="$ResearchPrereq and $RelationPrereq">
+							<signal_cue cue="Add_Research"/>
+						</do_if>
+					</actions>
+				</cue>
+				<cue name="Add_Research">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<do_if value="$ResearchPrereq and $RelationPrereq">
+							<add_encyclopedia_entry type="researchables" item="'mindatar_gate_activation'"/>
+							<create_cue_actor name="$BosoTaDA" cue="namespace" macro="character_boron_hq_mentor_macro">
+								<page exact="4816302"/>
+								<owner exact="faction.civilian"/>
+							</create_cue_actor>
+							<speak actor="$BosoTaDA" priority="80" line="9000" comment="I have important news! It looks like the Minmatar are trying to activate a gate. I have added new research."/>
+						</do_if>
+						<do_else>
+							<reset_cue cue="this"/>
+						</do_else>
+					</actions>
+					<cues>
+						<cue name="FinishedSpeaking">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9000"/>
+							</conditions>
+							<actions>
+								<remove_cue_actor actor="$BosoTaDA" cue="namespace"/>
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+				<cue name="GateResearchCompleted" instantiate="true">
+					<conditions>
+						<event_player_production_finished research="true"/>
+					</conditions>
+					<actions>
+						<do_if value="ware.mindatar_gate_activation == event.param2">
+							<set_object_active object="$DMI7Gate" activate="true"/>
+							<debug_text text="'MOD: DeadAirFactionMindatar -- Activated DMI7Gate -- DMI7Gate.isactive == %1'.[$DMI7Gate.isactive]" context="false" filter="scripts"/>
+							<do_if value="not $DMI7Gate.isactive">
+								<set_object_active object="$C417Gate" activate="true"/>
+								<debug_text text="'MOD: DeadAirFactionMindatar -- DMI7Gate Activation Failed, trying C417Gate -- C417Gate.isactive == %1'.[$C417Gate.isactive]" context="false" filter="scripts"/>
+							</do_if>
+							<set_object_active object="$DMI3Gate" activate="true"/>
+							<debug_text text="'MOD: DeadAirFactionMindatar -- Activated DMI3Gate -- DMI3Gate.isactive == %1'.[$DMI3Gate.isactive]" context="false" filter="scripts"/>
+							<do_if value="not $DMI3Gate.isactive">
+								<set_object_active object="$C424GateDMI3" activate="true"/>
+								<debug_text text="'MOD: DeadAirFactionMindatar -- DMI3Gate Activation Failed, trying C424GateDMI3 -- C424GateDMI3.isactive == %1'.[$C424GateDMI3.isactive]" context="false" filter="scripts"/>
+							</do_if>
+							<set_object_active object="$C106Gate" activate="true"/>
+							<debug_text text="'MOD: DeadAirFactionMindatar -- Activated C106Gate -- C106Gate.isactive == %1'.[$C106Gate.isactive]" context="false" filter="scripts"/>
+							<do_if value="not $C106Gate.isactive">
+								<set_object_active object="$C424GateC106" activate="true"/>
+								<debug_text text="'MOD: DeadAirFactionMindatar -- C106Gate Activation Failed, trying C424GateC106 -- C424GateC106.isactive == %1'.[$C424GateC106.isactive]" context="false" filter="scripts"/>
+							</do_if>
+							<create_cue_actor name="$BosoTaDA" cue="namespace" macro="character_boron_hq_mentor_macro">
+								<page exact="4816302"/>
+								<owner exact="faction.civilian"/>
+							</create_cue_actor>
+							<speak actor="$BosoTaDA" priority="80" line="9003" comment="Incredible! The gates are coming online. I wonder if we can work with other factions to activate more."/>
+						</do_if>
+					</actions>
+					<cues>
+						<cue name="FinishedSpeakingFinal">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9003"/>
+							</conditions>
+							<actions>
+								<remove_cue_actor actor="$BosoTaDA" cue="namespace"/>
+							</actions>
+						</cue>
+						<cue name="CleanUpAndCheck">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9003"/>
+							</conditions>
+							<delay exact="15s"/>
+							<actions>
+								
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+				<!--<cue name="Debug">
+					<conditions>
+						<event_long_range_scan_sent object="player.entity"/>
+					</conditions>
+					<actions>
+						<set_value name="$ResearchPrereq" exact="true"/>
+						<set_value name="$RelationPrereq" exact="true"/>
+						<signal_cue cue="Add_Research"/>
+					</actions>
+				</cue>-->
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

@@ -67,5 +67,10 @@
 		<t id="1121">Minmatar Equipment Dock</t>
 		<t id="1131">Minmatar Shipyard</t>
 		<t id="1141">Minmatar Wharf</t>
+		<!-- BosoTaDA -->
+		<t id="9000">I have important news! It looks like the Minmatar are trying to activate a gate. I have added new research.</t>
+		<t id="9001">Minmatar Gate Activation</t>
+		<t id="9002">A by-product of Jove warp research, this will allow activation of particular inactive gates using a large amount of energy.</t>
+		<t id="9003">Incredible! The gates are coming online. I wonder if we can work with other factions to activate more.</t>
 	</page>
 </language>

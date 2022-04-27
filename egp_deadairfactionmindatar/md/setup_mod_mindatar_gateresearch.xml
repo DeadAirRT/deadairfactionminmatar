@@ -123,7 +123,7 @@
 				</cue>
 				<cue name="GateResearchCompleted" instantiate="true">
 					<conditions>
-						<event_player_production_finished research="true"/>
+						<event_player_production_finished research="true" ware="ware.mindatar_gate_activation"/>
 					</conditions>
 					<actions>
 						<do_if value="ware.mindatar_gate_activation == event.param2">

@@ -205,7 +205,7 @@
 			<resources>
 				<resource ware="ore" yield="low"/>
 				<resource ware="silicon" yield="low"/>
-				<resource ware="nividium" yield="high"/>
+				<resource ware="nividium" yield="medium"/>
 			</resources>
 		</region>
 		<region name="region_dmi1_gas_01" density="1.0" rotation="0">
@@ -242,8 +242,8 @@
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>
-				<resource ware="ice" yield="high"/>
-				<resource ware="ore" yield="medium"/>
+				<resource ware="ice" yield="medium"/>
+				<resource ware="ore" yield="low"/>
 			</resources>
 		</region>
 		<region name="region_dmi2_gas_01" density="1.0" rotation="0">
@@ -282,7 +282,7 @@
 			</fields>
 			<resources>
 				<resource ware="ore" yield="low"/>
-				<resource ware="silicon" yield="high"/>
+				<resource ware="silicon" yield="medium"/>
 				<resource ware="nividium" yield="low"/>
 			</resources>
 		</region>
@@ -331,7 +331,7 @@
 				<nebula ref="fogpattern_v2_macro" resources="helium"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
-				<resource ware="helium" yield="high"/>
+				<resource ware="helium" yield="medium"/>
 			</resources>
 		</region>
 		<region name="region_dmi5_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
@@ -374,7 +374,7 @@
 				<nebula ref="fogpattern_v2_macro" resources="hydrogen"><color a="0" v="0"/></nebula>
 			</fields>
 			<resources>
-				<resource ware="hydrogen" yield="high"/>
+				<resource ware="hydrogen" yield="medium"/>
 			</resources>
 		</region>
 		<region name="region_dmi6_asteroids_01" density="1.0" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
@@ -393,7 +393,7 @@
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>
-				<resource ware="ore" yield="high"/>
+				<resource ware="ore" yield="medium"/>
 			</resources>
 		</region>
 		<region name="region_dmi6_gas_01" density="1.0" rotation="0">
@@ -429,7 +429,7 @@
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>
-				<resource ware="ice" yield="high"/>
+				<resource ware="ice" yield="medium"/>
 			</resources>
 		</region>
 		<region name="region_dmi7_gas_01" density="1.0" rotation="0">
@@ -461,7 +461,7 @@
 				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
-				<resource ware="nividium" yield="veryhigh"/>
+				<resource ware="nividium" yield="high"/>
 			</resources>
 		</region>
 		<region name="region_dmi_veryhigh_ore" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
@@ -474,7 +474,7 @@
 				<asteroid groupref="asteroid_ore_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
-				<resource ware="ore" yield="veryhigh"/>
+				<resource ware="ore" yield="high"/>
 			</resources>
 		</region>
 		<region name="region_dmi_veryhigh_silicon" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
@@ -487,7 +487,7 @@
 				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
-				<resource ware="silicon" yield="veryhigh"/>
+				<resource ware="silicon" yield="high"/>
 			</resources>
 		</region>
 		<region name="region_dmi_high_ice" density="1" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">
@@ -500,7 +500,7 @@
 				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" minnoisevalue="0.0" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
-				<resource ware="ice" yield="veryhigh"/>
+				<resource ware="ice" yield="high"/>
 			</resources>
 		</region>
 		<region name="region_dmi_high_methane" density="5" rotation="0" minnoisevalue="0.0" maxnoisevalue="1.0">

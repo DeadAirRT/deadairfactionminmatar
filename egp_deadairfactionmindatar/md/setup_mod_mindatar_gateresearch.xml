@@ -7,7 +7,10 @@
 			</conditions>
 			<actions>
 				<set_value name="$ResearchPrereq" exact="ware.research_teleportation.research.unlocked or ware.research_teleportation_range_01.research.unlocked or ware.research_teleportation_range_02.research.unlocked or ware.research_teleportation_range_03.research.unlocked"/>
-				<set_value name="$RelationPrereq" exact="faction.player.relationto.{faction.mindatar} ge 0.1"/>
+				<set_value name="$RelationPrereq" exact="faction.player.relationto.{faction.mindatar} ge 0.1 or faction.player.relationto.{faction.mindatar} le -0.1"/>
+				<do_if value="faction.player.relationto.{faction.mindatar} le -0.1">
+					<set_value name="$Enemy" exact="true"/>
+				</do_if>
 				<!-- DMI7 to C417 -->
 				<find_sector name="$DMI7" macro="macro.Cluster_DMI7_Sector001_macro" required="true"/>
 				<find_zone name="$DMI7Zone" space="$DMI7" macro="macro.ZoneDMI2_Cluster_DMI7_Sector001_macro" required="true"/>
@@ -58,6 +61,11 @@
 							<set_value name="$RelationPrereq" exact="true"/>
 							<signal_cue cue="PeriodicCheck"/>
 						</do_if>
+						<do_elseif value="$ResearchPrereq and faction.player.relationto.{faction.mindatar} le -0.1">
+							<set_value name="$RelationPrereq" exact="true"/>
+							<set_value name="$Enemy" exact="true"/>
+							<signal_cue cue="PeriodicCheck"/>
+						</do_elseif>
 					</actions>
 				</cue>
 				<cue name="InitialCheck">
@@ -104,7 +112,17 @@
 								<page exact="4816302"/>
 								<owner exact="faction.civilian"/>
 							</create_cue_actor>
-							<speak actor="$BosoTaDA" priority="80" line="9000" comment="I have important news! It looks like the Minmatar are trying to activate a gate. I have added new research."/>
+							<do_if value="not $Enemy?">
+								<speak actor="$BosoTaDA" priority="80" line="9000" comment="I have important news! It looks like the Minmatar are trying to activate a gate. I have added new research."/>
+								<cancel_cue cue="FinishedSpeakingEnemy"/>
+							</do_if>
+							<do_elseif value="$Enemy">
+								<speak actor="$BosoTaDA" priority="80" line="9004" comment="I have important news! We can activate new gates into Minmatar space. Let us show them the power of science! I have added new research."/>
+								<cancel_cue cue="FinishedSpeaking"/>
+							</do_elseif>
+							<do_else>
+								<debug_text text="'MOD: DeadAirFactionMindatar -- $Enemy? and $Enemy != true. %1'.[$Enemy]" context="false" filter="error"/>
+							</do_else>
 						</do_if>
 						<do_else>
 							<reset_cue cue="this"/>
@@ -114,6 +132,14 @@
 						<cue name="FinishedSpeaking">
 							<conditions>
 								<event_speak_finished actor="$BosoTaDA" line="9000"/>
+							</conditions>
+							<actions>
+								<remove_cue_actor actor="$BosoTaDA" cue="namespace"/>
+							</actions>
+						</cue>
+						<cue name="FinishedSpeakingEnemy">
+							<conditions>
+								<event_speak_finished actor="$BosoTaDA" line="9004"/>
 							</conditions>
 							<actions>
 								<remove_cue_actor actor="$BosoTaDA" cue="namespace"/>
@@ -171,6 +197,92 @@
 							</actions>
 						</cue>
 					</cues>
+				</cue>
+				<cue name="ResearchCompletedCleanupEverything" instantiate="true">
+					<conditions>
+						<event_universe_generated/>
+						<check_value value="ware.mindatar_gate_activation.research.unlocked"/>
+					</conditions>
+					<actions>
+						<set_value name="$DbgStrg" exact="'Cancelling: '"/>
+						<do_if value="ResearchCompleted? and @ResearchCompleted.state != null and not (@ResearchCompleted.state == cuestate.complete or @ResearchCompleted.state == cuestate.cancelled)">
+							<cancel_cue cue="ResearchCompleted"/>
+							<set_value name="$DbgStrg" exact="' ResearchCompleted '" operation="add"/>
+						</do_if>
+						<do_if value="ResearchCompleted.static? and @ResearchCompleted.static.state != null and not (@ResearchCompleted.static.state == cuestate.complete or @ResearchCompleted.static.state == cuestate.cancelled)">
+							<cancel_cue cue="ResearchCompleted.static"/>
+							<set_value name="$DbgStrg" exact="' ResearchCompleted.static '" operation="add"/>
+						</do_if>
+						<do_if value="ResearchCompleted.staticbase? and @ResearchCompleted.staticbase.state != null and not (@ResearchCompleted.staticbase.state == cuestate.complete or @ResearchCompleted.staticbase.state == cuestate.cancelled)">
+							<cancel_cue cue="ResearchCompleted.staticbase"/>
+							<set_value name="$DbgStrg" exact="' ResearchCompleted.staticbase '" operation="add"/>
+						</do_if>
+						<do_if value="ReputationGained? and @ReputationGained.state != null and not (@ReputationGained.state == cuestate.complete or @ReputationGained.state == cuestate.cancelled)">
+							<cancel_cue cue="ReputationGained"/>
+							<set_value name="$DbgStrg" exact="' ReputationGained '" operation="add"/>
+						</do_if>
+						<do_if value="ReputationGained.static? and @ReputationGained.static.state != null and not (@ReputationGained.static.state == cuestate.complete or @ReputationGained.static.state == cuestate.cancelled)">
+							<cancel_cue cue="ReputationGained.static"/>
+							<set_value name="$DbgStrg" exact="' ReputationGained.static '" operation="add"/>
+						</do_if>
+						<do_if value="ReputationGained.staticbase? and @ReputationGained.staticbase.state != null and not (@ReputationGained.staticbase.state == cuestate.complete or @ReputationGained.staticbase.state == cuestate.cancelled)">
+							<cancel_cue cue="ReputationGained.staticbase"/>
+							<set_value name="$DbgStrg" exact="' ReputationGained.staticbase '" operation="add"/>
+						</do_if>
+						<do_if value="PeriodicCheck? and @PeriodicCheck.state != null and not (@PeriodicCheck.state == cuestate.complete or @PeriodicCheck.state == cuestate.cancelled)">
+							<cancel_cue cue="PeriodicCheck"/>
+							<set_value name="$DbgStrg" exact="' PeriodicCheck '" operation="add"/>
+						</do_if>
+						<do_if value="PeriodicCheck.static? and @PeriodicCheck.static.state != null and not (@PeriodicCheck.static.state == cuestate.complete or @PeriodicCheck.static.state == cuestate.cancelled)">
+							<cancel_cue cue="PeriodicCheck.static"/>
+							<set_value name="$DbgStrg" exact="' PeriodicCheck.static '" operation="add"/>
+						</do_if>
+						<do_if value="PeriodicCheck.staticbase? and @PeriodicCheck.staticbase.state != null and not (@PeriodicCheck.staticbase.state == cuestate.complete or @PeriodicCheck.staticbase.state == cuestate.cancelled)">
+							<cancel_cue cue="PeriodicCheck.staticbase"/>
+							<set_value name="$DbgStrg" exact="' PeriodicCheck.staticbase '" operation="add"/>
+						</do_if>
+						<do_if value="Add_Research? and @Add_Research.state != null and not (@Add_Research.state == cuestate.complete or @Add_Research.state == cuestate.cancelled)">
+							<cancel_cue cue="Add_Research"/>
+							<set_value name="$DbgStrg" exact="' Add_Research '" operation="add"/>
+						</do_if>
+						<do_if value="Add_Research.static? and @Add_Research.static.state != null and not (@Add_Research.static.state == cuestate.complete or @Add_Research.static.state == cuestate.cancelled)">
+							<cancel_cue cue="Add_Research.static"/>
+							<set_value name="$DbgStrg" exact="' Add_Research.static '" operation="add"/>
+						</do_if>
+						<do_if value="Add_Research.staticbase? and @Add_Research.staticbase.state != null and not (@Add_Research.staticbase.state == cuestate.complete or @Add_Research.staticbase.state == cuestate.cancelled)">
+							<cancel_cue cue="Add_Research.staticbase"/>
+							<set_value name="$DbgStrg" exact="' Add_Research.staticbase '" operation="add"/>
+						</do_if>
+						<do_if value="FinishedSpeaking? and @FinishedSpeaking.state != null and not (@FinishedSpeaking.state == cuestate.complete or @FinishedSpeaking.state == cuestate.cancelled)">
+							<cancel_cue cue="FinishedSpeaking"/>
+							<set_value name="$DbgStrg" exact="' FinishedSpeaking '" operation="add"/>
+						</do_if>
+						<do_if value="FinishedSpeaking.static? and @FinishedSpeaking.static.state != null and not (@FinishedSpeaking.static.state == cuestate.complete or @FinishedSpeaking.static.state == cuestate.cancelled)">
+							<cancel_cue cue="FinishedSpeaking.static"/>
+							<set_value name="$DbgStrg" exact="' FinishedSpeaking.static '" operation="add"/>
+						</do_if>
+						<do_if value="FinishedSpeaking.staticbase? and @FinishedSpeaking.staticbase.state != null and not (@FinishedSpeaking.staticbase.state == cuestate.complete or @FinishedSpeaking.staticbase.state == cuestate.cancelled)">
+							<cancel_cue cue="FinishedSpeaking.staticbase"/>
+							<set_value name="$DbgStrg" exact="' FinishedSpeaking.staticbase '" operation="add"/>
+						</do_if>
+						<do_if value="FinishedSpeakingEnemy? and @FinishedSpeakingEnemy.state != null and not (@FinishedSpeakingEnemy.state == cuestate.complete or @FinishedSpeakingEnemy.state == cuestate.cancelled)">
+							<cancel_cue cue="FinishedSpeakingEnemy"/>
+							<set_value name="$DbgStrg" exact="' FinishedSpeakingEnemy '" operation="add"/>
+						</do_if>
+						<do_if value="FinishedSpeakingEnemy.static? and @FinishedSpeakingEnemy.static.state != null and not (@FinishedSpeakingEnemy.static.state == cuestate.complete or @FinishedSpeakingEnemy.static.state == cuestate.cancelled)">
+							<cancel_cue cue="FinishedSpeakingEnemy.static"/>
+							<set_value name="$DbgStrg" exact="' FinishedSpeakingEnemy.static '" operation="add"/>
+						</do_if>
+						<do_if value="FinishedSpeakingEnemy.staticbase? and @FinishedSpeakingEnemy.staticbase.state != null and not (@FinishedSpeakingEnemy.staticbase.state == cuestate.complete or @FinishedSpeakingEnemy.staticbase.state == cuestate.cancelled)">
+							<cancel_cue cue="FinishedSpeakingEnemy.staticbase"/>
+							<set_value name="$DbgStrg" exact="' FinishedSpeakingEnemy.staticbase '" operation="add"/>
+						</do_if>
+						<debug_text text="'MOD: DeadAirFactionMindatar -- Cleaning up Gate Research\n %1'.[$DbgStrg]" context="false" filter="error"/>
+						<do_if value="ware.mindatar_gate_activation.research.unlocked">
+							<cancel_cue cue="this"/>
+							<cancel_cue cue="this.staticbase"/>
+						</do_if>
+					</actions>
 				</cue>
 				<!--<cue name="Debug">
 					<conditions>

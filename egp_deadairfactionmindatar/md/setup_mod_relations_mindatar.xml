@@ -10,7 +10,7 @@
 					<conditions>
 						<check_all>
 						  <check_any>
-							<event_cue_signalled cue="md.Setup.GameStart"/>
+							<event_universe_generated/>
 							<event_game_loaded/>
 						  </check_any>
 						  <check_value value="$HasRun == false" />

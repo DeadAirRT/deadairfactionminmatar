@@ -5,7 +5,7 @@
 		<properties>
 			<identification name="{4816302,202}" basename="{20105,1081}" shortname="{4816302,203}" description="{4816302,301}"/>
 			<bullet class="bullet_weapon_dmi_l_nuclear_macro"/>
-			<heat overheat="10000" cooldelay="1.13" coolrate="1850" reenable="0"/>
+			<heat overheat="10000" cooldelay="1.13" coolrate="600" reenable="0"/>
 			<rotationspeed max="3"/>
 			<rotationacceleration max="6"/>
 			<reload/>

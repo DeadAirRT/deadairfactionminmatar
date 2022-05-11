@@ -5,7 +5,7 @@
 		<properties>
 			<bullet speed="6000" lifetime="3" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.02" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
 			<reload rate="0.075"/>
-			<damage value="16666.6" shield="-3333.3" repair="0"/>
+			<damage value="14166.67" shield="-2833.33" repair="0"/>
 			<effects>
 				<impact ref="explosion_flak"/>
 				<launch ref="muzzle_turret_gen_m_flak_01_mk1"/>

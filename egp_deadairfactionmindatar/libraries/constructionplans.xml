@@ -373,88 +373,88 @@
 					<rotation yaw="90.91927"/>
 				</offset>
 			</entry>
-			<entry index="6" macro="struct_arg_base_02_macro" connection="connectionsnap002">
-				<predecessor index="4" connection="connectionsnap003"/>
-				<offset>
-					<position x="1921.965" z="326.279"/>
-					<rotation yaw="90.91927"/>
-				</offset>
-			</entry>
-			<entry index="7" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+			<entry index="6" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
 				<predecessor index="4" connection="connectionsnap001"/>
 				<offset>
 					<position x="1315.625" z="-64.043"/>
 					<rotation yaw="0.919297"/>
 				</offset>
 			</entry>
-			<entry index="8" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+			<entry index="7" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
 				<predecessor index="4" connection="connectionsnap002"/>
 				<offset>
 					<position x="1328.46" z="735.854"/>
 					<rotation yaw="0.91928"/>
 				</offset>
 			</entry>
-			<entry index="9" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
-				<predecessor index="6" connection="connectionsnap001"/>
-				<offset>
-					<position x="2521.888" z="316.653"/>
-					<rotation yaw="90.91927"/>
-				</offset>
-			</entry>
-			<entry index="10" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap002">
-				<predecessor index="9" connection="connectionsnap002"/>
-				<offset>
-					<position x="2921.836" z="310.235"/>
-					<rotation yaw="90.91924"/>
-				</offset>
-			</entry>
-			<entry index="11" macro="pier_arg_harbor_02_macro" connection="connectionsnap004">
+			<entry index="8" macro="pier_arg_harbor_02_macro" connection="connectionsnap004">
 				<predecessor index="2" connection="connectionsnap004"/>
 				<offset>
 					<position x="-1277.623" z="377.619"/>
 					<rotation yaw="0.919248"/>
 				</offset>
 			</entry>
-			<entry index="12" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+			<entry index="9" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
 				<predecessor index="3" connection="connectionsnap003"/>
 				<offset>
 					<position x="502.892" z="-851.106"/>
 					<rotation yaw="90.91927"/>
 				</offset>
 			</entry>
-			<entry index="13" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+			<entry index="10" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
 				<predecessor index="3" connection="connectionsnap004"/>
 				<offset>
 					<position x="-297.005" z="-838.271"/>
 					<rotation yaw="-89.08072"/>
 				</offset>
 			</entry>
-			<entry index="14" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+			<entry index="11" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
 				<predecessor index="5" connection="connectionsnap002"/>
 				<offset>
 					<position x="541.397" z="1548.586"/>
 					<rotation yaw="90.91924"/>
 				</offset>
 			</entry>
-			<entry index="15" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+			<entry index="12" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
 				<predecessor index="5" connection="connectionsnap001"/>
 				<offset>
 					<position x="-258.5" z="1561.421"/>
 					<rotation yaw="90.91927"/>
 				</offset>
 			</entry>
-			<entry index="16" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+			<entry index="13" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
 				<predecessor index="2" connection="connectionsnap002"/>
 				<offset>
 					<position x="-1071.232" z="774.359"/>
 					<rotation yaw="0.919253"/>
 				</offset>
 			</entry>
-			<entry index="17" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
+			<entry index="14" macro="defence_arg_tube_01_macro" connection="connectionsnap002">
 				<predecessor index="2" connection="connectionsnap001"/>
 				<offset>
 					<position x="-1084.067" z="-25.538"/>
 					<rotation yaw="0.91927"/>
+				</offset>
+			</entry>
+			<entry index="15" macro="storage_arg_s_container_01_macro" connection="connectionsnap001">
+				<predecessor index="4" connection="connectionsnap003"/>
+				<offset>
+					<position x="1921.965" z="326.279"/>
+					<rotation yaw="-89.0807"/>
+				</offset>
+			</entry>
+			<entry index="16" macro="defence_arg_tube_01_macro" connection="connectionsnap001">
+				<predecessor index="15" connection="connectionsnap002"/>
+				<offset>
+					<position x="2521.888" z="316.652"/>
+					<rotation yaw="90.9193"/>
+				</offset>
+			</entry>
+			<entry index="17" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap002">
+				<predecessor index="16" connection="connectionsnap002"/>
+				<offset>
+					<position x="2921.836" z="310.234"/>
+					<rotation yaw="90.91927"/>
 				</offset>
 			</entry>
 		</plan>

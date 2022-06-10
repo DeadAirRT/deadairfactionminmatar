@@ -1,133 +1,157 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-<!-- 
+	<!-- 
 CAPITAL: <area sunlight="1" economy="1" security="1" />
 ADVANCED: <area sunlight="1" economy="1.0" security="0.9" />
 INTERIOR: <area sunlight="1" economy="1.0" security="0.8" />
 BORDER: <area sunlight="1" economy="1.0" security="0.9" />
 NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 -->
-  <add sel="/defaults">
-    <dataset macro="Cluster_DMI1_macro">
-      <properties>
-        <identification name="{4816302,120}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.1" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI1_Sector001_macro">
-      <properties>
-        <identification name="{4816302,120}" description="{20006,102}"/>
-        <area sunlight="1.1" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI2_macro">
-      <properties>
-        <identification name="{4816302,121}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="0.8" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI2_Sector001_macro">
-      <properties>
-        <identification name="{4816302,121}" description="{20006,102}"/>
-        <area sunlight="0.8" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI3_macro">
-      <properties>
-        <identification name="{4816302,122}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.3" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI3_Sector001_macro">
-      <properties>
-        <identification name="{4816302,122}" description="{20006,102}"/>
-        <area sunlight="1.3" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI4_macro">
-      <properties>
-        <identification name="{4816302,123}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1" economy="1" security="1"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI4_Sector001_macro">
-      <properties>
-        <identification name="{4816302,123}" description="{20006,102}"/>
-        <area sunlight="1" economy="1" security="1"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI5_macro">
-      <properties>
-        <identification name="{4816302,124}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI5_Sector001_macro">
-      <properties>
-        <identification name="{4816302,124}" description="{20006,102}"/>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI6_macro">
-      <properties>
-        <identification name="{4816302,125}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI6_Sector001_macro">
-      <properties>
-        <identification name="{4816302,125}" description="{20006,102}"/>
-        <area sunlight="1.6" economy="1.0" security="0.9"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI7_macro">
-      <properties>
-        <identification name="{4816302,126}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.2" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-    <dataset macro="Cluster_DMI7_Sector001_macro">
-      <properties>
-        <identification name="{4816302,126}" description="{20006,102}"/>
-        <area sunlight="1.2" economy="1.0" security="0.8"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI8_macro">
-      <properties>
-        <identification name="{4816302,130}" description="{20006,102}"/>
-        <sounds>
-          <music ref="music_soundtrack_periphery"/>
-        </sounds>
-        <area sunlight="1.6" economy="0.25" security="0.25" factionlogic="false"/>
-      </properties>
-    </dataset>
-	<dataset macro="Cluster_DMI8_Sector001_macro">
-      <properties>
-        <identification name="{4816302,130}" description="{20006,102}"/>
-        <area sunlight="1.6" economy="0.25" security="0.25" />
-      </properties>
-    </dataset>
-  </add>
-  <replace sel="//dataset[@macro='Cluster_44_macro']/properties/area/@factionlogic">true</replace>
+	<add sel="/defaults">
+		<dataset macro="Cluster_DMI1_macro">
+			<properties>
+				<identification name="{4816302,120}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.1" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI1_Sector001_macro">
+			<properties>
+				<identification name="{4816302,120}" description="{20006,102}"/>
+				<area sunlight="1.1" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI2_macro">
+			<properties>
+				<identification name="{4816302,121}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="0.8" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI2_Sector001_macro">
+			<properties>
+				<identification name="{4816302,121}" description="{20006,102}"/>
+				<area sunlight="0.8" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI3_macro">
+			<properties>
+				<identification name="{4816302,122}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.3" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI3_Sector001_macro">
+			<properties>
+				<identification name="{4816302,122}" description="{20006,102}"/>
+				<area sunlight="1.3" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI4_macro">
+			<properties>
+				<identification name="{4816302,123}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1" economy="1" security="1"/>
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13081}(Red Giant)"/>
+					</suns>
+					<planets>
+						<planet name="{4816302,123}" class="{1042,14101}(Earth Analog)" geology="{1042,15021}(Mountains)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="7160250000" settlements="{1042,16041}(Multiple Cities)" part="planet001c"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI4_Sector001_macro">
+			<properties>
+				<identification name="{4816302,123}" description="{20006,102}"/>
+				<area sunlight="1" economy="1" security="1"/>
+				<worlds>
+					<world part="planet001c"/>
+				</worlds>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI5_macro">
+			<properties>
+				<identification name="{4816302,124}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI5_Sector001_macro">
+			<properties>
+				<identification name="{4816302,124}" description="{20006,102}"/>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI6_macro">
+			<properties>
+				<identification name="{4816302,125}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI6_Sector001_macro">
+			<properties>
+				<identification name="{4816302,125}" description="{20006,102}"/>
+				<area sunlight="1.6" economy="1.0" security="0.9"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI7_macro">
+			<properties>
+				<identification name="{4816302,126}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.2" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI7_Sector001_macro">
+			<properties>
+				<identification name="{4816302,126}" description="{20006,102}"/>
+				<area sunlight="1.2" economy="1.0" security="0.8"/>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI8_macro">
+			<properties>
+				<identification name="{4816302,130}" description="{20006,102}"/>
+				<sounds>
+					<music ref="music_soundtrack_periphery"/>
+				</sounds>
+				<area sunlight="1.6" economy="0.25" security="0.25" factionlogic="false"/>
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13121}(Blue Giant)"/>
+					</suns>
+					<planets>
+						<planet name="{4816302,130}" class="{1042,14101}(Earth Analog)" geology="{1042,15141}(Ocean)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="9092350000" settlements="{1042,16041}(Multiple Cities)" part="planet"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Cluster_DMI8_Sector001_macro">
+			<properties>
+				<identification name="{4816302,130}" description="{20006,102}"/>
+				<area sunlight="1.6" economy="0.25" security="0.25"/>
+				<worlds>
+					<world part="planet"/>
+				</worlds>
+			</properties>
+		</dataset>
+	</add>
+	<replace sel="//dataset[@macro='Cluster_44_macro']/properties/area/@factionlogic">true</replace>
 </diff>

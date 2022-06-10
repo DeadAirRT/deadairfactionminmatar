@@ -3,9 +3,9 @@
 	<macro name="bullet_dmi_turret_l_1400mm_nuclear_macro" class="bullet">
 		<component ref="bullet_dmi_turret_l_1400mm"/>
 		<properties>
-			<bullet speed="6000" lifetime="5" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.02" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+			<bullet speed="6000" lifetime="5" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.05" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
 			<reload rate="0.075"/>
-			<damage value="13458.33" shield="-5666.67" repair="0"/>
+			<damage value="7791.67" noshield="5666.67" repair="0"/>
 			<effects>
 				<impact ref="explosion_flak"/>
 				<launch ref="muzzle_turret_gen_m_flak_01_mk1"/>

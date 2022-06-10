@@ -624,7 +624,7 @@
 		</orders>
 		<basket basket="all_container"/>
 		<category faction="mindatar" tags="[stationtrader]" size="ship_m"/>
-		<quota galaxy="0" maxgalaxy="20"/>
+		<quota galaxy="0" maxgalaxy="24"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
@@ -644,7 +644,7 @@
 		</orders>
 		<basket basket="all_container"/>
 		<category faction="mindatar" tags="[stationtrader]" size="ship_l"/>
-		<quota galaxy="0" maxgalaxy="6"/>
+		<quota galaxy="0" maxgalaxy="12"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
@@ -849,7 +849,7 @@
 			</order>
 		</orders>
 		<category faction="mindatar" tags="[factionlogic, military, destroyer]" size="ship_l"/>
-		<quota galaxy="50" maxgalaxy="50" cluster="2" sector="2"/>
+		<quota galaxy="50" maxgalaxy="60" cluster="2" sector="2"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true"/>
 		<ship>
@@ -1384,5 +1384,30 @@
 		<masstraffic ref="masstraffic_argon_civilian" respawndelay="60" relaunchdelay="30">
 			<owner exact="faction.criminal" overridenpc="true"/>
 		</masstraffic>
+	</job>
+	<!-- Expeditions -->
+	<job id="mindatar_expedition_DA" name="{20204,6301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[expedition, military, carrier]" size="ship_xl"/>
+		<quota galaxy="2" maxgalaxy="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l"/>
+			<subordinate job="mindatar_fighter_escort_s_carrier"/>
+			<subordinate job="mindatar_frigate_escort_m"/>
+		</subordinates>
 	</job>
 </jobs>

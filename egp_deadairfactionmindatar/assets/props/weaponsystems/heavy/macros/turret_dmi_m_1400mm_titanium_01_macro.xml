@@ -3,7 +3,7 @@
 	<macro name="turret_dmi_m_1400mm_titanium_01_macro" class="turret" alias="turret_dmi_m_1400mm_titanium_02_macro">
 		<component ref="turret_dmi_m_1400mm_01"/>
 		<properties>
-			<identification name="{4816302,208}" basename="{4816302,291}" shortname="{4816302,205}" description="{4816302,302}" />
+			<identification name="{4816302,208}" basename="{4816302,291}" shortname="{4816302,272}" description="{4816302,302}"/>
 			<bullet class="bullet_dmi_turret_m_1400mm_titanium_macro"/>
 			<rotationspeed max="16.7"/>
 			<rotationacceleration max="33.4"/>

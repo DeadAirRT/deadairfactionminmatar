@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="turret_dmi_m_autocannon_fusion_01_macro" class="turret" alias="turret_dmi_m_autocannon_fusion_02_macro">
+		<component ref="turret_dmi_m_autocannon_01"/>
+		<properties>
+			<identification name="{4816302,216}" basename="{4816302,289}" shortname="{4816302,273}" description="{4816302,300}"/>
+			<bullet class="bullet_turret_dmi_m_autocannon_fusion_macro"/>
+			<rotationspeed max="16.7"/>
+			<rotationacceleration max="33.4"/>
+			<reload/>
+			<hull threshold="0.2" integrated="1"/>
+		</properties>
+	</macro>
+</macros>

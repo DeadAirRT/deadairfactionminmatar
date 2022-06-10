@@ -6,17 +6,16 @@
 			<layer>
 				<waypoints/>
 				<lights>
-					<omni name="XU Omni01" shadow="0" r="255" g="230" b="102" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_19" trigger="1" intensity="0.75">
+					<omni name="XU Omni01" shadow="0" r="240" g="255" b="232" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_10" trigger="1" intensity="1">
 						<lightanimations/>
 						<offset>
-							<position x="2.308752E+08" y="-392078.1" z="3.605734E+08"/>
-							<quaternion qx="-0.2666918" qy="-1.221581E-02" qz="4.409611E-02" qw="-0.9626951"/>
+							<position x="0" y="419535765" z="0"/>
 						</offset>
 					</omni>
-					<ambient name="XU Ambient001" r="25" g="50" b="54" range="1E+11" intensity="0.75">
+					<ambient name="XU Ambient001" r="255" g="255" b="255" range="1E+11" intensity="0.3">
 						<lightanimations/>
 						<offset>
-							<position x="-5.036438E+07" y="0" z="-7.443225E+07"/>
+							<position x="0" y="-156395500" z="0"/>
 						</offset>
 					</ambient>
 				</lights>
@@ -107,6 +106,48 @@
 						<size>
 							<max x="4.026254E+08" y="3.786335E+08" z="3.792106E+08"/>
 							<center x="2885547" y="-7245860" z="-3.287895E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionP1" tags="part  ">
+				<offset>
+					<position x="0" y="-78197750" z="0"/>
+					<quaternion qx="-0.866" qy="0" qz="0" qw="0.5"/>
+				</offset>
+				<parts>
+					<part name="planet">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.planet1_cluster_35"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7.119775E+07" y="7.121178E+07" z="7.120482E+07"/>
+							<center x="-51.51367" y="31.25" z="4.31633"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="ConnectionP2" tags="part  ">
+				<offset>
+					<position x="0" y="-78197750" z="0"/>
+					<quaternion qx="-0.866" qy="0" qz="0" qw="0.5"/>
+				</offset>
+				<parts>
+					<part name="atmosphere">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.atmo_cluster_35_planet1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="7.174682E+07" y="7.176094E+07" z="7.175392E+07"/>
+							<center x="-51.51367" y="0" z="-23.02742"/>
 						</size>
 					</part>
 				</parts>

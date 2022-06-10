@@ -6,7 +6,7 @@
 			<bullet speed="6000" lifetime="1.8" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.02" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
 			<heat value="1755"/>
 			<reload rate="1.5"/>
-			<damage value="328.05" shield="-138.13" repair="0"/>
+			<damage value="189.92" noshield="138.13" repair="0"/>
 			<effects>
 				<impact ref="explosion_flak"/>
 				<launch ref="muzzle_gen_s_flak_01_mk1"/>

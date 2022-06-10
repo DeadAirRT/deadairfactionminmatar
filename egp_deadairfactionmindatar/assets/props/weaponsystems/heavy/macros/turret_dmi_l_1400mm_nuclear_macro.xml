@@ -3,10 +3,10 @@
 	<macro name="turret_dmi_l_1400mm_nuclear_macro" class="turret">
 		<component ref="turret_dmi_l_1400mm"/>
 		<properties>
-			<identification name="{4816302,202}" basename="{4816302,290}" shortname="{4816302,203}" description="{4816302,301}" />
+			<identification name="{4816302,202}" basename="{4816302,290}" shortname="{4816302,265}" description="{4816302,301}"/>
 			<bullet class="bullet_dmi_turret_l_1400mm_nuclear_macro"/>
 			<rotationspeed max="5"/>
-			<rotationacceleration max="5"/>
+			<rotationacceleration max="10"/>
 			<reload/>
 			<hull max="30000" threshold="0.2"/>
 		</properties>

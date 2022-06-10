@@ -3,7 +3,7 @@
 	<macro name="weapon_dmi_l_titanium_macro" class="weapon">
 		<component ref="weapon_dmi_l"/>
 		<properties>
-			<identification name="{4816302,204}" basename="{20105,1081}" shortname="{4816302,205}" description="{4816302,302}"/>
+			<identification name="{4816302,204}" basename="{20105,1081}" shortname="{4816302,266}" description="{4816302,302}"/>
 			<bullet class="bullet_weapon_dmi_l_titanium_macro"/>
 			<heat overheat="10000" cooldelay="1.13" coolrate="600" reenable="0"/>
 			<rotationspeed max="3"/>

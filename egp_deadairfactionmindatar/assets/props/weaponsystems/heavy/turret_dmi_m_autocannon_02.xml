@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<components>
+	<component name="turret_dmi_m_autocannon_02" class="turret">
+		<source geometry="extensions\ego_dlc_split\assets\props\WeaponSystems\standard\turret_spl_m_laser_02_mk1_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="Connection01" tags="part  ">
+				<offset/>
+				<parts>
+					<part ref="turret_spl_m_base_01.part_socket" name="part_socket"/>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part animation iklink  " parent="part_socket">
+				<animations/>
+				<parts>
+					<part ref="turret_spl_m_base_01.anim_lights" name="anim_lights"/>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part  ">
+				<offset/>
+				<parts>
+					<part ref="turret_spl_m_base_01.detail_m_decals" name="detail_m_decals01"/>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part animation nocollision forceoutline ">
+				<offset>
+					<position x="0" y="2.803713" z="-7.008049E-08"/>
+				</offset>
+				<restrictions>
+					<restriction type="rotation_y"/>
+				</restrictions>
+				<animations>
+					<animation name="turret_inactive" start="0" end="0"/>
+					<animation name="turret_activating" start="0" end="45"/>
+					<animation name="turret_active" start="50" end="50"/>
+					<animation name="turret_deactivating" start="55" end="100"/>
+					<animation name="gun_firing" start="50" end="55"/>
+				</animations>
+				<parts>
+					<part name="part_rotator">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.008207" y="3.599464" z="2.551521"/>
+							<center x="0" y="0.8114839" z="0.3776963"/>
+						</size>
+						<size_raw>
+							<max x="1.008207" y="2.118419" z="2.551521"/>
+							<center x="0" y="-0.6695614" z="0.3776963"/>
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection05" tags="part iklink nocollision forceoutline  " parent="part_rotator">
+				<restrictions>
+					<restriction type="rotation_x">
+						<limits>
+							<min value="-10"/>
+							<max value="90"/>
+						</limits>
+					</restriction>
+				</restrictions>
+				<offset>
+					<position x="0" y="0.2833061" z="-1.238369E-08"/>
+				</offset>
+				<parts>
+					<part name="part_gun">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="p1.multimat"/>
+									<material id="3" ref="p1paint.paint_p1_decal_01_spl"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="p1.multimat"/>
+									<material id="3" ref="p1paint.paint_p1_decal_01_spl"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="p1.multimat"/>
+									<material id="3" ref="p1paint.paint_p1_decal_01_spl"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.347685" y="3.548826" z="3.601082"/>
+							<center x="0" y="0.6539707" z="-0.2812299"/>
+						</size>
+						<size_raw>
+							<max x="4.347685" y="2.894855" z="3.882312"/>
+							<center x="0" y="-0.8270745" z="-0.28123"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part iklink nocollision forceoutline  " parent="part_gun">
+				<offset>
+					<position x="0" y="-1.025152" z="-0.3393459"/>
+				</offset>
+				<parts>
+					<part name="part_barrel">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="p1.multimat"/>
+									<material id="3" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="p1.multimat"/>
+									<material id="3" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+									<material id="2" ref="p1.multimat"/>
+									<material id="3" ref="p1paint.paint_p1_decal_01"/>
+								</materials>
+							</lod>
+							<lod index="3">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hulltexture"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="2.949679" y="2.37272" z="4.197196"/>
+							<center x="0" y="1.825941" z="3.265363"/>
+						</size>
+						<size_raw>
+							<max x="2.949679" y="0.5467785" z="0.9318336"/>
+							<center x="0" y="0.3448958" z="1.505879"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="con_laser_02" tags="laser " parent="part_barrel">
+				<offset>
+					<position x="-2.279301" y="0.3119164" z="4.094663"/>
+				</offset>
+			</connection>
+			<connection name="con_laser_01" tags="laser  " parent="part_barrel">
+				<offset>
+					<position x="2.22173" y="0.3119164" z="4.094663"/>
+				</offset>
+			</connection>
+			<connection name="con_laser_turret_01" tags="turret medium standard hittable component">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

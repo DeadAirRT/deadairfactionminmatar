@@ -17,9 +17,13 @@
 		<entry name="weapon_dmi_xl" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\capital\weapon_dmi_xl"/>
 		<entry name="weapon_dmi_m" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\weapon_dmi_m"/>
 		<entry name="weapon_dmi_s" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\weapon_dmi_s"/>
+		<entry name="turret_dmi_l_autocannon" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\turret_dmi_l_autocannon"/>
+		<entry name="turret_dmi_m_autocannon_01" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\turret_dmi_m_autocannon_01"/>
+		<entry name="turret_dmi_m_autocannon_02" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\turret_dmi_m_autocannon_02"/>
 		<!-- T3BC -->
-		<entry name="turret_dmi_t3bc_1400mm" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\turret_dmi_t3bc_1400mm"/>
 		<entry name="engine_dmi_t3bc" value="extensions\egp_deadairfactionmindatar\assets\props\engines\engine_dmi_t3bc"/>
+		<entry name="turret_dmi_t3bc_1400mm" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\turret_dmi_t3bc_1400mm"/>
+		<entry name="turret_dmi_t3bc_autocannon" value="extensions\egp_deadairfactionmindatar\assets\props\weaponsystems\heavy\turret_dmi_t3bc_autocannon"/>
 		<!-- Bullets -->
 		<entry name="bullet_dmi_turret_l_1400mm" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\bullet_dmi_turret_l_1400mm"/>
 		<entry name="bullet_dmi_turret_m_1400mm" value="extensions\egp_deadairfactionmindatar\assets\fx\weaponfx\bullet_dmi_turret_m_1400mm"/>

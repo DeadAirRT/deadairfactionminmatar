@@ -3,11 +3,11 @@
 	<macro name="weapon_dmi_xl_macro" class="weapon">
 		<component ref="weapon_dmi_xl"/>
 		<properties>
-			<identification name="{4816302,212}" description="{4816302,303}"/>
+			<identification name="{4816302,212}" shortname="{4816302,279}" description="{4816302,303}"/>
 			<bullet class="bullet_atf_xl_beam_01_mk1_macro"/>
 			<heat overheat="10000" cooldelay="0.13" coolrate="133" reenable="2000"/>
-			<rotationspeed max="0"/>
-			<rotationacceleration max="0"/>
+			<rotationspeed max="1"/>
+			<rotationacceleration max="2"/>
 			<reload/>
 			<hull threshold="0.2" integrated="1" hittable="0"/>
 			<effects>

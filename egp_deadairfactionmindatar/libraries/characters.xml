@@ -237,14 +237,14 @@
     <stock ref="'default_shadyguy'" />
   </character>
   <!-- TODO FACTION REP -->
-  <character id="factionrepresentative_mindatar" group="argon.factionrepresentative.female">
+  <character id="factionrepresentative_mindatar" group="mindatar.factionrepresentative">
     <category tags="[factionrepresentative]" faction="mindatar" race="argon"/>
     <skills>
-      <skill type="management" min="14" max="15"/>
-      <skill type="morale" min="14" max="15"/>
-      <skill type="boarding" min="10" max="15"/>
-      <skill type="engineering" min="12" max="15"/>
-      <skill type="piloting" min="14" max="15"/>
+      <skill type="management" exact="15"/>
+      <skill type="morale" exact="15"/>
+      <skill type="boarding" exact="12"/>
+      <skill type="engineering" exact="12"/>
+      <skill type="piloting" exact="15"/>
     </skills>
     <page exact="10106"/>
     <owner exact="mindatar"/>

@@ -395,15 +395,6 @@
 	<add sel="/wares/ware[@id='weapon_gen_s_mining_01_mk2']">
 		<owner faction="mindatar"/>
 	</add>
-	<add sel="/wares/ware[@id='turret_spl_l_guided_01_mk1']">
-		<owner faction="mindatar"/>
-	</add>
-	<add sel="/wares/ware[@id='turret_spl_m_guided_01_mk1']">
-		<owner faction="mindatar"/>
-	</add>
-	<add sel="/wares/ware[@id='turret_spl_m_guided_02_mk1']">
-		<owner faction="mindatar"/>
-	</add>
 	<!--
   <add sel="/wares/ware[@id='xxx']">
     <owner faction="mindatar" />

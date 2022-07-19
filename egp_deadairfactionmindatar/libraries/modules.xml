@@ -54,7 +54,7 @@
 			<category ware="engineparts" tags="[production, module]" faction="[mindatar]"/>
 			<compatibilities>
 				<production ware="engineparts" chance="100"/>
-				<limits production="12"/>
+				<limits production="15"/>
 			</compatibilities>
 		</module>
 		<module id="prod_dmi_fieldcoils" group="prod_gen_fieldcoils">

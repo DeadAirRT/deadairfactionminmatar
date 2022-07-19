@@ -205,10 +205,10 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="600" minnoisevalue="0.5" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="600" minnoisevalue="0.75" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>
@@ -265,7 +265,7 @@
 			<fields>
 				<asteroid groupref="asteroid_ice_xl" densityfactor="1" rotation="0" rotationvariation="0" noisescale="1200" minnoisevalue="0.75" maxnoisevalue="1.0"/>
 				<asteroid groupref="asteroid_ice_l" densityfactor="3" rotation="0" rotationvariation="0" noisescale="1100" minnoisevalue="0.35" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="1" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>
@@ -415,7 +415,7 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_ore_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
 				<asteroid groupref="asteroid_silicon_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1200" minnoisevalue="0.75" maxnoisevalue="1.0"/>
 				<asteroid groupref="asteroid_nividium_l" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.9" maxnoisevalue="1.0"/>
 				<asteroid groupref="asteroid_highyield_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="1600" minnoisevalue="0.8" maxnoisevalue="1.0"/>
@@ -535,8 +535,8 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_ice_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="600" minnoisevalue="0.5" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="600" minnoisevalue="0.75" maxnoisevalue="1.0"/>
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>
@@ -589,8 +589,8 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="3" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="3" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
 				<resource ware="nividium" yield="high"/>
@@ -616,8 +616,8 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_ore_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ore_xl" densityfactor="1" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_xl" densityfactor="1" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
 				<resource ware="ore" yield="high"/>
@@ -643,8 +643,8 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="4" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
 				<resource ware="silicon" yield="high"/>
@@ -670,8 +670,8 @@
 				</radial>
 			</falloff>
 			<fields>
-				<asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.25" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="1" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25" rotation="0" rotationvariation="0" noisescale="800" minnoisevalue="0.5" maxnoisevalue="1.0"/>
 			</fields>
 			<resources>
 				<resource ware="ice" yield="high"/>
@@ -786,9 +786,9 @@
 				<asteroid groupref="asteroid_silicon_xl" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1600" minnoisevalue="0.8" maxnoisevalue="1.0"/>
 				<asteroid groupref="asteroid_ice_xl" densityfactor="0.5" rotation="0" rotationvariation="0" noisescale="1600" minnoisevalue="0.8" maxnoisevalue="1.0"/>
 				<asteroid groupref="asteroid_nividium_l" densityfactor="1" rotation="0" rotationvariation="0" minnoisevalue="0.7" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ice_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.15" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="2" rotation="0" rotationvariation="0" noisescale="1000" minnoisevalue="0.3" maxnoisevalue="1.0"/>
 				<object groupref="lockboxes_extra" densityfactor="0.0001" rotation="0" rotationvariation="0" minnoisevalue="0.1" maxnoisevalue="1"/>
 			</fields>
 			<resources>

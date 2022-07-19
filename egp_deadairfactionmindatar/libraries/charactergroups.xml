@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+<add sel="//characters">
+	<character name="mindatar.factionrepresentative">
+		<select macro="character_pirate_male_cau_01_macro"/>
+		<select macro="character_pirate_male_afr_01_macro"/>
+		<select macro="character_pirate_male_asi_01_macro"/>
+		<select macro="character_scavenger_male_cau_01_macro"/>
+		<select macro="character_scavenger_male_afr_01_macro"/>
+		<select macro="character_scavenger_male_asi_01_macro"/>
+		<select macro="character_argon_male_cau_crew_02_macro"/>
+		<select macro="character_argon_male_afr_crew_02_macro"/>
+		<select macro="character_argon_male_asi_crew_02_macro"/>
+	</character>
+</add>
+</diff>

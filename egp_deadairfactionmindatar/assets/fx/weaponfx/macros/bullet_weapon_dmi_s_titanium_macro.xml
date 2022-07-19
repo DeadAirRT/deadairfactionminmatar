@@ -4,7 +4,7 @@
 		<component ref="bullet_weapon_dmi_s"/>
 		<properties>
 			<bullet speed="6000" lifetime="1.08" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.02" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
-			<heat value="1755"/>
+			<heat value="24"/>
 			<reload rate="1.5"/>
 			<damage value="276.25" noshield="69.06" repair="0"/>
 			<effects>

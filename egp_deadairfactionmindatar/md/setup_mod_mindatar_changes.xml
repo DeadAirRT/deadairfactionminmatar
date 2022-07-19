@@ -14,6 +14,7 @@
     <library name="Change_Actions">
       <actions>
         <get_ware_definition result="md.$EquipmentTable.{faction.mindatar}" faction="faction.mindatar" flags="equipment" comment="This should update the equipment table on game load for future content updates"/>
+		<remove_from_list name="md.$EquipmentTable.{faction.mindatar}" list="[@ware.missile_rapier,@ware.missile_firefly,@ware.missile_beluga,@ware.missile_aurora,@ware.missile_mosquito,@ware.missile_wasp,@ware.missile_windstalker,@ware.missile_tempest,@ware.missile_phantom,@ware.missile_tomahawk,@ware.missile_flail,@ware.missile_shadow,@ware.missile_disruptor]" multiple="true"/>
       </actions>
     </library>
   </cues>

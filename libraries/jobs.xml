@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+	<job id="mindatar_bio_trader_l" name="{20204,1301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="bio_argon"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_bio_trader_m" name="{20204,1401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="bio_argon"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_bio_trader_m_build" name="{20204,1401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="bio_argon"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_food_trader_s" name="{20204,1801}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="foodrations"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_food_trader_s_build" name="{20204,1801}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="foodrations"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_medical_trader_s" name="{20204,10011}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="medicalsupplies"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_medical_trader_s_build" name="{20204,10011}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="medicalsupplies"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_energycell_trader_l" name="{20204,101}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="energycells"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_energycell_trader_m" name="{20204,201}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="energycells"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_energycell_trader_m_build" name="{20204,201}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="energycells"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_energycell_trader_s" name="{20204,201}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="energycells"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_equipment_trader_l" name="{20204,301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="equipment"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_equipment_trader_m" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="equipment"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_equipment_trader_s" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="equipment"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="5" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_construction_trader_l" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="construction_stations"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_construction_trader_m" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="construction_stations"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_construction_trader_s" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="construction_stations"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="5" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_ship_construction_trader_l" name="{20204,401}">
+		<modifiers rebuild="true" commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="construction_ships"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_ship_construction_trader_m" name="{20204,401}">
+		<modifiers rebuild="true" commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="construction_ships"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_ship_construction_trader_s" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="construction_ships"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="5" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedgas_trader_l" name="{20204,501}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_gas"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedgas_trader_m" name="{20204,601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_gas"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedgas_trader_s" name="{20204,601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_gas"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="5" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedmineral_trader_l" name="{20204,501}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_mineral_normal_dmi"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedmineral_trader_m" name="{20204,601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_mineral_normal_dmi"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedmineral_trader_m_build" name="{20204,601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_mineral_normal_dmi"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_refinedmineral_trader_s" name="{20204,601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="refined_mineral_normal_dmi"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="5" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_tech_trader_l" name="{20204,301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="tech"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_tech_trader_m" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="tech"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_tech_trader_s" name="{20204,401}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="tech"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_water_trader_l" name="{20204,1501}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="water_ec_da"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_water_trader_m" name="{20204,1601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="water_ec_da"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_water_trader_s" name="{20204,1601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Middleman" default="true">
+				<param name="range" value="5"/>
+			</order>
+		</orders>
+		<basket basket="water_ec_da"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_s"/>
+		<quota galaxy="5" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<!-- Station Trader Jobs, by request only -->
+	<job id="mindatar_stationtrader_m" name="{20204,801}">
+		<modifiers commandeerable="false"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="maxbuy" value="5"/>
+			</order>
+		</orders>
+		<basket basket="all_container"/>
+		<category faction="mindatar" tags="[stationtrader]" size="ship_m"/>
+		<quota galaxy="0" maxgalaxy="24"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_stationtrader_l" name="{20204,701}">
+		<modifiers commandeerable="false"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="maxbuy" value="5"/>
+			</order>
+		</orders>
+		<basket basket="all_container"/>
+		<category faction="mindatar" tags="[stationtrader]" size="ship_l"/>
+		<quota galaxy="0" maxgalaxy="12"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<!-- Mining Jobs -->
+	<job id="mindatar_free_miner_l_liquid" name="{20204,5701}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="gases"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_l"/>
+		<quota galaxy="15"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="gases" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, liquid]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_m_liquid" name="{20204,5701}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="gases"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_m"/>
+		<quota galaxy="8"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="gases" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, liquid]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_l_mineral" name="{20204,5601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="minerals"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_l"/>
+		<quota galaxy="15"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="minerals" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_m_mineral" name="{20204,5901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="silicon"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_m"/>
+		<quota galaxy="8"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="silicon" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_m_mineral_ore" name="{20204,5801}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="ore"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_m"/>
+		<quota galaxy="8"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="ore" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_s_mineral" name="{20204,5601}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="minerals"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_s"/>
+		<quota galaxy="10"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="minerals" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_l_ice" name="{20204,2001}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="ice"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_l"/>
+		<quota galaxy="8"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="ice" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_free_miner_m_ice" name="{20204,2001}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="ice"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_m"/>
+		<quota galaxy="6"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="ice" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_m"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_battleship_patrol_xl_sector" name="{20221,5031}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, battleship]" size="ship_xl"/>
+		<quota galaxy="7" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, battleship]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_carrier_patrol_xl" name="{20204,3201}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, carrier]" size="ship_xl"/>
+		<quota galaxy="5" cluster="1" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, carrier]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="attack" group="2"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="3"/>
+			<subordinate job="mindatar_resupplier_escort_xl" assignment="supplyfleet" group="10"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_destroyer_patrol_l_sector" name="{20204,3301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, destroyer]" size="ship_l"/>
+		<quota galaxy="7" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_destroyer_patrol_l_sector_build" name="{20204,3301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, destroyer]" size="ship_l"/>
+		<quota galaxy="42" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_destroyer_patrol_l_comp" name="{20204,3301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, destroyer]" size="ship_l"/>
+		<quota galaxy="2" maxgalaxy="11" cluster="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_destroyer_patrol_l_comp_mission" name="{20204,3301}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+		<quota galaxy="1" maxgalaxy="1" cluster="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_military_patrol_m_sector_exp" name="{20204,2901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, medium]" size="ship_m"/>
+		<quota galaxy="7" maxgalaxy="9" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, medium]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="1"/>
+			<subordinate job="mindatar_escort_m_solo" assignment="attack" group="2"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_military_patrol_m_sector_exp_build" name="{20204,2901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, medium]" size="ship_m"/>
+		<quota galaxy="21" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, medium]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="1"/>
+			<subordinate job="mindatar_escort_m_solo" assignment="attack" group="2"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_military_patrol_m_sector_exp_mission" name="{20204,2901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military, medium]" size="ship_m"/>
+		<quota galaxy="10" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, medium]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="1"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_corvette_patrol_m_sector" name="{20204,2901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, corvette]" size="ship_m"/>
+		<quota galaxy="21" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, corvette]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_escort_m_solo" assignment="attack" group="1"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_corvette_patrol_m_sector_mission" name="{20204,2901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military, corvette]" size="ship_m"/>
+		<quota galaxy="5" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, corvette]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="1"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_fighter_patrol_s_zone" name="{20204,2901}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, military, fighter]" size="ship_s"/>
+		<quota galaxy="14" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[fighter, heavy]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_patrol" assignment="attack" group="1"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_scout_patrol_s" name="{20204,2801}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Recon" default="true"/>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, scout]" size="ship_s"/>
+		<quota galaxy="14" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="lt" matchextension="false">
+			<factionlicences>
+				<factionlicence faction="terran" licence="innercore_access" negatefactionlicence="true"/>
+				<factionlicence faction="terran" licence="outercore_access" negatefactionlicence="true"/>
+			</factionlicences>
+		</location>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[scout]" size="ship_s"/>
+			<loadout>
+				<level min="0.2" max="0.5"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_police_patrol_s" name="{20204,6101}">
+		<modifiers commandeerable="false"/>
+		<orders>
+			<order order="Police" default="true"/>
+		</orders>
+		<category faction="mindatar" tags="[police]" size="ship_s"/>
+		<quota galaxy="14" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" policefaction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[fighter]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<!-- mindatar Escorts -->
+	<job id="mindatar_destroyer_escort_l" name="{20204,3301}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.invvshape"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+		<quota wing="3"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, escort]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_frigate_escort_m" name="{20204,2901}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.dartvertical"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military]" size="ship_m"/>
+		<quota wing="5"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, medium]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_escort_m_solo" name="{20204,2901}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.dartvertical"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military]" size="ship_m"/>
+		<quota wing="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, medium]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_fighter_escort_s_carrier" name="{20204,2901}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.pointguard"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<quota wing="14"/>
+		<category faction="mindatar" tags="[military, fighter]" size="ship_s"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, fighter]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_fighter_escort_s_frigate" name="{20204,2901}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.pointguard"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<quota wing="2"/>
+		<category faction="mindatar" tags="[military, fighter]" size="ship_s"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, fighter]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_fighter_escort_s_patrol" name="{20204,2901}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.pointguard"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[military, fighter]" size="ship_s"/>
+		<quota wing="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, fighter]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_resupplier_escort_xl" name="{20204,5501}" startactive="false">
+		<orders>
+			<order order="SupplyFleet" default="true">
+				<param name="formation" value="formationshape.pointguard"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[resupplier]" size="ship_xl"/>
+		<quota wing="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[resupplier]" size="ship_xl"/>
+			<loadout>
+				<level min="0.7" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_miningfleet_m_solid_small" name="{20204,5601}" startactive="false">
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[freighter, miner, deepspace]" size="ship_m"/>
+		<quota wing="2" variation="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<basket basket="minerals"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_miningfleet"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_miningfleet_m_liquid_small" name="{20204,5701}" startactive="false">
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[freighter, miner, deepspace]" size="ship_m"/>
+		<quota wing="2" variation="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<basket basket="gases"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, liquid]" size="ship_m"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_miningfleet"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_miningfleet_ml_solid_large" name="{20204,5601}" startactive="false">
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[freighter, miner, deepspace]"/>
+		<quota wing="3" variation="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<basket basket="minerals"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid, mixed]"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_miningfleet"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_miningfleet_ml_liquid_large" name="{20204,5701}" startactive="false">
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[freighter, miner, deepspace]"/>
+		<quota wing="3" variation="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<basket basket="gases"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, liquid, mixed]"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_fighter_escort_s_miningfleet"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_fighter_escort_s_miningfleet" name="{20204,2901}" startactive="false">
+		<orders>
+			<order order="Escort" default="true">
+				<param name="formation" value="formationshape.pointguard"/>
+				<param name="overrideformationskill" value="true"/>
+			</order>
+		</orders>
+		<quota wing="1" variation="1"/>
+		<category faction="mindatar" tags="[military, fighter, deepspace]" size="ship_s"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<modifiers subordinate="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, fighter, selection]" size="ship_s"/>
+			<loadout>
+				<level min="0.25" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<!--mindatar Misc-->
+	<job id="mindatar_construction_vessel_xl" name="{20204,5101}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="FindBuildTasks" default="true">
+				<param name="maxjumps" value="4"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, builder]" size="ship_xl"/>
+		<quota galaxy="10" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[builder]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_construction_vessel_xl_playeronly" name="{20204,5101}">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="FindBuildTasks" default="true">
+				<param name="maxjumps" value="4"/>
+				<param name="playeronly" value="true"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[factionlogic, builder]" size="ship_xl"/>
+		<quota galaxy="1" sector="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[builder]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_resupplier_xl" name="{20204,5501}" disabled="true">
+		<orders>
+			<order order="SupplyFleet" default="true"/>
+		</orders>
+		<quota galaxy="0" maxgalaxy="1"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="neutral" comparison="ge" matchextension="false"/>
+		<environment buildatshipyard="true"/>
+		<ship>
+			<select faction="mindatar" tags="[resupplier]"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<!-- Mass Traffic -->
+	<job id="masstraffic_mindatar_police">
+		<task task="masstraffic.police"/>
+		<location class="station" policefaction="mindatar"/>
+		<quota station="2"/>
+		<masstraffic ref="masstraffic_split_police_mindatar">
+			<owner exact="faction.mindatar" overridenpc="true"/>
+		</masstraffic>
+	</job>
+	<job id="masstraffic_mindatar_criminal">
+		<task task="masstraffic.generic"/>
+		<location class="station" faction="mindatar"/>
+		<quota station="2"/>
+		<masstraffic ref="masstraffic_argon_civilian" respawndelay="180" relaunchdelay="30">
+			<owner exact="faction.criminal" overridenpc="true"/>
+		</masstraffic>
+	</job>
+	<!-- Expeditions -->
+	<job id="mindatar_expedition_da" name="{20204,6301}" startactive="false">
+		<modifiers commandeerable="true" rebuild="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[daexpedition]" size="ship_xl"/>
+		<quota galaxy="2" maxgalaxy="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="attack" group="2"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_common_trader_l_da" name="{20204,7001}">
+		<modifiers rebuild="true" commandeerable="false"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="3"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="3"/>
+			</order>
+		</orders>
+		<basket basket="legal_common_dmi"/>
+		<category faction="mindatar" tags="[freighter, trader]" size="ship_l"/>
+		<quota galaxy="14" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_DACriticalTagmindatar_xl_job" name="{4816309,301}" startactive="false">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[DACriticalTagmindatar,factionlogic]" size="ship_xl"/>
+		<quota galaxy="2" maxgalaxy="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTagmindatar"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="attack" group="2"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_DACoreTagmindatar_l_job" name="{4816309,302}" startactive="false">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[DACoreTagmindatar,factionlogic]" size="ship_l"/>
+		<quota galaxy="20" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTagmindatar"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_DABorderTagmindatar_l_job" name="{4816309,303}" startactive="false">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[DABorderTagmindatar,factionlogic]" size="ship_l"/>
+		<quota galaxy="20" sector="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTagmindatar"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military, destroyer]" size="ship_l"/>
+			<loadout>
+				<level min="0.8" max="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_frigate" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+	<job id="mindatar_DAContestedTagmindatar_xl_job" name="{4816309,304}" startactive="false">
+		<modifiers commandeerable="true"/>
+		<orders>
+			<order order="Patrol" default="true">
+				<param name="range" value="class.sector"/>
+			</order>
+		</orders>
+		<category faction="mindatar" tags="[DAContestedTagmindatar,factionlogic]" size="ship_xl"/>
+		<quota galaxy="2" maxgalaxy="2"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTagmindatar"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[military]" size="ship_xl"/>
+			<loadout>
+				<level exact="1.0"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+		<subordinates>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="attack" group="2"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="3"/>
+		</subordinates>
+	</job>
+</jobs>

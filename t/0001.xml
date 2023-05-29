@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<page id="4816302" title="DeadAir T Files" descr="names used in DeadAir Mods" voice="yes">
+		<!-- 3323247 == deadair -->
+		<!--48163x69 == 3323247 since there is a character limit -->
+		<!--48163##-->
+		<t id="100">Minmatar Republic</t>
+		<t id="101">The Minmatar Republic was formed over a century ago when the Matari threw out their Amarrian overlords in what is known as the Minmatar Rebellion. Yet, only a quarter of the Matari people reside within the Republic. The rest are scattered around the world, including a large portion still enslaved within the Amarr Empire. Minmatar individuals are independent and proud, possessing a strong will and a multitude of tribal traditions.</t>
+		<t id="102">MNM</t>
+		<t id="103">Minmatar Capital Equipment Licence</t>
+		<t id="104">Minmatar Capital Ship Licence</t>
+		<t id="105">Warrior of the Matari</t>
+		<t id="106">Friend of the Matari</t>
+		<t id="107">Minmatar General Use Equipment Licence</t>
+		<t id="108">Minmatar General Use Ship Licence</t>
+		<t id="109">Minmatar Military Equipment Licence</t>
+		<t id="110">Minmatar Military Ship Licence</t>
+		<t id="111">Minmatar Police Licence</t>
+		<t id="112">Minmatar Capital Ship Building Module Licence</t>
+		<t id="113">Minmatar Ancillary Ship Building Module Licence</t>
+		<t id="114">Minmatar Advanced Module Licence</t>
+		<t id="115">Minmatar Basic Module Licence</t>
+		<t id="116">Minmatar Intermediate Module Licence</t>
+		<t id="117">Minmatar Trade Offer Subscription</t>
+		<t id="118">Republic</t>
+		<t id="119">Minmatar Ship Sale Contract</t>
+		<t id="120">Onga</t>
+		<t id="121">Ameinaka</t>
+		<t id="122">Ammold</t>
+		<t id="123">Pator</t>
+		<t id="124">Urlen</t>
+		<t id="125">Ivar</t>
+		<t id="126">Rens</t>
+		<t id="127">xxx</t>
+		<t id="128">xxx</t>
+		<t id="129">xxx</t>
+		<t id="130">Amamake</t>
+		<t id="131">xxx</t>
+		<t id="132">xxx</t>
+		<t id="199">Minmatar</t>
+		<!-- Equipment -->
+		<t id="200">{4816302,102}(MNM) {20111,5031}(L) Fusion 1400MM Howitzer Artillery</t>
+		<t id="202">{4816302,102}(MNM) {20111,5031}(L) Nuclear 1400MM Howitzer Artillery</t>
+		<t id="204">{4816302,102}(MNM) {20111,5031}(L) Titanium Sabot 1400MM Howitzer Artillery</t>
+		<t id="206">{4816302,102}(MNM) {20111,5021}(M) Fusion 720MM Howitzer Artillery</t>
+		<t id="207">{4816302,102}(MNM) {20111,5021}(M) Nuclear 720MM Howitzer Artillery</t>
+		<t id="208">{4816302,102}(MNM) {20111,5021}(M) Titanium Sabot 720MM Howitzer Artillery</t>
+		<t id="209">{4816302,102}(MNM) {20111,5011}(S) Fusion 280MM Howitzer Artillery</t>
+		<t id="210">{4816302,102}(MNM) {20111,5011}(S) Nuclear 280MM Howitzer Artillery</t>
+		<t id="211">{4816302,102}(MNM) {20111,5011}(S) Titanium Sabot 280MM Howitzer Artillery</t>
+		<t id="212">{4816302,102}(MNM) {20111,3001}(XL) Gjallarhorn Explosive Doomsday</t>
+		<t id="213">{4816302,102}(MNM) {20111,5031}(L) Fusion 800MM Repeating Cannon</t>
+		<t id="214">{4816302,102}(MNM) {20111,5031}(L) Nuclear 800MM Repeating Cannon</t>
+		<t id="215">{4816302,102}(MNM) {20111,5031}(L) Titanium Sabot 800MM Repeating Cannon</t>
+		<t id="216">{4816302,102}(MNM) {20111,5021}(M) Fusion 425MM AutoCannon</t>
+		<t id="217">{4816302,102}(MNM) {20111,5021}(M) Nuclear 425MM AutoCannon</t>
+		<t id="218">{4816302,102}(MNM) {20111,5021}(M) Titanium Sabot 425MM AutoCannon</t>
+		<t id="264">{20111,5031}(L) Fusion Artillery</t>
+		<t id="265">{20111,5031}(L) Nuclear Artillery</t>
+		<t id="266">{20111,5031}(L) Titanium Artillery</t>
+		<t id="267">{20111,5031}(L) Fusion Repeating Cannon</t>
+		<t id="268">{20111,5031}(L) Nuclear Repeating Cannon</t>
+		<t id="269">{20111,5031}(L) Titanium Repeating Cannon</t>
+		<t id="270">{20111,5021}(M) Fusion Artillery</t>
+		<t id="271">{20111,5021}(M) Nuclear Artillery</t>
+		<t id="272">{20111,5021}(M) Titanium Artillery</t>
+		<t id="273">{20111,5021}(M) Fusion AutoCannon</t>
+		<t id="274">{20111,5021}(M) Nuclear AutoCannon</t>
+		<t id="275">{20111,5021}(M) Titanium AutoCannon</t>
+		<t id="276">{20111,5011}(S) Fusion Artillery</t>
+		<t id="277">{20111,5011}(S) Nuclear Artillery</t>
+		<t id="278">{20111,5011}(S) Titanium Artillery</t>
+		<t id="279">{20111,3001}(XL) Doomsday</t>
+		<t id="280">{4816302,102}(MNM) {20111,5031}(L){20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="288">800MM Repeating Cannon</t>
+		<t id="289">425MM AutoCannon</t>
+		<t id="290">1400MM Howitzer Artillery</t>
+		<t id="291">720MM Howitzer Artillery</t>
+		<t id="292">280MM Howitzer Artillery</t>
+		<!-- Weapon Description -->
+		<t id="300">The destructive power of a fusion warhead is superior to most other projectile warheads available, although it has problems penetrating heavy shield systems.</t>
+		<t id="301">Nuclear weapons are considered by most races to be crude and primitive. However, the Minmatar still favor them over more sophisticated weapons due to the abundance of materials for plutonium production in Minmatar space.</t>
+		<t id="302">This is among the most feared ammunition around. It has excellent penetration. Once the ship's outer layer is penetrated, the core explodes, spraying the interior with a cloud of fragmentation fletchets that cause considerable damage to the vulnerable interior structure.</t>
+		<t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
+		<!-- Engines -->
+		<t id="600">{4816302,102}(MNM) {20111,5031}(L) {20107,9001}(Engine)</t>
+		<t id="601">{4816302,102}(MNM) {20111,5021}(M) {20107,9001}(Engine)</t>
+		<t id="602">{4816302,102}(MNM) {20111,5011}(S) {20107,9001}(Engine)</t>
+		<t id="603">{4816302,102}(MNM) {20111,5041}(XL) {20107,9001}(Engine)</t>
+		<t id="604">{4816302,102}(MNM) {20107,9001}(Engine)</t>
+		<!-- Ships -->
+		<t id="700">Fenrir</t>
+		<t id="701">Hurricane</t>
+		<t id="702">Loki</t>
+		<t id="703">Maelstrom</t>
+		<t id="704">Stabber</t>
+		<t id="705">Tempest</t>
+		<t id="706">Tornado</t>
+		<t id="707">Nidhoggur</t>
+		<t id="708">Ragnarok</t>
+		<!-- Ship Desc -->
+		<t id="800">Third in line to jump on the freighter bandwagon, the Republic decided early in the design process to focus on a balance between all ship systems. True to form, their creation is comparatively lightweight - though lightweight is certainly not a term easily applicable to this giant.</t>
+		<t id="801">The force with which this ship hits is more than sufficient to leave a trail of shattered enemies, floating around like so much lifeless debris. An adaptable vessel, it has enough turret hardpoints for a full-scale assault while remaining versatile enough to allow for plenty of missile fire, and has both sufficient speed to outrun its enemies and sufficient capacitor charge to outlast them.</t>
+		<t id="802">For many Minmatar, the high mountains of Matar hold wonders unknown to the rest of New Eden: hidden glens, beautiful creatures, buried customs. Not surprisingly, the Krusual tribe lay claim to these mountains, their home for generations and base to their machinations.\n\Krusual elders whisper ancient tales among their huddled tribes, describing the glory of heroes past and enigmatic prophecies of old. On the darkest day, at the most hopeless moments, an elder may speak of loki, in reverent tones and excited hushes. In the ancient tongue, the loki are the crux of Krusual thought. There is no direct translation for this word; in fact, loki translates differently among the elders. It can mean “hidden wonder” or “secret passage”, “changing mask” or “unseen dagger”. Regardless of its context, loki has one meaning common to all its tales across all the elders: “hope”.</t>
+		<t id="803">With the Maelstrom, versatility is the name of the game. Its defensive capabilities make it ideally suited for small raid groups or solo work, while its 8 turret hardpoints present opportunities for untold carnage on the fleet battlefield.</t>
+		<t id="804">The Stabber is the mainstay of the Minmatar fleet. It is light and extremely fast, yet surprisingly powerful, with a wide variety of weapons. It is one of few Minmatar vessels that have reached popularity outside Minmatar space.</t>
+		<t id="805">The Tempest is one of the Republic Fleet's key vessels; a versatile gunship proficient at long-range bombardment and capable of dishing out specialized types of damage with great effectiveness. A well-rounded squadron of Tempests has been proven time and time again to be an invaluable wild card in a fleet battle, one which opponents should ignore at their own peril.</t>
+		<t id="806">In YC 113 Republic Security Services learned the Amarr Empire was building a new battlecruiser capable of supporting battleship-class weapons. Determined to not lose their technological edge to their adversaries, Republic Fleet commissioned Boundless Creation to construct a gunboat to match.\n\What they designed was the Tornado. Developed in record time and total secrecy, the Tornado is a testament to Minmatar engineering. Modeled loosely on flying-wing designs of ancient planetary bombers, the Tornado supports multiple large projectile turrets, dealing massive damage while maintaining a small signature radius.</t>
+		<t id="807">Essentially a pared-down version of its big brother the Hel, the Nidhoggur nonetheless displays the same austerity of vision evident in its sibling. Quite purposefully created for nothing less than all-out warfare, and quite comfortable with that fact, the Nidhoggur will no doubt find itself a mainstay on many a battlefield.</t>
+		<t id="808">The liberty of our people is solely our responsibility. Tempting as it is to foist this burden upon our well-wishers, we must never forget that the onus of our emancipation rests with us and us alone.\n\For too long, our proud people have been subjugated to the whims of enslavers, forced to endure relentless suffering and humiliation at the hands of people whose motivations, masked though they may be by florid religious claptrap, remain as base and despicable as those of the playground bully.\n\If ever there was a time to rise – if ever there was a time to join hands with our brothers – that time is now. At this exact junction in history we have within our grasp the means to loosen our tormentors' hold and win freedom for our kin. Opportunities are there to be taken.\n\Brothers, we must rise.\n\-Malaetu Shakor, Republic Parliament Head\n\Speaking before the Tribal Council\n\November 27th, YC 107</t>
+		<!-- IG -->
+		<t id="900">IG L - Fenrir Internal Generator</t>
+		<t id="901">IG L - Hurricane Internal Generator</t>
+		<t id="902">IG L - Loki Internal Generator</t>
+		<t id="903">IG L - Maelstrom Internal Generator</t>
+		<t id="904">IG L - Stabber Internal Generator</t>
+		<t id="905">IG L - Tempest Internal Generator</t>
+		<t id="906">IG L - Tornado Internal Generator</t>
+		<t id="907">IG XL - Nidhoggur Internal Generator</t>
+		<t id="908">IG XL - Ragnarok Internal Generator</t>
+		<!-- Stations -->
+		<t id="1101">Minmatar Defence Platform</t>
+		<t id="1111">Minmatar Trading Station</t>
+		<t id="1121">Minmatar Equipment Dock</t>
+		<t id="1131">Minmatar Shipyard</t>
+		<t id="1141">Minmatar Wharf</t>
+		<!-- BosoTaDA -->
+		<t id="9000">I have important news! It looks like the Minmatar are trying to activate a gate. I have added new research.</t>
+		<t id="9001">Minmatar Gate Activation</t>
+		<t id="9002">A by-product of Jove warp research, this will allow activation of particular inactive gates using a large amount of energy.</t>
+		<t id="9003">Incredible! The gates are coming online. I wonder if we can work with other factions to activate more.</t>
+		<t id="9004">I have important news! We can activate new gates into Minmatar space. Let us show them the power of science! I have added new research.</t>
+	</page>
+</language>

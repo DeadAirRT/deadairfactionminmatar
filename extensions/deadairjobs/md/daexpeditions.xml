@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//cue[@name='Init']/actions/debug_text" pos="before">
+		<do_if value="not $ExpeditionFactions.indexof.{faction.mindatar}">
+			<append_to_list name="$ExpeditionFactions" exact="faction.mindatar"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='UpdateEnemiesAllies']/actions/set_value[@name='$ClaimspaceList']" pos="before">
+		<do_if value="not $ExpeditionFactions.indexof.{faction.mindatar}">
+			<append_to_list name="$ExpeditionFactions" exact="faction.mindatar"/>
+		</do_if>
+	</add>
+	<add sel="//cue[@name='ActivateExpeditionJobs']/actions/do_if[@value='true']" pos="before">
+		<append_to_list name="$Jobstoactivate" exact="'mindatar_expedition_da'"/>
+	</add>
+</diff>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../libraries/libraries.xsd">
+	<add sel="//modules">
+		<module id="prod_dmi_advancedelectronics" group="prod_gen_advancedelectronics">
+			<category ware="advancedelectronics" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="advancedelectronics" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_antimattercells" group="prod_gen_antimattercells">
+			<category ware="antimattercells" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="antimattercells" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_antimatterconverters" group="prod_gen_antimatterconverters">
+			<category ware="antimatterconverters" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="antimatterconverters" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_advancedcomposites" group="prod_gen_advancedcomposites">
+			<category ware="advancedcomposites" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="advancedcomposites" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_claytronics" group="prod_gen_claytronics">
+			<category ware="claytronics" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="claytronics" chance="100"/>
+				<limits production="8"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_dronecomponents" group="prod_gen_dronecomponents">
+			<category ware="dronecomponents" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="dronecomponents" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_energycells" group="prod_gen_energycells">
+			<category ware="energycells" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="energycells" chance="100"/>
+				<limits production="10"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_engineparts" group="prod_gen_engineparts">
+			<category ware="engineparts" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="engineparts" chance="100"/>
+				<limits production="12"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_fieldcoils" group="prod_gen_fieldcoils">
+			<category ware="fieldcoils" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="fieldcoils" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_hullparts" group="prod_gen_hullparts">
+			<category ware="hullparts" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="hullparts" chance="100"/>
+				<limits production="14"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_graphene" group="prod_gen_graphene">
+			<category ware="graphene" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="graphene" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_microchips" group="prod_gen_microchips">
+			<category ware="microchips" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="microchips" chance="100"/>
+				<limits production="12"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_missilecomponents" group="prod_gen_missilecomponents">
+			<category ware="missilecomponents" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="missilecomponents" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_superfluidcoolant" group="prod_gen_superfluidcoolant">
+			<category ware="superfluidcoolant" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="superfluidcoolant" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_plasmaconductors" group="prod_gen_plasmaconductors">
+			<category ware="plasmaconductors" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="plasmaconductors" chance="100"/>
+				<limits production="12"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_quantumtubes" group="prod_gen_quantumtubes">
+			<category ware="quantumtubes" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="quantumtubes" chance="100"/>
+				<limits production="14"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_refinedmetals" group="prod_gen_refinedmetals">
+			<category ware="refinedmetals" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="refinedmetals" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_scanningarrays" group="prod_gen_scanningarrays">
+			<category ware="scanningarrays" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="scanningarrays" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_shieldcomponents" group="prod_gen_shieldcomponents">
+			<category ware="shieldcomponents" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="shieldcomponents" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_siliconwafers" group="prod_gen_siliconwafers">
+			<category ware="siliconwafers" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="siliconwafers" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_smartchips" group="prod_gen_smartchips">
+			<category ware="smartchips" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="smartchips" chance="100"/>
+				<limits production="14"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_spices" group="prod_gen_spices">
+			<category ware="spices" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="spices" chance="100"/>
+				<limits production="12"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_turretcomponents" group="prod_gen_turretcomponents">
+			<category ware="turretcomponents" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="12"/>
+				<production ware="turretcomponents" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_water" group="prod_gen_water">
+			<category ware="water" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="water" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_weaponcomponents" group="prod_gen_weaponcomponents">
+			<category ware="weaponcomponents" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<limits production="10"/>
+				<production ware="weaponcomponents" chance="100"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_meat" group="prod_arg_meat">
+			<category ware="meat" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="meat" chance="100"/>
+				<limits production="10"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_medicalsupplies" group="prod_arg_medicalsupplies">
+			<category ware="medicalsupplies" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="medicalsupplies" chance="100"/>
+				<limits production="12"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_foodrations" group="prod_arg_foodrations">
+			<category ware="foodrations" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="foodrations" chance="100"/>
+				<limits production="12"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_spacefuel" group="prod_arg_spacefuel">
+			<category ware="spacefuel" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="spacefuel" chance="80"/>
+				<limits production="10"/>
+			</compatibilities>
+		</module>
+		<module id="prod_dmi_wheat" group="prod_arg_wheat">
+			<category ware="wheat" tags="[production, module]" faction="[mindatar]"/>
+			<compatibilities>
+				<production ware="wheat" chance="100"/>
+				<limits production="10"/>
+			</compatibilities>
+		</module>
+		<module id="stor_dmi" group="stor_arg">
+			<category tags="[storage, module]" faction="[mindatar]"/>
+		</module>
+		<module id="dockarea_dmi" group="dockarea_arg">
+			<category tags="[dockarea, module, standard]" faction="[mindatar]"/>
+		</module>
+		<module id="dockarea_dmi_hightech" group="dockarea_arg_hightech">
+			<category tags="[dockarea, module, hightech]" faction="[mindatar]"/>
+		</module>
+		<module id="dockarea_dmi_lowtech" group="dockarea_arg_lowtech">
+			<category tags="[dockarea, module, lowtech]" faction="[mindatar]"/>
+		</module>
+		<module id="pier_base_dmi" group="pier_base_arg">
+			<category tags="[pier, base, module]" faction="[mindatar]"/>
+		</module>
+		<module id="pier_add_dmi" group="pier_add_arg">
+			<category tags="[pier, add, module]" faction="[mindatar]"/>
+		</module>
+		<module id="hab_dmi" group="hab_arg">
+			<category tags="[habitation, module]" faction="[mindatar]"/>
+		</module>
+		<module id="def_dmi" group="def_arg">
+			<category tags="[defence, module]" faction="[mindatar]"/>
+		</module>
+		<module id="claim_dmi" group="claim_arg">
+			<category tags="[claim, module]" faction="[mindatar]"/>
+		</module>
+		<module id="build_dmi" group="build_gen">
+			<category tags="[build, module]" faction="[mindatar]"/>
+		</module>
+		<module id="equip_dmi" group="equip_gen">
+			<category tags="[equip, module]" faction="[mindatar]"/>
+		</module>
+		<module id="conn_dmi" group="conn_arg">
+			<category tags="[connection, module]" faction="[mindatar]"/>
+		</module>
+	</add>
+</diff>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<diff name="FactionGoal_Invade_Space" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
-<replace sel="//library[@name='EvaluateSector']/actions/do_else/do_elseif[@value='$Sector.owner == faction.ownerless and $Sector.factionlogic']/@value" silent="true">$Sector.owner == faction.ownerless and ($Sector.factionlogic or global.$DeadAirNeutralClaimable.indexof.{$Sector})</replace>
-</diff>

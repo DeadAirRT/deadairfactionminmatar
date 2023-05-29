@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dmi_l_tornado_macro" class="shieldgenerator">
+		<component ref="ishield_dmi_l_tornado"/>
+		<properties>
+			<identification name="{4816302,906}"/>
+			<recharge max="168711" rate="950" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

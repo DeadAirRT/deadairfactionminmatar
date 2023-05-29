@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+	<component name="ishield_dmi_l_tornado" class="shieldgenerator">
+		<connections>
+			<connection name="ParentConnection" tags="ishield_dmi_l_tornado component ishield shield unhittable" optional="0"/>
+		</connections>
+		<properties>
+			<recharge/>
+		</properties>
+	</component>
+</components>

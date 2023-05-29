@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ship_dmi_l_loki_macro" class="ship_l">
+		<component ref="ship_dmi_l_loki"/>
+		<properties>
+			<identification name="{4816302,702}" basename="{4816302,702}" description="{4816302,802}" icon="ship_l_fight_01"/>
+			<software>
+				<software ware="software_dockmk2" compatible="1"/>
+				<software ware="software_flightassistmk1" default="1"/>
+				<software ware="software_scannerlongrangemk1" default="1"/>
+				<software ware="software_scannerlongrangemk2" compatible="1"/>
+				<software ware="software_scannerobjectmk1" default="1"/>
+				<software ware="software_scannerobjectmk2" compatible="1"/>
+				<software ware="software_targetmk1" default="1"/>
+				<software ware="software_trademk1" compatible="1"/>
+			</software>
+			<explosiondamage value="1000" shield="5000"/>
+			<storage missile="225" unit="10"/>
+			<hull max="156215"/>
+			<secrecy level="2"/>
+			<purpose primary="fight"/>
+			<people capacity="48"/>
+			<physics mass="257.71">
+				<inertia pitch="131.7" yaw="186.52" roll="133.3"/>
+				<drag forward="122.86" reverse="520.09" horizontal="132.26" vertical="132.26" pitch="131.7" yaw="186.52" roll="133.3"/>
+			</physics>
+			<thruster tags="large"/>
+			<ship type="destroyer"/>
+			<sound_occlusion inside="0.9"/>
+		</properties>
+		<connections>
+			<connection ref="con_cockpit">
+				<macro ref="bridge_arg_l_01_macro" connection="con_cockpit"/>
+			</connection>
+			<connection ref="con_storage01">
+				<macro ref="storage_dmi_l_loki_macro" connection="ShipConnection"/>
+			</connection>
+			<connection ref="con_dock_xs">
+				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+		</connections>
+	</macro>
+</macros>

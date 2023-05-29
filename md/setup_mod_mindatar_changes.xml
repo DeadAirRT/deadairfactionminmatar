@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Setup_Mindatar_Mod_Changes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<!--Run Start_Actions when loading a savegame with the mod enabled for the first time-->
+		<cue name="Game_Loaded" namespace="this" instantiate="true">
+			<conditions>
+				<event_game_loaded/>
+			</conditions>
+			<actions>
+				<include_actions ref="Change_Actions"/>
+			</actions>
+		</cue>
+		<library name="Change_Actions">
+			<actions>
+				<get_ware_definition result="md.$EquipmentTable.{faction.mindatar}" faction="faction.mindatar" flags="equipment" comment="This should update the equipment table on game load for future content updates"/>
+				<remove_from_list name="md.$EquipmentTable.{faction.mindatar}" list="[@ware.missile_rapier,@ware.missile_firefly,@ware.missile_beluga,@ware.missile_aurora,@ware.missile_mosquito,@ware.missile_wasp,@ware.missile_windstalker,@ware.missile_tempest,@ware.missile_phantom,@ware.missile_tomahawk,@ware.missile_flail,@ware.missile_shadow,@ware.missile_disruptor]" multiple="true"/>
+			</actions>
+		</library>
+		<cue name="FindSectors">
+			<actions>
+				<find_sector name="$Damarr" macro="macro.cluster_dam8_sector001_macro"/>
+				<find_sector name="$Daldari" macro="macro.cluster_dal8_sector001_macro"/>
+				<find_sector name="$Galdente" macro="macro.cluster_dga8_sector001_macro"/>
+				<find_sector name="$Mindatar" macro="macro.cluster_dmi8_sector001_macro"/>
+				<create_group groupname="$SectorsToMonitor"/>
+				<do_if value="$Damarr? and $Damarr != null">
+					<add_to_group groupname="$SectorsToMonitor" object="$Damarr"/>
+				</do_if>
+				<do_if value="$Daldari? and $Daldari != null">
+					<add_to_group groupname="$SectorsToMonitor" object="$Daldari"/>
+				</do_if>
+				<do_if value="$Galdente? and $Galdente != null">
+					<add_to_group groupname="$SectorsToMonitor" object="$Galdente"/>
+				</do_if>
+				<do_if value="$Mindatar? and $Mindatar != null">
+					<add_to_group groupname="$SectorsToMonitor" object="$Mindatar"/>
+				</do_if>
+			</actions>
+			<cues>
+				<cue name="MakeClaimable">
+					<conditions>
+						<event_object_changed_owner group="$SectorsToMonitor"/>
+						<check_value value="player.age gt 1s"/>
+					</conditions>
+					<actions>
+						<set_space_faction_logic_allowed allow="true" space="$Mindatar.cluster"/>
+						<set_space_faction_logic_allowed allow="true" space="$Mindatar"/>
+						<debug_text text="'MOD: DA Mindatar -- %s -- Sector now claimable -- Sector: %s -- Sector.factionlogic: %s -- Cluster: %s -- Cluster.factionlogic: %s'.[player.age,$Mindatar.macro,$Mindatar.factionlogic,$Mindatar.cluster.macro,$Mindatar.cluster.factionlogic]" context="false" filter="scripts"/>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

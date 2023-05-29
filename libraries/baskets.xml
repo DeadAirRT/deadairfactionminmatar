@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="/baskets">
+		<basket id="legal_common_dmi" name="Legal Common Wares - DMI">
+			<wares>
+				<ware ware="advancedcomposites"/>
+				<ware ware="advancedelectronics"/>
+				<ware ware="antimattercells"/>
+				<ware ware="antimatterconverters"/>
+				<ware ware="claytronics"/>
+				<ware ware="dronecomponents"/>
+				<ware ware="engineparts"/>
+				<ware ware="fieldcoils"/>
+				<ware ware="graphene"/>
+				<ware ware="hullparts"/>
+				<ware ware="microchips"/>
+				<ware ware="missilecomponents"/>
+				<ware ware="plasmaconductors"/>
+				<ware ware="quantumtubes"/>
+				<ware ware="siliconwafers"/>
+				<ware ware="smartchips"/>
+				<ware ware="superfluidcoolant"/>
+				<ware ware="turretcomponents"/>
+				<ware ware="weaponcomponents"/>
+			</wares>
+		</basket>
+	</add>
+	<add sel="/baskets">
+		<basket id="refined_mineral_normal_dmi" name="Refined Mineral Wares - DMI">
+			<wares>
+				<ware ware="refinedmetals"/>
+				<ware ware="siliconwafers"/>
+			</wares>
+		</basket>
+	</add>
+</diff>

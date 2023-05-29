@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dmi_l_hurricane_macro" class="shieldgenerator">
+		<component ref="ishield_dmi_l_hurricane"/>
+		<properties>
+			<identification name="{4816302,901}"/>
+			<recharge max="219857" rate="970" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

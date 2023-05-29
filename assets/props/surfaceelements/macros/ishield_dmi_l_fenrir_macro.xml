@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_dmi_l_fenrir_macro" class="shieldgenerator">
+		<component ref="ishield_dmi_l_fenrir"/>
+		<properties>
+			<identification name="{4816302,900}"/>
+			<recharge max="99714" rate="496" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

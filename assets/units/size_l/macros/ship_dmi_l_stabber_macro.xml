@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ship_dmi_l_stabber_macro" class="ship_l">
+		<component ref="ship_dmi_l_stabber"/>
+		<properties>
+			<identification name="{4816302,704}" basename="{4816302,704}" description="{4816302,804}" icon="ship_l_fight_01"/>
+			<software>
+				<software ware="software_dockmk2" compatible="1"/>
+				<software ware="software_flightassistmk1" default="1"/>
+				<software ware="software_scannerlongrangemk1" default="1"/>
+				<software ware="software_scannerlongrangemk2" compatible="1"/>
+				<software ware="software_scannerobjectmk1" default="1"/>
+				<software ware="software_scannerobjectmk2" compatible="1"/>
+				<software ware="software_targetmk1" default="1"/>
+				<software ware="software_trademk1" compatible="1"/>
+			</software>
+			<explosiondamage value="1000" shield="5000"/>
+			<storage missile="180" unit="5"/>
+			<hull max="140595"/>
+			<secrecy level="2"/>
+			<purpose primary="fight"/>
+			<people capacity="46"/>
+			<physics mass="242.55">
+				<inertia pitch="98.77" yaw="139.89" roll="99.98"/>
+				<drag forward="119.14" reverse="504.33" horizontal="113.37" vertical="113.37" pitch="98.77" yaw="139.89" roll="99.98"/>
+			</physics>
+			<thruster tags="large"/>
+			<ship type="destroyer"/>
+			<sound_occlusion inside="0.6"/>
+		</properties>
+		<connections>
+			<connection ref="con_cockpit">
+				<macro ref="bridge_arg_l_01_macro" connection="con_cockpit"/>
+			</connection>
+			<connection ref="con_storage01">
+				<macro ref="storage_dmi_l_stabber_macro" connection="ShipConnection"/>
+			</connection>
+			<connection ref="con_dock_xs">
+				<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component"/>
+			</connection>
+		</connections>
+	</macro>
+</macros>

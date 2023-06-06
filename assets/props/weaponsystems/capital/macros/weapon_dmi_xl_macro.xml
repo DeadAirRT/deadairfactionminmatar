@@ -6,8 +6,8 @@
 			<identification name="{4816302,212}" shortname="{4816302,279}" description="{4816302,303}"/>
 			<bullet class="bullet_atf_xl_beam_01_mk1_macro"/>
 			<heat overheat="10000" cooldelay="0.13" coolrate="133" reenable="2000"/>
-			<rotationspeed max="1"/>
-			<rotationacceleration max="2"/>
+			<rotationspeed max="32.3"/>
+			<rotationacceleration max="64.6"/>
 			<reload/>
 			<hull threshold="0.2" integrated="1" hittable="0"/>
 			<effects>

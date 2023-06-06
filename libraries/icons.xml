@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE icons SYSTEM "icons.dtd" >
 <icons>
 	<icon name="faction_mindatar" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\factions\faction_mindatar.tga" height="256" width="256"/>
 	<icon name="upgrade_*" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="ship_dmi_*" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\ships\*.tga" height="256" width="256"/>
+	<icon name="paintmod_mindatar" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\paintmods\paintmod_mindatar" height="256" width="256"/>
 	<icon name="upgrade_ishield_dmi_l_fenrir_macro" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\upgrades\ishield_dmi_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dmi_l_hurricane_macro" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\upgrades\ishield_dmi_macro" height="256" width="256"/>
 	<icon name="upgrade_ishield_dmi_l_loki_macro" texture="extensions\deadairfactionminmatar\assets\fx\gui\textures\upgrades\ishield_dmi_macro" height="256" width="256"/>

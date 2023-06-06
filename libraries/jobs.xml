@@ -8,6 +8,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="bio_argon"/>
@@ -157,6 +158,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -246,6 +248,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="equipment"/>
@@ -312,6 +315,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="construction_stations"/>
@@ -378,6 +382,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="construction_ships"/>
@@ -444,6 +449,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="refined_gas"/>
@@ -510,6 +516,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="refined_mineral_normal_dmi"/>
@@ -599,6 +606,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="tech"/>
@@ -668,6 +676,7 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="dajobsmyfactionfirst" value="true"/>
 			</order>
 		</orders>
 		<basket basket="water_ec_da"/>
@@ -1749,5 +1758,74 @@
 			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="attack" group="2"/>
 			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="3"/>
 		</subordinates>
+	</job>
+	<job id="mindatar_aux_miner_l_liquid_da" name="{20204,5701}">
+		<modifiers rebuild="false" commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="gases"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_l"/>
+		<quota galaxy="0" maxgalaxy="20"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="gases" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, liquid]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_aux_miner_l_mineral_da" name="{20204,5601}">
+		<modifiers rebuild="false" commandeerable="true"/>
+		<orders>
+			<order order="MiningRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
+			</order>
+		</orders>
+		<basket basket="minerals"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, miner]" size="ship_l"/>
+		<quota galaxy="0" maxgalaxy="20"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" regionbasket="minerals" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[miner, solid]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
+	</job>
+	<job id="mindatar_aux_trader_l_da" name="{20204,7001}">
+		<modifiers rebuild="false" commandeerable="true"/>
+		<orders>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="3"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="3"/>
+			</order>
+		</orders>
+		<basket basket="legal_common_dmi"/>
+		<category faction="mindatar" tags="[factionlogic, freighter, trader]" size="ship_l"/>
+		<quota galaxy="0" maxgalaxy="20"/>
+		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
+		<environment buildatshipyard="true" preferbuilding="true"/>
+		<ship>
+			<select faction="mindatar" tags="[trader, container]" size="ship_l"/>
+			<loadout>
+				<level min="0.5" max="1.0" profile="bell"/>
+			</loadout>
+			<owner exact="mindatar" overridenpc="true"/>
+		</ship>
 	</job>
 </jobs>

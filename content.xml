@@ -6,7 +6,7 @@
 	<dependency id="ego_dlc_boron" optional="true" name="Fish People"/>
 	<dependency id="DeadAirGate" optional="true" name="DeadAirGate"/>
 	<dependency id="DeadAirGod" optional="true" name="DeadAirGod"/>
-	<dependency id="DeadAirJobs" optional="true" name="DeadAirJobs"/>
+	<dependency id="DeadAirJobs" optional="false" name="DeadAirJobs"/>
 	<dependency id="DeadAir_Ware" optional="true" name="DeadAir Ware"/>
 	<dependency id="DeadAirFactionAmarr" optional="true" name="DeadAir Faction Amarr"/>
 	<dependency id="DeadAirFactionDaldari" optional="true" name="DeadAir Faction Caldari"/>

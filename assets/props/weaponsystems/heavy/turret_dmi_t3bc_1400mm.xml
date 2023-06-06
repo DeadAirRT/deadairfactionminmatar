@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="turret_dmi_t3bc_1400mm" class="turret">
-		<source geometry="extensions\ego_dlc_split\assets\props\WeaponSystems\heavy\turret_spl_m_flak_02_mk1_data"/>
+		<source geometry="extensions\ego_dlc_split\assets\props\WeaponSystems\heavy\turret_spl_m_plasma_01_mk1_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff> 
+	<add pos="prepend" sel="/stocks/stock[@id='default_trader']">
+		<ware ref="paintmod_mindatar" min="15" max="15" chance="100" />
+	</add> 
+	<add pos="prepend" sel="/stocks/stock[@id='pirate_trader']">
+		<ware ref="paintmod_mindatar" min="15" max="15" chance="100" />
+	</add>
+</diff>

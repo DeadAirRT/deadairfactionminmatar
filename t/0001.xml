@@ -35,7 +35,7 @@
 		<t id="128">xxx</t>
 		<t id="129">xxx</t>
 		<t id="130">Amamake</t>
-		<t id="131">xxx</t>
+		<t id="131">Minmatar Basic Design</t>
 		<t id="132">xxx</t>
 		<t id="199">Minmatar</t>
 		<!-- Equipment -->
@@ -82,6 +82,15 @@
 		<t id="301">Nuclear weapons are considered by most races to be crude and primitive. However, the Minmatar still favor them over more sophisticated weapons due to the abundance of materials for plutonium production in Minmatar space.</t>
 		<t id="302">This is among the most feared ammunition around. It has excellent penetration. Once the ship's outer layer is penetrated, the core explodes, spraying the interior with a cloud of fragmentation fletchets that cause considerable damage to the vulnerable interior structure.</t>
 		<t id="303">Righteous fury given form, this weapon system rains a firestorm of unmatched raw destruction upon its target.</t>
+		<!-- Shields -->
+		<t id="500">{4816302,102}(MNM) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="501">{4816302,102}(MNM) {20111,5031}(L) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="502">{4816302,102}(MNM) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="503">{4816302,102}(MNM) {20111,5021}(M) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="504">{4816302,102}(MNM) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
+		<t id="505">{4816302,102}(MNM) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,201}(Mk2)</t>
+		<t id="506">{4816302,102}(MNM) {20111,5011}(S) {20106,1001}(Shield Generator) {20111,301}(Mk3)</t>
+		<t id="507">{4816302,102}(MNM) {20111,5041}(XL) {20106,1001}(Shield Generator) {20111,101}(Mk1)</t>
 		<!-- Engines -->
 		<t id="600">{4816302,102}(MNM) {20111,5031}(L) {20107,9001}(Engine)</t>
 		<t id="601">{4816302,102}(MNM) {20111,5021}(M) {20107,9001}(Engine)</t>

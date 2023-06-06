@@ -50,5 +50,23 @@
 				</cue>
 			</cues>
 		</cue>
+		<cue name="PaintTheShips" instantiate="true">
+			<conditions>
+				<event_job_ship_activated/>
+				<check_value value="event.param.trueowner == faction.mindatar"/>
+				<check_any>
+					<check_value value="event.param.isclass.[class.ship_s,class.ship_m]"/>
+					<check_value value="event.param.isclass.[class.ship_l,class.ship_xl] and event.param.primarypurpose != purpose.fight"/>
+				</check_any>
+				<check_any>
+					<check_value value="event.param.haspaintmod.{ware.paintmod_0001}"/>
+					<check_value value="not event.param.haspaintmod"/>
+				</check_any>
+			</conditions>
+			<actions>
+				<set_value name="$MindatarPaint" exact="ware.paintmod_mindatar"/>
+				<add_paint_mod object="event.param" ware="$MindatarPaint"/>
+			</actions>
+		</cue>
 	</cues>
 </mdscript>

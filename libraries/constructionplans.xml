@@ -643,7 +643,7 @@
 					<rotation yaw="90.9193"/>
 				</offset>
 			</entry>
-			<entry index="17" macro="dockarea_arg_m_station_01_macro" connection="connectionsnap002">
+			<entry index="17" macro="dockarea_arg_m_station_02_macro" connection="connectionsnap002">
 				<predecessor index="16" connection="connectionsnap002"/>
 				<offset>
 					<position x="2921.836" z="310.234"/>

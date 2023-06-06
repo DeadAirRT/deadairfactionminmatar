@@ -6,7 +6,7 @@
 			<layer>
 				<waypoints/>
 				<lights>
-					<omni name="XU Omni01" shadow="0" r="255" g="225" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_08" trigger="1" intensity="0.75">
+					<omni name="XU Omni01" shadow="0" r="255" g="225" b="225" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_c_19" trigger="1" intensity="0.75">
 						<lightanimations/>
 						<offset>
 							<position x="-3.508782E+08" y="-4.3316E+07" z="-1.672135E+08"/>

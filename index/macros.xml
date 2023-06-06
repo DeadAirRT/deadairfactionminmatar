@@ -101,5 +101,16 @@
 		<entry name="engine_dmi_m_macro" value="extensions\deadairfactionminmatar\assets\props\engines\macros\engine_dmi_m_macro"/>
 		<entry name="engine_dmi_s_macro" value="extensions\deadairfactionminmatar\assets\props\engines\macros\engine_dmi_s_macro"/>
 		<entry name="engine_dmi_xl_macro" value="extensions\deadairfactionminmatar\assets\props\engines\macros\engine_dmi_xl_macro"/>
+		<!-- Shields -->
+		<entry name="shield_dmi_s_standard_01_mk1_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_s_standard_01_mk1_macro"/>
+		<entry name="shield_dmi_s_standard_01_mk2_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_s_standard_01_mk2_macro"/>
+		<entry name="shield_dmi_s_standard_01_mk3_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_s_standard_01_mk3_macro"/>
+		<entry name="shield_dmi_m_standard_01_mk1_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_m_standard_01_mk1_macro"/>
+		<entry name="shield_dmi_m_standard_01_mk2_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_m_standard_01_mk2_macro"/>
+		<entry name="shield_dmi_m_standard_02_mk1_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_m_standard_02_mk1_macro"/>
+		<entry name="shield_dmi_m_standard_02_mk2_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_m_standard_02_mk2_macro"/>
+		<entry name="shield_dmi_l_standard_01_mk1_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_l_standard_01_mk1_macro"/>
+		<entry name="shield_dmi_l_standard_01_mk2_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_l_standard_01_mk2_macro"/>
+		<entry name="shield_dmi_xl_standard_01_mk1_macro" value="extensions\deadairfactionminmatar\assets\props\surfaceelements\macros\shield_dmi_xl_standard_01_mk1_macro"/>
 	</add>
 </diff>

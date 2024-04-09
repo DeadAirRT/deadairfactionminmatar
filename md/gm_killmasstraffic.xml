@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/mdscript/cues/library[@name='Start'][@version='4']/cues/cue[@name='Do_Start_Mission']/cues/cue[@name='MissionAccepted']/cues/cue[@name='ActivateMission'][@version='2']/actions/set_value[@name='$CurKillAmount'][@exact='0']" pos="before">
+    <do_if value="$Location.owner == faction.mindatar">
+      <set_value name="$CriminalMasstraffic" exact="'masstraffic_mindatar_criminal'"/>
+    </do_if>
+  </add>
+</diff>

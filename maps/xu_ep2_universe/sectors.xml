@@ -190,6 +190,18 @@
         </offset>
         <macro ref="ZoneDMIc_Cluster_DMI4_Sector001_macro" connection="sector" />
 	  </connection>
+	  <connection name="ZoneDMIcw_Cluster_DMI4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="-125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDMIcw_Cluster_DMI4_Sector001_macro" connection="sector" />
+	  </connection>
+	  <connection name="ZoneDMIce_Cluster_DMI4_Sector001_connection" ref="zones">
+        <offset>
+          <position x="125000" y="0" z="0" />
+        </offset>
+        <macro ref="ZoneDMIce_Cluster_DMI4_Sector001_macro" connection="sector" />
+	  </connection>
     </connections>
   </macro>
   

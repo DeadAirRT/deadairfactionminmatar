@@ -187,7 +187,7 @@
 		</region>
 		<region name="region_dmi1_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="154200" y="10000" z="182800"/>
 				<splineposition x="154200" y="10000" z="62800"/>
 				<splineposition x="124200" y="35000" z="62800"/>
@@ -198,19 +198,13 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="0.16" resources="nividium" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="0.16" resources="ore" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="0.24" resources="silicon" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.05" resources="nividium" resourcepercentage="100" yield="3000" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="0.24" resources="silicon"/>
 			</fields>
 			<resources>
-				<resource ware="ore" yield="medium"/>
 				<resource ware="silicon" yield="high"/>
-				<resource ware="nividium" yield="medium"/>
 			</resources>
 		</region>
-		<region name="region_dmi1_gas_01" density="2.5">
+		<region name="region_dmi1_gas_01" density="1.5">
 			<boundary class="splinetube">
 				<size r="20000"/>
 				<splineposition x="308400" y="0" z="365600"/>
@@ -231,7 +225,7 @@
 		</region>
 		<region name="region_dmi2_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="154200" y="-10000" z="-62800"/>
 				<splineposition x="124200" y="-35000" z="-62800"/>
 				<splineposition x="50000" y="-45000" z="33333"/>
@@ -240,17 +234,14 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.16" resources="ice" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ice_l" densityfactor="0.24" resources="ice" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="0.12" resources="ore" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.16" resources="ice"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="0.24" resources="ice"/>
 			</fields>
 			<resources>
 				<resource ware="ice" yield="medium"/>
-				<resource ware="ore" yield="low"/>
 			</resources>
 		</region>
-		<region name="region_dmi2_gas_01" density="2.5">
+		<region name="region_dmi2_gas_01" density="1.5">
 			<boundary class="splinetube">
 				<size r="20000"/>
 				<splineposition x="308400" y="0" z="-125600"/>
@@ -269,7 +260,7 @@
 		</region>
 		<region name="region_dmi3_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="-135000" y="10000" z="-105000"/>
 				<splineposition x="-105000" y="25000" z="-105000"/>
 				<splineposition x="0" y="30000" z="-33333"/>
@@ -278,19 +269,16 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="0.16" resources="nividium" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="0.16" resources="ore" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="0.16" resources="silicon" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_silicon_xl" densityfactor="0.1" resources="silicon" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.16" resources="ore"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="0.16" resources="silicon"/>
+				<asteroid groupref="asteroid_silicon_xl" densityfactor="0.1" resources="silicon"/>
 			</fields>
 			<resources>
-				<resource ware="ore" yield="medium"/>
-				<resource ware="silicon" yield="medium"/>
-				<resource ware="nividium" yield="medium"/>
+				<resource ware="ore" yield="medlow"/>
+				<resource ware="silicon" yield="medlow"/>
 			</resources>
 		</region>
-		<region name="region_dmi3_gas_01" density="2.5">
+		<region name="region_dmi3_gas_01" density="1.5">
 			<boundary class="splinetube">
 				<size r="20000"/>
 				<splineposition x="-270000" y="0" z="-210000"/>
@@ -309,7 +297,7 @@
 		</region>
 		<region name="region_dmi4_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="0.0" outlength="175000"/>
 				<splineposition x="350000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="175000" outlength="175000"/>
 				<splineposition x="0" y="0" z="-350000" tx="-1" ty="0" tz="0" inlength="175000" outlength="175000"/>
@@ -318,17 +306,16 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.05" resources="nividium" resourcepercentage="100" yield="3000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="0.16" resources="nividium" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.1" resources="nividium"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="0.32" resources="nividium"/>
 			</fields>
 			<resources>
 				<resource ware="nividium" yield="medium"/>
 			</resources>
 		</region>
-		<region name="region_dmi4_gas_01" density="2.5">
+		<region name="region_dmi4_gas_01" density="1.5">
 			<boundary class="cylinder">
-				<size r="250000" linear="10000"/>
+				<size r="60000" linear="10000"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -340,7 +327,7 @@
 		</region>
 		<region name="region_dmi5_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="-205000" y="10000" z="45000"/>
 				<splineposition x="-135000" y="10000" z="105000"/>
 				<splineposition x="-105000" y="35000" z="105000"/>
@@ -351,22 +338,17 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_ore_l" densityfactor="0.24" resources="ore" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="0.16" resources="silicon" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="0.16" resources="nividium" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_highyield_v1" densityfactor="0.06" resources="ore" resourcepercentage="100" yield="3000" yieldvariation="0.1"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.24" resources="ore"/>
+				<asteroid groupref="asteroid_highyield_v1" densityfactor="0.06" resources="ore"/>
 				<debris groupref="debris_xenon_l" densityfactor="0.03"/>
 				<debris groupref="debris_l" densityfactor="0.03"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
 			</fields>
 			<resources>
 				<resource ware="ore" yield="high"/>
-				<resource ware="silicon" yield="medium"/>
-				<resource ware="nividium" yield="medium"/>
-				<resource ware="rawscrap" yield="low"/>
+				<resource ware="rawscrap" yield="medium"/>
 			</resources>
 		</region>
-		<region name="region_dmi5_gas_01" density="2.5">
+		<region name="region_dmi5_gas_01" density="1.5">
 			<boundary class="splinetube">
 				<size r="20000"/>
 				<splineposition x="-410000" y="0" z="90000"/>
@@ -387,7 +369,7 @@
 		</region>
 		<region name="region_dmi6_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="-154200" y="10000" z="182800"/>
 				<splineposition x="-154200" y="10000" z="62800"/>
 				<splineposition x="-124200" y="35000" z="62800"/>
@@ -398,18 +380,17 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_ore_xl" densityfactor="0.1" resources="ore" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="0.16" resources="ore" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ice_l" densityfactor="0.16" resources="ice" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.1" resources="ice" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_ore_xl" densityfactor="0.1" resources="ore"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.16" resources="ore"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="0.16" resources="ice"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.1" resources="ice"/>
 			</fields>
 			<resources>
-				<resource ware="ore" yield="medium"/>
+				<resource ware="ore" yield="medlow"/>
 				<resource ware="ice" yield="medium"/>
 			</resources>
 		</region>
-		<region name="region_dmi6_gas_01" density="2.5">
+		<region name="region_dmi6_gas_01" density="1.5">
 			<boundary class="splinetube">
 				<size r="20000"/>
 				<splineposition x="-308400" y="0" z="365600"/>
@@ -430,7 +411,7 @@
 		</region>
 		<region name="region_dmi7_asteroids_01">
 			<boundary class="splinetube">
-				<size r="15000"/>
+				<size r="7500"/>
 				<splineposition x="-154200" y="25000" z="-62800"/>
 				<splineposition x="-124200" y="17500" z="-62800"/>
 				<splineposition x="-50000" y="10000" z="33333"/>
@@ -439,15 +420,14 @@
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_ice_l" densityfactor="0.24" resources="ice" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.06" resources="ice" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="0.24" resources="ice"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.06" resources="ice"/>
 			</fields>
 			<resources>
 				<resource ware="ice" yield="high"/>
 			</resources>
 		</region>
-		<region name="region_dmi7_gas_01" density="2.5">
+		<region name="region_dmi7_gas_01" density="1.5">
 			<boundary class="splinetube">
 				<size r="20000"/>
 				<splineposition x="-308400" y="0" z="-125600"/>
@@ -468,57 +448,57 @@
 		</region>
 		<region name="region_dmi_veryhigh_nividium">
 			<boundary class="cylinder">
-				<size r="25000" linear="5000"/>
+				<size r="25000" linear="2500"/>
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="1.5"/>
-				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.25"/>
+				<asteroid groupref="asteroid_nividium_l" densityfactor="0.32" resources="nividium"/>
+				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.08" resources="nividium"/>
 			</fields>
 			<resources>
-				<resource ware="nividium" yield="high"/>
+				<resource ware="nividium" yield="veryhigh"/>
 			</resources>
 		</region>
 		<region name="region_dmi_veryhigh_ore">
 			<boundary class="cylinder">
-				<size r="25000" linear="5000"/>
+				<size r="25000" linear="2500"/>
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_ore_l" densityfactor="2"/>
-				<asteroid groupref="asteroid_ore_xl"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.32" resources="ore"/>
+				<asteroid groupref="asteroid_ore_xl" densityfactor="0.08" resources="ore"/>
 			</fields>
 			<resources>
-				<resource ware="ore" yield="high"/>
+				<resource ware="ore" yield="veryhigh"/>
 			</resources>
 		</region>
 		<region name="region_dmi_veryhigh_silicon">
 			<boundary class="cylinder">
-				<size r="25000" linear="5000"/>
+				<size r="25000" linear="2500"/>
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="2"/>
-				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.25"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="0.32" resources="silicon"/>
+				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.08" resources="silicon"/>
 			</fields>
 			<resources>
-				<resource ware="silicon" yield="high"/>
+				<resource ware="silicon" yield="veryhigh"/>
 			</resources>
 		</region>
 		<region name="region_dmi_high_ice">
 			<boundary class="cylinder">
-				<size r="25000" linear="5000"/>
+				<size r="25000" linear="2500"/>
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_ice_l"/>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.25"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="0.32" resources="ice"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.08" resources="ice"/>
 			</fields>
 			<resources>
-				<resource ware="ice" yield="high"/>
+				<resource ware="ice" yield="veryhigh"/>
 			</resources>
 		</region>
-		<region name="region_dmi_high_methane" density="5">
+		<region name="region_dmi_high_methane" density="1">
 			<boundary class="cylinder">
 				<size r="60000" linear="10000"/>
 			</boundary>
@@ -527,10 +507,10 @@
 				<nebula ref="fogpattern_v2_macro" resources="methane"/>
 			</fields>
 			<resources>
-				<resource ware="methane" yield="high"/>
+				<resource ware="methane" yield="veryhigh"/>
 			</resources>
 		</region>
-		<region name="region_dmi_high_hydrogen" density="5">
+		<region name="region_dmi_high_hydrogen" density="1">
 			<boundary class="cylinder">
 				<size r="60000" linear="10000"/>
 			</boundary>
@@ -539,10 +519,10 @@
 				<nebula ref="fogpattern_v2_macro" resources="hydrogen"/>
 			</fields>
 			<resources>
-				<resource ware="hydrogen" yield="high"/>
+				<resource ware="hydrogen" yield="veryhigh"/>
 			</resources>
 		</region>
-		<region name="region_dmi_high_helium" density="5">
+		<region name="region_dmi_high_helium" density="1">
 			<boundary class="cylinder">
 				<size r="60000" linear="10000"/>
 			</boundary>
@@ -551,34 +531,30 @@
 				<nebula ref="fogpattern_v2_macro" resources="helium"/>
 			</fields>
 			<resources>
-				<resource ware="helium" yield="high"/>
+				<resource ware="helium" yield="veryhigh"/>
 			</resources>
 		</region>
 		<region name="region_dmi8_asteroids_01">
 			<boundary class="splinetube">
-				<size r="25000"/>
-				<splineposition x="0" y="0" z="450000" tx="1" ty="0" tz="0" inlength="0.0" outlength="225000"/>
-				<splineposition x="450000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="225000" outlength="225000"/>
-				<splineposition x="0" y="0" z="-450000" tx="-1" ty="0" tz="0" inlength="225000" outlength="225000"/>
-				<splineposition x="-450000" y="0" z="0" tx="0" ty="0" tz="1" inlength="225000" outlength="225000"/>
-				<splineposition x="0" y="0" z="450000" tx="1" ty="0" tz="0" inlength="225000" outlength="0.0"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000"/>
+				<splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000"/>
+				<splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000"/>
+				<splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000"/>
+				<splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
-				<asteroid groupref="asteroid_highyield_v1" densityfactor="0.08" resources="ore" resourcepercentage="100" yield="3000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.08" resources="silicon" resourcepercentage="100" yield="3000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_highyield_niv_v1" densityfactor="0.03" resources="nividium" resourcepercentage="100" yield="3000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ore_xxl" densityfactor="0.05" resources="ore" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_silicon_xl" densityfactor="0.1" resources="silicon" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ice_xl" densityfactor="0.1" resources="ice" resourcepercentage="100" yield="1000" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_nividium_l" densityfactor="0.12" resources="nividium" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ice_l" densityfactor="0.16" resources="ice" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_ore_l" densityfactor="0.16" resources="ore" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<asteroid groupref="asteroid_silicon_l" densityfactor="0.16" resources="silicon" resourcepercentage="100" yield="500" yieldvariation="0.1"/>
-				<object groupref="lockboxes_extra" densityfactor="0.001"/>
+				<asteroid groupref="asteroid_highyield_v1" densityfactor="0.16" resources="ore"/>
+				<asteroid groupref="asteroid_highyield_sil_v1" densityfactor="0.16" resources="silicon"/>
+				<asteroid groupref="asteroid_ore_xxl" densityfactor="0.1" resources="ore"/>
+				<asteroid groupref="asteroid_silicon_xl" densityfactor="0.2" resources="silicon"/>
+				<asteroid groupref="asteroid_ice_xl" densityfactor="0.2" resources="ice"/>
+				<asteroid groupref="asteroid_ice_l" densityfactor="0.32" resources="ice"/>
+				<asteroid groupref="asteroid_ore_l" densityfactor="0.32" resources="ore"/>
+				<asteroid groupref="asteroid_silicon_l" densityfactor="0.32" resources="silicon"/>
 			</fields>
 			<resources>
-				<resource ware="nividium" yield="low"/>
 				<resource ware="ore" yield="medium"/>
 				<resource ware="silicon" yield="medium"/>
 				<resource ware="ice" yield="medium"/>
@@ -586,7 +562,7 @@
 		</region>
 		<region name="region_dmi8_gas_01" density="2.5">
 			<boundary class="cylinder">
-				<size r="250000" linear="20000"/>
+				<size r="60000" linear="10000"/>
 			</boundary>
 			<falloff/>
 			<fields>

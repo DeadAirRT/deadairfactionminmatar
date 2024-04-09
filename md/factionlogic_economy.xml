@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/mdscript/cues/library[@name='Econ_Manager']/cues/cue[@name='Request_Production_Module']/actions/set_value[@name='$DebugText']" pos="before">
+    <do_if value="$Faction == faction.mindatar">
+      <set_value name="$CheckProductionCompatibility" exact="true"/>
+    </do_if>
+  </add>
+</diff>

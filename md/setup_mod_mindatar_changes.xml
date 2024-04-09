@@ -68,5 +68,44 @@
 				<add_paint_mod object="event.param" ware="$MindatarPaint"/>
 			</actions>
 		</cue>
+		<cue name="DeadAirScriptsIntegration" instantiate="true">
+			<conditions>
+				<check_any>
+					<event_universe_generated/>
+					<event_cue_signalled cue="md.Setup.Start"/>
+				</check_any>
+			</conditions>
+			<actions>
+				<do_if value="md.$DADynamicVarTable.$DAGateEnable?">
+					<signal_cue_instantly cue="IntegrateDeadAirGate"/>
+				</do_if>
+				<do_else>
+					<debug_text text="'MOD: DA Mindatar -- %s -- VAR MISSING -- md.$DADynamicVarTable.$DAGateEnable?: %s'.[player.age,md.$DADynamicVarTable.$DAGateEnable?]" context="false" filter="error"/>
+				</do_else>
+			</actions>
+		</cue>
+		<cue name="IntegrateDeadAirGate" instantiate="true">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
+					<set_value name="$LocMacroList" exact="[]"/>
+					<do_if value="faction.split?">
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI6_Cluster_DMI3_Sector001_macro,macro.ZoneDMI1_Cluster_424_Sector001_macro,macro.ZoneDMI2_Cluster_DMI7_Sector001_macro,macro.ZoneDMI1_Cluster_417_Sector001_macro,macro.ZoneDMI1_Cluster_DMI8_Sector001_macro,macro.ZoneDMI4_Cluster_400_Sector001_macro]"/>
+						<do_if value="faction.terran?">
+							<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI5_Cluster_424_Sector001_macro,macro.ZoneDMI1_Cluster_106_Sector001_macro]"/>
+						</do_if>
+					</do_if>
+					<do_for_each name="$LocMacro" in="$LocMacroList">
+						<do_if value="not md.$DADynamicVarTable.$DAGateZoneMacros.indexof.{$LocMacro}">
+							<append_to_list name="md.$DADynamicVarTable.$DAGateZoneMacros" exact="$LocMacro"/>
+						</do_if>
+					</do_for_each>
+					<signal_cue_instantly cue="md.DeadAirDynamicUniverse.EventGateFindOtherModGates" param="$LocMacroList"/>
+					<remove_value name="$LocMacroList"/>
+				</do_if>
+			</actions>
+		</cue>
 	</cues>
 </mdscript>

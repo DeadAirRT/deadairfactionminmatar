@@ -1,265 +1,263 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <add sel="/characters">
-    <!--<character id="TEMP_manager_split_random" group="split.manager">
+	<add sel="/characters">
+		<!--<character id="TEMP_manager_split_random" group="split.manager">
       <category tags="[npc, crew, officer, trader, commander, fighterpilot, manager, marine, masstraffic, watchdog, pilot, traderpilot]" faction="[split, freesplit, faction.player]" race="split"/>
       <owner list="[split, freesplit]"/>
     </character>-->
-  <!-- Generic Argon Characters -->
-  <character id="trader_mindatar_random" group="argon.trader">
-    <category tags="[crew, pilot, aipilot, traderpilot, masstraffic]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="7" max="15"/>
-      <skill type="morale" max="12"/>
-      <skill type="engineering" max="2"/>
-      <skill type="management" max="1"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="fighter_mindatar_random" group="argon.pilot">
-    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="7" max="15"/>
-      <skill type="morale" max="12"/>
-      <skill type="engineering" max="2"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="manager_mindatar_random" group="argon.manager">
-    <category tags="[crew, officer, manager]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="4" max="15"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="4"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <!-- regular -->
-  <character id="service_mindatar_random" group="argon.service">
-    <category tags="[crew, service, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" min="4" max="9"/>
-      <skill type="morale" min="2" max="9"/>
-      <skill type="piloting" min="1" max="9"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="marine_mindatar_random" group="argon.marine">
-    <category tags="[crew, marine, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="5" max="9"/>
-      <skill type="morale" min="1" max="9"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="piloting" min="1" max="9"/>
-      <skill type="management" exact="0"/>
-    </skills>
-	<owner list="[mindatar]"/>
-  </character>
-  <character id="fighter_mindatar_regular_random" group="argon.pilot">
-    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="7" max="9"/>
-      <skill type="morale" min="2" max="9"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="manager_mindatar_regular_random" group="argon.manager">
-    <category tags="[crew, officer, manager, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="5" max="9"/>
-      <skill type="morale" min="2" max="9"/>
-      <skill type="piloting" min="1" max="9"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <!-- passengers -->
-  <character id="passenger_mindatar_random" group="argon.passenger">
-    <category tags="[crew, passenger]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" exact="0"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="6"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="prisoner_mindatar_random" group="argon.prisoner">
-    <category tags="[crew, prisoner]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" exact="0"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="6"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-
-  <!-- Rookies -->
-  <character id="service_mindatar_random_rookie" group="argon.service">
-    <category tags="[crew, service, rookie, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" max="6"/>
-      <skill type="morale" min="2" max="5"/>
-      <skill type="piloting" min="1" max="2"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="marine_mindatar_random_rookie" group="argon.marine">
-    <category tags="[crew, marine, rookie, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="1" max="6"/>
-      <skill type="morale" min="1" max="4"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="piloting" min="1" max="2"/>
-      <skill type="management" exact="0"/>
-    </skills>
-	<owner list="[mindatar]"/>
-  </character>
-  <character id="fighter_mindatar_random_rookie" group="argon.pilot">
-    <category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, rookie, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="4" max="6"/>
-      <skill type="morale" min="3" max="6"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <!-- Veteran -->
-  <character id="service_mindatar_random_veteran" group="argon.service">
-    <category tags="[crew, service, veteran]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" min="6" max="12"/>
-      <skill type="morale" min="6" max="12"/>
-      <skill type="piloting" min="3" max="9"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="marine_mindatar_random_veteran" group="argon.marine">
-    <category tags="[crew, marine, veteran]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="6" max="12"/>
-      <skill type="morale" min="6" max="12"/>
-      <skill type="engineering" exact="0"/>
-      <skill type="piloting" min="3" max="9"/>
-      <skill type="management" exact="0"/>
-    </skills>
-	<owner list="[mindatar]"/>
-  </character>
-  <!-- Elite -->
-  <character id="service_mindatar_random_elite" group="argon.service">
-    <category tags="[crew, service, elite]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="engineering" min="12" max="15"/>
-      <skill type="morale" min="12" max="15"/>
-      <skill type="piloting" min="6" max="12"/>
-      <skill type="management" min="6" max="12"/>
-      <skill type="boarding" min="6" max="12"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  <character id="marine_mindatar_random_elite" group="argon.marine">
-    <category tags="[crew, marine, elite]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="boarding" min="12" max="15"/>
-      <skill type="morale" min="12" max="15"/>
-      <skill type="engineering" min="6" max="12"/>
-      <skill type="piloting" min="6" max="12"/>
-      <skill type="management" min="6" max="12"/>
-    </skills>
-	<owner list="[mindatar]"/>
-  </character>
-  <character id="fighter_mindatar_random_elite" group="argon.pilot">
-    <category tags="[elitepilot]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="piloting" min="12" max="15"/>
-      <skill type="morale" min="12" max="15"/>
-      <skill type="engineering" min="6" max="12"/>
-      <skill type="management" min="6" max="12"/>
-      <skill type="boarding" min="6" max="12"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-
-  <character id="platform_trader_mindatar_random" group="argon.trader">
-    <category tags="[trader, licencetrader]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="4" max="11"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="4"/>
-      <skill type="engineering" max="1"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-    <stock ref="'default_trader'" />
-  </character>
-  <character id="ship_trader_mindatar_random" group="argon.shiptrader">
-    <category tags="[trader, shiptrader]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="management" min="4" max="11"/>
-      <skill type="morale" max="12"/>
-      <skill type="piloting" min="2" max="4"/>
-      <skill type="engineering" max="1"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-    <stock ref="'default_trader'" />
-  </character>
-  <character id="shadyguy_mindatar_random" group="argon.shadyguy">
-    <category tags="[shadyguy]" faction="[mindatar, faction.player]" race="argon" />
-    <skills>
-      <skill type="piloting" min="8" max="11"/>
-      <skill type="morale" max="12"/>
-      <skill type="engineering" max="2"/>
-      <skill type="management" exact="0"/>
-      <skill type="boarding" exact="0"/>
-    </skills>
-    <owner list="[mindatar]"/>
-    <stock ref="'default_shadyguy'" />
-  </character>
-  <!-- TODO FACTION REP -->
-  <character id="factionrepresentative_mindatar" group="mindatar.factionrepresentative">
-    <category tags="[factionrepresentative]" faction="mindatar" race="argon"/>
-    <skills>
-      <skill type="management" exact="15"/>
-      <skill type="morale" exact="15"/>
-      <skill type="boarding" exact="12"/>
-      <skill type="engineering" exact="12"/>
-      <skill type="piloting" exact="15"/>
-    </skills>
-    <page exact="10101"/>
-    <owner exact="mindatar"/>
-  </character>
-  <!-- Casually clothed platform NPCs -->
-  <character id="mindatar_casual" group="argon.civilian">
-    <category tags="[casual]" faction="[mindatar, faction.player]" race="argon"/>
-    <skills>
-      <skill type="morale" max="3"/>
-      <skill type="piloting" max="3"/>
-      <skill type="engineering" max="3"/>
-      <skill type="management" max="3"/>
-      <skill type="boarding" max="3"/>
-    </skills>
-    <owner list="[mindatar]"/>
-  </character>
-  </add>
+		<!-- Generic Argon Characters -->
+		<character id="trader_mindatar_random" group="argon.trader">
+			<category tags="[crew, pilot, aipilot, traderpilot, masstraffic]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="7" max="15"/>
+				<skill type="morale" max="12"/>
+				<skill type="engineering" max="2"/>
+				<skill type="management" max="1"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="fighter_mindatar_random" group="argon.pilot">
+			<category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="7" max="15"/>
+				<skill type="morale" max="12"/>
+				<skill type="engineering" max="2"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="manager_mindatar_random" group="argon.manager">
+			<category tags="[crew, officer, manager]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="4" max="15"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="4"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<!-- regular -->
+		<character id="service_mindatar_random" group="argon.service">
+			<category tags="[crew, service, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" min="4" max="9"/>
+				<skill type="morale" min="2" max="9"/>
+				<skill type="piloting" min="1" max="9"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="marine_mindatar_random" group="argon.marine">
+			<category tags="[crew, marine, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="5" max="9"/>
+				<skill type="morale" min="1" max="9"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="piloting" min="1" max="9"/>
+				<skill type="management" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="fighter_mindatar_regular_random" group="argon.pilot">
+			<category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="7" max="9"/>
+				<skill type="morale" min="2" max="9"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="manager_mindatar_regular_random" group="argon.manager">
+			<category tags="[crew, officer, manager, regular, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="5" max="9"/>
+				<skill type="morale" min="2" max="9"/>
+				<skill type="piloting" min="1" max="9"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<!-- passengers -->
+		<character id="passenger_mindatar_random" group="argon.passenger">
+			<category tags="[crew, passenger]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" exact="0"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="6"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="prisoner_mindatar_random" group="argon.prisoner">
+			<category tags="[crew, prisoner]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" exact="0"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="6"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<!-- Rookies -->
+		<character id="service_mindatar_random_rookie" group="argon.service">
+			<category tags="[crew, service, rookie, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" max="6"/>
+				<skill type="morale" min="2" max="5"/>
+				<skill type="piloting" min="1" max="2"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="marine_mindatar_random_rookie" group="argon.marine">
+			<category tags="[crew, marine, rookie, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="1" max="6"/>
+				<skill type="morale" min="1" max="4"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="piloting" min="1" max="2"/>
+				<skill type="management" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="fighter_mindatar_random_rookie" group="argon.pilot">
+			<category tags="[crew, officer, pilot, aipilot, fighterpilot, commander, masstraffic, watchdog, rookie, recruitable]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="4" max="6"/>
+				<skill type="morale" min="3" max="6"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<!-- Veteran -->
+		<character id="service_mindatar_random_veteran" group="argon.service">
+			<category tags="[crew, service, veteran]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" min="6" max="12"/>
+				<skill type="morale" min="6" max="12"/>
+				<skill type="piloting" min="3" max="9"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="marine_mindatar_random_veteran" group="argon.marine">
+			<category tags="[crew, marine, veteran]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="6" max="12"/>
+				<skill type="morale" min="6" max="12"/>
+				<skill type="engineering" exact="0"/>
+				<skill type="piloting" min="3" max="9"/>
+				<skill type="management" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<!-- Elite -->
+		<character id="service_mindatar_random_elite" group="argon.service">
+			<category tags="[crew, service, elite]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="engineering" min="12" max="15"/>
+				<skill type="morale" min="12" max="15"/>
+				<skill type="piloting" min="6" max="12"/>
+				<skill type="management" min="6" max="12"/>
+				<skill type="boarding" min="6" max="12"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="marine_mindatar_random_elite" group="argon.marine">
+			<category tags="[crew, marine, elite]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="boarding" min="12" max="15"/>
+				<skill type="morale" min="12" max="15"/>
+				<skill type="engineering" min="6" max="12"/>
+				<skill type="piloting" min="6" max="12"/>
+				<skill type="management" min="6" max="12"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="fighter_mindatar_random_elite" group="argon.pilot">
+			<category tags="[elitepilot]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="12" max="15"/>
+				<skill type="morale" min="12" max="15"/>
+				<skill type="engineering" min="6" max="12"/>
+				<skill type="management" min="6" max="12"/>
+				<skill type="boarding" min="6" max="12"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+		<character id="platform_trader_mindatar_random" group="argon.trader">
+			<category tags="[trader, licencetrader]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="4" max="11"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="4"/>
+				<skill type="engineering" max="1"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+			<stock ref="'default_trader'"/>
+		</character>
+		<character id="ship_trader_mindatar_random" group="argon.shiptrader">
+			<category tags="[trader, shiptrader]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="management" min="4" max="11"/>
+				<skill type="morale" max="12"/>
+				<skill type="piloting" min="2" max="4"/>
+				<skill type="engineering" max="1"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+			<stock ref="'default_trader'"/>
+		</character>
+		<character id="shadyguy_mindatar_random" group="argon.shadyguy">
+			<category tags="[shadyguy]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="piloting" min="8" max="11"/>
+				<skill type="morale" max="12"/>
+				<skill type="engineering" max="2"/>
+				<skill type="management" exact="0"/>
+				<skill type="boarding" exact="0"/>
+			</skills>
+			<owner list="[mindatar]"/>
+			<stock ref="'default_shadyguy'"/>
+		</character>
+		<!-- TODO FACTION REP -->
+		<character id="factionrepresentative_mindatar" group="mindatar.factionrepresentative">
+			<category tags="[factionrepresentative]" faction="mindatar" race="argon"/>
+			<skills>
+				<skill type="management" exact="15"/>
+				<skill type="morale" exact="15"/>
+				<skill type="boarding" exact="12"/>
+				<skill type="engineering" exact="12"/>
+				<skill type="piloting" exact="15"/>
+			</skills>
+			<page exact="10101"/>
+			<owner exact="mindatar"/>
+		</character>
+		<!-- Casually clothed platform NPCs -->
+		<character id="mindatar_casual" group="argon.civilian">
+			<category tags="[casual]" faction="[mindatar, faction.player]" race="argon"/>
+			<skills>
+				<skill type="morale" max="3"/>
+				<skill type="piloting" max="3"/>
+				<skill type="engineering" max="3"/>
+				<skill type="management" max="3"/>
+				<skill type="boarding" max="3"/>
+			</skills>
+			<owner list="[mindatar]"/>
+		</character>
+	</add>
 </diff>

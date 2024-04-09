@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/mdscript/cues/cue[@name='Manager'][@version='4']/cues/cue[@name='GM_Transport_Passengers__Trigger'][@version='2']/actions/do_if[@value='$Station.hasrelation.dock.{faction.player}']/do_if[@value='$Page == 30101 and ($TextOffset == 100 or $TextOffset == 200)']/do_all[@exact='1']">
+    <do_elseif value="$Station.owner == faction.mindatar">
+      <set_value name="$ClientOwner" exact="faction.mindatar"/>
+    </do_elseif>
+  </add>
+</diff>

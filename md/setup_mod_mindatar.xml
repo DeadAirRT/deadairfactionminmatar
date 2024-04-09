@@ -4,10 +4,7 @@
 		<!-- will run once, either on gamestart or when a game is loaded where this mod was not active before -->
 		<cue name="Setup" namespace="this">
 			<conditions>
-				<check_any>
-					<event_universe_generated/>
-					<event_cue_signalled cue="md.Setup.Start"/>
-				</check_any>
+				<event_cue_signalled cue="md.Setup.Start"/>
 			</conditions>
 			<actions>
 				<do_if value="global.$smugglercoverfactions?">

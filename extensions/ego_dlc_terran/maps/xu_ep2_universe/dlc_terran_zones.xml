@@ -9,7 +9,11 @@
 						<position x="0" y="250" z="500"/>
 						<quaternion qx="0" qy="1" qz="0" qw="0"/>
 					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space"/>
+					<macro ref="props_gates_anc_gate_macro" connection="space">
+						<properties>
+							<state active="false"/>
+						</properties>
+					</macro>
 				</connection>
 			</connections>
 		</macro>

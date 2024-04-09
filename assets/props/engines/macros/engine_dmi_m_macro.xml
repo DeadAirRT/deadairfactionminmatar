@@ -4,8 +4,8 @@
 		<component ref="engine_spl_m_combat_01_mk3"/>
 		<properties>
 			<identification name="{4816302,601}" basename="{20107,1001}" shortname="{4816302,604}" description="{20107,2082}"/>
-			<boost duration="15" thrust="6.2" attack="1.1" release="1.25"/>
-			<travel charge="1" thrust="9.8" attack="15" release="10"/>
+			<boost duration="15" thrust="6.2" attack="2.2" release="2.5"/>
+			<travel charge="1" thrust="9.8" attack="7.5" release="5"/>
 			<thrust forward="1824" reverse="2128"/>
 			<angular/>
 			<hull integrated="1"/>

@@ -1,0 +1,4 @@
+<diff>
+	<replace  sel="/components/component/connections/connection[@name='con_weapon_01']/@tags">weapon medium standard missile platformcollision symmetry symmetry_left symmetry_1 highpower combat</replace>
+	<replace  sel="/components/component/connections/connection[@name='con_weapon_06']/@tags">weapon medium standard missile platformcollision symmetry symmetry_right symmetry_1 highpower combat</replace>
+</diff>

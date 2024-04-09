@@ -128,6 +128,19 @@
 					<!-- 90 deg x -->
 				</offset>
 			</connection>
+			<!-- Launch lasertowers? -->
+			<connection name="con_shipstorage_xs_01" tags="dockingbay ">
+				<offset>
+					<position x="0" y="1" z="1"/>
+				</offset>
+			</connection>
+			<connection name="con_cargotube" tags="cargotube ">
+				<offset>
+					<position x="0" y="-26.364" z="-90.37"/>
+					<quaternion qx="0.7071068" qy="0" qz="0" qw="0.7071068"/>
+					<!-- 90 deg x -->
+				</offset>
+			</connection>
 			<!-- VRO -->
 			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_dmi_l_stabber">
 				<offset>

@@ -7,6 +7,7 @@
 			<heat value="22"/>
 			<reload rate="1.5"/>
 			<damage value="189.92" noshield="138.13" repair="0"/>
+			<areadamage value="18" time="1" lifetime="1"/>
 			<effects>
 				<impact ref="impact_gen_m_gatling_01_mk1" inside="explosion_artillery_s_da"/>
 				<bigobjectimpact ref="impact_gen_m_gatling_01_mk1_bigobject" inside="explosion_artillery_s_da"/>

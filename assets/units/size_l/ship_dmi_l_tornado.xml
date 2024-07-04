@@ -349,12 +349,12 @@
 					<quaternion qw="-0.7071068967259818" qx="0.7071066656470943" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection name="con_l_weapon_1" tags="weapon large standard weapon_dmi_l symmetry symmetry_bottom">
+			<connection name="con_l_weapon_1" tags="weapon large standard weapon_dmi_l symmetry symmetry_1 symmetry_bottom">
 				<offset>
 					<position x="-0.0" y="-27.4054" z="56.49380000000001"/>
 				</offset>
 			</connection>
-			<connection name="con_l_weapon_2" tags="weapon large standard weapon_dmi_l symmetry symmetry_top">
+			<connection name="con_l_weapon_2" tags="weapon large standard weapon_dmi_l symmetry symmetry_1 symmetry_top">
 				<offset>
 					<position x="-0.0" y="6.587" z="51.454"/>
 				</offset>

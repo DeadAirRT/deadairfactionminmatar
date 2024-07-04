@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/colormap/colors">
+		<color id="color_mindatar" r="128" g="42" b="0" a="255"/>
+	</add>
+	<add sel="/colormap/mappings">
+		<mapping id="faction_mindatar" ref="color_mindatar"/>
+	</add>
+</diff>

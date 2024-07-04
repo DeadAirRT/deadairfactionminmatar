@@ -3,7 +3,7 @@
 	<macro name="ship_dmi_l_fenrir_macro" class="ship_l">
 		<component ref="ship_dmi_l_fenrir"/>
 		<properties>
-			<identification name="{4816302,700}" basename="{4816302,700}" description="{4816302,800}" icon="ship_l_trade_01"/>
+			<identification name="{4816302,700}" basename="{4816302,700}" description="{4816302,800}" icon="ship_l_freighter_01"/>
 			<software>
 				<software ware="software_dockmk2" compatible="1"/>
 				<software ware="software_flightassistmk1" default="1"/>

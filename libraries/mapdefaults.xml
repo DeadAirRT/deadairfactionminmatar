@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
 	<!-- 
-CAPITAL: <area sunlight="1" economy="1" security="1" />
+CAPITAL: <area sunlight="1" economy="1.0" security="1.0" />
 ADVANCED: <area sunlight="1" economy="1.0" security="0.9" />
-INTERIOR: <area sunlight="1" economy="1.0" security="0.8" />
-BORDER: <area sunlight="1" economy="1.0" security="0.9" />
+INTERIOR: <area sunlight="1" economy="1.0" security="0.7" />
+BORDER: <area sunlight="1" economy="1.0" security="0.5" />
 NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 -->
 	<add sel="/defaults">
@@ -14,13 +14,13 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1.1" economy="1.0" security="0.9"/>
+				<area sunlight="1.5" economy="1.0" security="0.5"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI1_Sector001_macro">
 			<properties>
 				<identification name="{4816302,120}" description="{20006,102}"/>
-				<area sunlight="1.1" economy="1.0" security="0.9"/>
+				<area sunlight="1.5" economy="1.0" security="0.5"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI2_macro">
@@ -29,13 +29,13 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="0.8" economy="1.0" security="0.8"/>
+				<area sunlight="1.4" economy="1.0" security="0.5"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI2_Sector001_macro">
 			<properties>
 				<identification name="{4816302,121}" description="{20006,102}"/>
-				<area sunlight="0.8" economy="1.0" security="0.8"/>
+				<area sunlight="1.4" economy="1.0" security="0.5"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI3_macro">
@@ -44,13 +44,13 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1.3" economy="1.0" security="0.8"/>
+				<area sunlight="1.6" economy="1.0" security="0.5"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI3_Sector001_macro">
 			<properties>
 				<identification name="{4816302,122}" description="{20006,102}"/>
-				<area sunlight="1.3" economy="1.0" security="0.8"/>
+				<area sunlight="1.6" economy="1.0" security="0.5"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI4_macro">
@@ -59,7 +59,7 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1" economy="1" security="1"/>
+				<area sunlight="1.0" economy="1.0" security="1.0"/>
 				<system>
 					<space environment="{1042,12011}(Clear Space)"/>
 					<suns>
@@ -74,7 +74,7 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 		<dataset macro="Cluster_DMI4_Sector001_macro">
 			<properties>
 				<identification name="{4816302,123}" description="{20006,102}"/>
-				<area sunlight="1" economy="1" security="1"/>
+				<area sunlight="1.0" economy="1.0" security="1.0"/>
 				<worlds>
 					<world part="planet001c"/>
 				</worlds>
@@ -86,13 +86,13 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1.6" economy="1.0" security="0.9"/>
+				<area sunlight="0.8" economy="1.0" security="0.7"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI5_Sector001_macro">
 			<properties>
 				<identification name="{4816302,124}" description="{20006,102}"/>
-				<area sunlight="1.6" economy="1.0" security="0.9"/>
+				<area sunlight="0.8" economy="1.0" security="0.7"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI6_macro">
@@ -101,13 +101,13 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1.6" economy="1.0" security="0.9"/>
+				<area sunlight="0.8" economy="1.0" security="0.7"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI6_Sector001_macro">
 			<properties>
 				<identification name="{4816302,125}" description="{20006,102}"/>
-				<area sunlight="1.6" economy="1.0" security="0.9"/>
+				<area sunlight="0.8" economy="1.0" security="0.7"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI7_macro">
@@ -116,13 +116,13 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1.2" economy="1.0" security="0.8"/>
+				<area sunlight="0.9" economy="1.0" security="0.9"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI7_Sector001_macro">
 			<properties>
 				<identification name="{4816302,126}" description="{20006,102}"/>
-				<area sunlight="1.2" economy="1.0" security="0.8"/>
+				<area sunlight="0.9" economy="1.0" security="0.9"/>
 			</properties>
 		</dataset>
 		<dataset macro="Cluster_DMI8_macro">
@@ -131,7 +131,7 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 				<sounds>
 					<music ref="music_soundtrack_periphery"/>
 				</sounds>
-				<area sunlight="1.6" economy="0.25" security="0.25" factionlogic="false"/>
+				<area sunlight="1.8" economy="1.0" security="0.25" factionlogic="false"/>
 				<system>
 					<space environment="{1042,12011}(Clear Space)"/>
 					<suns>
@@ -146,12 +146,11 @@ NEUTRAL: <area sunlight="1" economy="0.25" security="0.1" />
 		<dataset macro="Cluster_DMI8_Sector001_macro">
 			<properties>
 				<identification name="{4816302,130}" description="{20006,102}"/>
-				<area sunlight="1.6" economy="0.25" security="0.25"/>
+				<area sunlight="1.8" economy="1.0" security="0.25"/>
 				<worlds>
 					<world part="planet"/>
 				</worlds>
 			</properties>
 		</dataset>
 	</add>
-	<replace sel="//dataset[@macro='Cluster_44_macro']/properties/area/@factionlogic">true</replace>
 </diff>

@@ -128,6 +128,15 @@
 	<add sel="/wares/ware[@id='module_gen_build_xl_01']">
 		<owner faction="mindatar"/>
 	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_01']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_02']">
+		<owner faction="mindatar"/>
+	</add>
+	<add sel="/wares/ware[@id='module_gen_conn_observationdeck_03']">
+		<owner faction="mindatar"/>
+	</add>
 	<add sel="/wares/ware[@id='module_gen_equip_dockarea_m_01']">
 		<owner faction="mindatar"/>
 	</add>
@@ -306,6 +315,7 @@
 			<component ref="turret_dmi_l_1400mm_fusion_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_l_1400mm_nuclear" name="{4816302,202}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -320,6 +330,7 @@
 			<component ref="turret_dmi_l_1400mm_nuclear_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_l_1400mm_titanium" name="{4816302,204}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -334,6 +345,7 @@
 			<component ref="turret_dmi_l_1400mm_titanium_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_1400mm_fusion_01" name="{4816302,206}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -348,6 +360,7 @@
 			<component ref="turret_dmi_m_1400mm_fusion_01_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_1400mm_fusion_02" name="{4816302,206}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -362,6 +375,7 @@
 			<component ref="turret_dmi_m_1400mm_fusion_02_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_1400mm_nuclear_01" name="{4816302,207}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -376,6 +390,7 @@
 			<component ref="turret_dmi_m_1400mm_nuclear_01_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_1400mm_nuclear_02" name="{4816302,207}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -390,6 +405,7 @@
 			<component ref="turret_dmi_m_1400mm_nuclear_02_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_1400mm_titanium_01" name="{4816302,208}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -404,6 +420,7 @@
 			<component ref="turret_dmi_m_1400mm_titanium_01_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_1400mm_titanium_02" name="{4816302,208}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -418,6 +435,7 @@
 			<component ref="turret_dmi_m_1400mm_titanium_02_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_t3bc_1400mm_fusion" name="{4816302,200}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -432,6 +450,7 @@
 			<component ref="turret_dmi_t3bc_1400mm_fusion_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_t3bc_1400mm_nuclear" name="{4816302,202}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -446,6 +465,7 @@
 			<component ref="turret_dmi_t3bc_1400mm_nuclear_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_t3bc_1400mm_titanium" name="{4816302,204}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -460,6 +480,7 @@
 			<component ref="turret_dmi_t3bc_1400mm_titanium_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="engine_dmi_t3bc" name="{4816302,280}" description="{20107,3002}" group="engines" transport="equipment" volume="1" tags="engine equipment">
@@ -495,6 +516,7 @@
 			<component ref="weapon_dmi_l_fusion_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_l_nuclear" name="{4816302,202}" description="{4816302,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -509,6 +531,7 @@
 			<component ref="weapon_dmi_l_nuclear_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_l_titanium" name="{4816302,204}" description="{4816302,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -523,6 +546,7 @@
 			<component ref="weapon_dmi_l_titanium_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_xl" name="{4816302,212}" description="{4816302,303}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -551,6 +575,7 @@
 			<component ref="weapon_dmi_m_fusion_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_m_nuclear" name="{4816302,207}" description="{4816302,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -565,6 +590,7 @@
 			<component ref="weapon_dmi_m_nuclear_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_m_titanium" name="{4816302,208}" description="{4816302,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -579,6 +605,7 @@
 			<component ref="weapon_dmi_m_titanium_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_s_fusion" name="{4816302,209}" description="{4816302,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -593,6 +620,7 @@
 			<component ref="weapon_dmi_s_fusion_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_s_nuclear" name="{4816302,210}" description="{4816302,301}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -607,6 +635,7 @@
 			<component ref="weapon_dmi_s_nuclear_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="weapon_dmi_s_titanium" name="{4816302,211}" description="{4816302,302}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -621,6 +650,7 @@
 			<component ref="weapon_dmi_s_titanium_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_l_autocannon_fusion" name="{4816302,213}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -635,6 +665,7 @@
 			<component ref="turret_dmi_l_autocannon_fusion_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_l_autocannon_nuclear" name="{4816302,214}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -649,6 +680,7 @@
 			<component ref="turret_dmi_l_autocannon_nuclear_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_l_autocannon_titanium" name="{4816302,215}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -663,6 +695,7 @@
 			<component ref="turret_dmi_l_autocannon_titanium_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_autocannon_fusion_01" name="{4816302,216}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -677,6 +710,7 @@
 			<component ref="turret_dmi_m_autocannon_fusion_01_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_autocannon_fusion_02" name="{4816302,216}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -691,6 +725,7 @@
 			<component ref="turret_dmi_m_autocannon_fusion_02_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_autocannon_nuclear_01" name="{4816302,217}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -705,6 +740,7 @@
 			<component ref="turret_dmi_m_autocannon_nuclear_01_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_autocannon_nuclear_02" name="{4816302,217}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -719,6 +755,7 @@
 			<component ref="turret_dmi_m_autocannon_nuclear_02_macro" amount="1"/>
 			<restriction licence="militaryequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_autocannon_titanium_01" name="{4816302,218}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -733,6 +770,7 @@
 			<component ref="turret_dmi_m_autocannon_titanium_01_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_m_autocannon_titanium_02" name="{4816302,218}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -747,6 +785,7 @@
 			<component ref="turret_dmi_m_autocannon_titanium_02_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_t3bc_autocannon_fusion" name="{4816302,213}" description="{4816302,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -761,6 +800,7 @@
 			<component ref="turret_dmi_t3bc_autocannon_fusion_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.7" factions="mindatar"/>
+			<use threshold="1.0"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_t3bc_autocannon_nuclear" name="{4816302,214}" description="{4816302,301}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -775,6 +815,7 @@
 			<component ref="turret_dmi_t3bc_autocannon_nuclear_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0.3" factions="mindatar"/>
+			<use threshold="0.7"/>
 			<owner faction="mindatar"/>
 		</ware>
 		<ware id="turret_dmi_t3bc_autocannon_titanium" name="{4816302,215}" description="{4816302,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -789,6 +830,7 @@
 			<component ref="turret_dmi_t3bc_autocannon_titanium_macro" amount="1"/>
 			<restriction licence="capitalequipment"/>
 			<use threshold="0" factions="mindatar"/>
+			<use threshold="0.5"/>
 			<owner faction="mindatar"/>
 		</ware>
 	</add>

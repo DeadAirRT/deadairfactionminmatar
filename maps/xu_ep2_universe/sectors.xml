@@ -1,416 +1,560 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-<add sel="//macros">
-  <macro name="Cluster_DMI1_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI1_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI1_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI1_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI1_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI1_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI2_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI2_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI2_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI2_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI2_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI2_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI3_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI3_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI3_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI3_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI3_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI3_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI4_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI4_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIcw_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-125000" y="0" z="0" />
-        </offset>
-        <macro ref="ZoneDMIcw_Cluster_DMI4_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIce_Cluster_DMI4_Sector001_connection" ref="zones">
-        <offset>
-          <position x="125000" y="0" z="0" />
-        </offset>
-        <macro ref="ZoneDMIce_Cluster_DMI4_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI5_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI5_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI5_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI5_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI5_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI5_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI6_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI6_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI6_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI6_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI6_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI6_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI7_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI7_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI7_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI7_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI7_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI7_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-  
-  <macro name="Cluster_DMI8_Sector001_macro" class="sector">
-    <component ref="standardsector" />
-    <connections>
-      <connection name="ZoneDMI1_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_DMI8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI2_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI2_Cluster_DMI8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI3_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI3_Cluster_DMI8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI4_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="0" z="-300000" />
-        </offset>
-        <macro ref="ZoneDMI4_Cluster_DMI8_Sector001_macro" connection="sector" />
-      </connection>
-      <connection name="ZoneDMI5_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="-166410" />
-        </offset>
-        <macro ref="ZoneDMI5_Cluster_DMI8_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMI6_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI6_Cluster_DMI8_Sector001_macro" connection="sector" />
-	  </connection>
-	  <connection name="ZoneDMIc_Cluster_DMI8_Sector001_connection" ref="zones">
-        <offset>
-          <position x="0" y="-100" z="0" />
-        </offset>
-        <macro ref="ZoneDMIc_Cluster_DMI8_Sector001_macro" connection="sector" />
-	  </connection>
-    </connections>
-  </macro>
-</add>
-<add sel="//macro[@name='Cluster_34_Sector001_macro']/connections">
-      <connection name="ZoneDMI1_Cluster_34_Sector001_connection" ref="zones">
-        <offset>
-          <position x="-249615" y="0" z="166410" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_34_Sector001_macro" connection="sector" />
-      </connection>
-</add>
-<add sel="//macro[@name='Cluster_07_Sector001_macro']/connections">
-      <connection name="ZoneDMI1_Cluster_07_Sector001_connection" ref="zones">
-        <offset>
-          <position x="80000" y="0" z="300000" />
-        </offset>
-        <macro ref="ZoneDMI1_Cluster_07_Sector001_macro" connection="sector" />
-      </connection>
-</add>
+<diff>
+	<add sel="/macros">
+		<macro name="Cluster_DMI1_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI1_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI1_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI2_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI2_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI2_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI3_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI3_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI3_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI4_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIcw_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-125000" y="0" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIcw_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIce_Cluster_DMI4_Sector001_connection" ref="zones">
+					<offset>
+						<position x="125000" y="0" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIce_Cluster_DMI4_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDMI1toDMI5_Cluster_DMI4_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-10000" y="0" z="45000" />
+					</offset>
+					<macro ref="HighwayDMI1toDMI5_Cluster_DMI4_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI1_Cluster_DMI4_Sector001_connection" connection="highway06connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI5_Cluster_DMI4_Sector001_connection" connection="highway06connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDMI3toDMI1_Cluster_DMI4_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="54658.357" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDMI3toDMI1_Cluster_DMI4_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI3_Cluster_DMI4_Sector001_connection" connection="highway10connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI1_Cluster_DMI4_Sector001_connection" connection="highway10connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDMI5toDMI3_Cluster_DMI4_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-45427.588" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDMI5toDMI3_Cluster_DMI4_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI5_Cluster_DMI4_Sector001_connection" connection="highway09connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI3_Cluster_DMI4_Sector001_connection" connection="highway09connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI5_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI5_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI5_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDMI1toDMI3_Cluster_DMI5_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-10000" y="0" z="45000" />
+					</offset>
+					<macro ref="HighwayDMI1toDMI3_Cluster_DMI5_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI1_Cluster_DMI5_Sector001_connection" connection="highway08connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI3_Cluster_DMI5_Sector001_connection" connection="highway08connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDMI3toDMI1_Cluster_DMI5_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="54658.357" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDMI3toDMI1_Cluster_DMI5_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI3_Cluster_DMI5_Sector001_connection" connection="highway10connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI1_Cluster_DMI5_Sector001_connection" connection="highway10connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI6_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI6_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI6_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDMI1toDMI5_Cluster_DMI6_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-10000" y="0" z="45000" />
+					</offset>
+					<macro ref="HighwayDMI1toDMI5_Cluster_DMI6_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI1_Cluster_DMI6_Sector001_connection" connection="highway06connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI5_Cluster_DMI6_Sector001_connection" connection="highway06connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDMI5toDMI1_Cluster_DMI6_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-45427.588" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDMI5toDMI1_Cluster_DMI6_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI5_Cluster_DMI6_Sector001_connection" connection="highway07connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI1_Cluster_DMI6_Sector001_connection" connection="highway07connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI7_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI7_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI7_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="HighwayDMI2toDMI6_Cluster_DMI7_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="45427.588" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDMI2toDMI6_Cluster_DMI7_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI2_Cluster_DMI7_Sector001_connection" connection="highway03connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI6_Cluster_DMI7_Sector001_connection" connection="highway03connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+				<connection name="HighwayDMI6toDMI2_Cluster_DMI7_Sector001_connection" ref="zonehighways">
+					<offset>
+						<position x="-54658.357" y="0" z="0" />
+					</offset>
+					<macro ref="HighwayDMI6toDMI2_Cluster_DMI7_Sector001_macro" connection="sector">
+						<connections>
+							<connection ref="entrypoint">
+								<macro path="../../ZoneDMI6_Cluster_DMI7_Sector001_connection" connection="highway04connection01_gate"/>
+							</connection>
+							<connection ref="exitpoint">
+								<macro path="../../ZoneDMI2_Cluster_DMI7_Sector001_connection" connection="highway04connection02_gate"/>
+							</connection>
+						</connections>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Cluster_DMI8_Sector001_macro" class="sector">
+			<component ref="standardsector"/>
+			<connections>
+				<connection name="ZoneDMI1_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
+					<macro ref="ZoneDMI1_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI2_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI2_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI3_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI3_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI4_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="0" z="-300000"/>
+					</offset>
+					<macro ref="ZoneDMI4_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI5_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
+					<macro ref="ZoneDMI5_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMI6_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
+					<macro ref="ZoneDMI6_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+				<connection name="ZoneDMIc_Cluster_DMI8_Sector001_connection" ref="zones">
+					<offset>
+						<position x="0" y="-100" z="0"/>
+					</offset>
+					<macro ref="ZoneDMIc_Cluster_DMI8_Sector001_macro" connection="sector"/>
+				</connection>
+			</connections>
+		</macro>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_05_Sector001_macro']/connections">
+		<connection name="ZoneDMI4_Cluster_05_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-22000" y="0" z="-104000"/>
+			</offset>
+			<macro ref="ZoneDMI4_Cluster_05_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_11_Sector001_macro']/connections">
+		<connection name="ZoneDMI1_Cluster_11_Sector001_connection" ref="zones">
+			<offset>
+				<position x="10914" y="0" z="180000"/>
+			</offset>
+			<macro ref="ZoneDMI1_Cluster_11_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_25_Sector002_macro']/connections">
+		<connection name="ZoneDMI4_Cluster_25_Sector002_connection" ref="zones">
+			<offset>
+				<position x="5000" y="0" z="-138000"/>
+			</offset>
+			<macro ref="ZoneDMI4_Cluster_25_Sector002_macro" connection="sector"/>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_38_Sector001_macro']/connections">
+		<connection name="ZoneDMI4_Cluster_38_Sector001_connection" ref="zones">
+			<offset>
+				<position x="-10000" y="0" z="-112000"/>
+			</offset>
+			<macro ref="ZoneDMI4_Cluster_38_Sector001_macro" connection="sector"/>
+		</connection>
+	</add>
 </diff>

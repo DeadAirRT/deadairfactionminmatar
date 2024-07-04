@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<add sel="//macros">
+<diff>
+	<!-- Names are case sensitive and may silently fail to spawn resources if naming matches macros/components.xml entry -->
+	<add sel="/macros">
 		<macro name="Cluster_DMI1_macro" class="cluster">
 			<component ref="standardcluster"/>
 			<connections>
@@ -11,7 +12,7 @@
 					<macro name="CDMI1S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI1_sector_001"/>
+							<region ref="region_cluster_DMI1_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -29,6 +30,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI1S01_Region003_connection" ref="regions">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
 					<macro name="CDMI1S01_Region003_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -37,6 +41,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI1S01_Region004_connection" ref="regions">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
 					<macro name="CDMI1S01_Region004_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -46,7 +53,7 @@
 				</connection>
 				<connection name="CDMI1S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="-124200" y="0" z="82800"/>
+						<position x="249615" y="0" z="-166410"/>
 					</offset>
 					<macro name="CDMI1S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -67,7 +74,7 @@
 					<macro name="CDMI2S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI2_sector_001"/>
+							<region ref="region_cluster_DMI2_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -85,6 +92,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI2S01_Region003_connection" ref="regions">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
 					<macro name="CDMI2S01_Region003_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -93,6 +103,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI2S01_Region004_connection" ref="regions">
+					<offset>
+						<position x="249615" y="0" z="-166410"/>
+					</offset>
 					<macro name="CDMI2S01_Region004_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -102,7 +115,7 @@
 				</connection>
 				<connection name="CDMI2S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="-124200" y="0" z="-82800"/>
+						<position x="-249615" y="0" z="-166410"/>
 					</offset>
 					<macro name="CDMI2S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -123,7 +136,7 @@
 					<macro name="CDMI3S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI3_sector_001"/>
+							<region ref="region_cluster_DMI3_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -141,6 +154,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI3S01_Region003_connection" ref="regions">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
 					<macro name="CDMI3S01_Region003_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -149,6 +165,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI3S01_Region004_connection" ref="regions">
+					<offset>
+						<position x="-249615" y="0" z="-166410"/>
+					</offset>
 					<macro name="CDMI3S01_Region004_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -158,7 +177,7 @@
 				</connection>
 				<connection name="CDMI3S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="0" y="0" z="150000"/>
+						<position x="249615" y="0" z="-166410"/>
 					</offset>
 					<macro name="CDMI3S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -179,7 +198,7 @@
 					<macro name="CDMI4S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI4_sector_001"/>
+							<region ref="region_cluster_DMI4_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -214,7 +233,7 @@
 				</connection>
 				<connection name="CDMI4S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="0" y="0" z="150000"/>
+						<position x="0" y="0" z="-150000"/>
 					</offset>
 					<macro name="CDMI4S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -235,7 +254,7 @@
 					<macro name="CDMI5S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI5_sector_001"/>
+							<region ref="region_cluster_DMI5_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -253,6 +272,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI5S01_Region003_connection" ref="regions">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
 					<macro name="CDMI5S01_Region003_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -261,6 +283,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI5S01_Region004_connection" ref="regions">
+					<offset>
+						<position x="-249615" y="0" z="166410"/>
+					</offset>
 					<macro name="CDMI5S01_Region004_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -270,7 +295,7 @@
 				</connection>
 				<connection name="CDMI5S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="0" y="0" z="-150000"/>
+						<position x="0" y="0" z="-300000"/>
 					</offset>
 					<macro name="CDMI5S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -291,7 +316,7 @@
 					<macro name="CDMI6S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI6_sector_001"/>
+							<region ref="region_cluster_DMI6_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -309,6 +334,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI6S01_Region003_connection" ref="regions">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
 					<macro name="CDMI6S01_Region003_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -317,6 +345,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI6S01_Region004_connection" ref="regions">
+					<offset>
+						<position x="249615" y="0" z="166410"/>
+					</offset>
 					<macro name="CDMI6S01_Region004_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -326,7 +357,7 @@
 				</connection>
 				<connection name="CDMI6S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="124200" y="0" z="82800"/>
+						<position x="0" y="0" z="-300000"/>
 					</offset>
 					<macro name="CDMI6S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -347,7 +378,7 @@
 					<macro name="CDMI7S01_Region001_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
-							<region ref="region_Cluster_DMI7_sector_001"/>
+							<region ref="region_cluster_DMI7_sector_001"/>
 						</properties>
 					</macro>
 				</connection>
@@ -365,6 +396,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI7S01_Region003_connection" ref="regions">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
 					<macro name="CDMI7S01_Region003_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -373,6 +407,9 @@
 					</macro>
 				</connection>
 				<connection name="CDMI7S01_Region004_connection" ref="regions">
+					<offset>
+						<position x="0" y="0" z="300000"/>
+					</offset>
 					<macro name="CDMI7S01_Region004_macro">
 						<component connection="cluster" ref="standardregion"/>
 						<properties>
@@ -382,7 +419,7 @@
 				</connection>
 				<connection name="CDMI7S01_Region005_connection" ref="regions">
 					<offset>
-						<position x="124200" y="0" z="-82800"/>
+						<position x="0" y="0" z="-300000"/>
 					</offset>
 					<macro name="CDMI7S01_Region005_macro">
 						<component connection="cluster" ref="standardregion"/>
@@ -440,5 +477,3 @@
 		</macro>
 	</add>
 </diff>
-
-

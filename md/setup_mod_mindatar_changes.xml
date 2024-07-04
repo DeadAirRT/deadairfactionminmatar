@@ -92,9 +92,18 @@
 				<do_if value="md.$DADynamicVarTable.$DAGateZoneMacros?">
 					<set_value name="$LocMacroList" exact="[]"/>
 					<do_if value="faction.split?">
-						<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI6_Cluster_DMI3_Sector001_macro,macro.ZoneDMI1_Cluster_424_Sector001_macro,macro.ZoneDMI2_Cluster_DMI7_Sector001_macro,macro.ZoneDMI1_Cluster_417_Sector001_macro,macro.ZoneDMI1_Cluster_DMI8_Sector001_macro,macro.ZoneDMI4_Cluster_400_Sector001_macro]"/>
+						<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI6_Cluster_DMI1_Sector001_macro,macro.ZoneDMI4_Cluster_25_Sector002_macro,
+							macro.ZoneDMI2_Cluster_DMI1_Sector001_macro,macro.ZoneDMI4_Cluster_38_Sector001_macro,
+							macro.ZoneDMI1_Cluster_DMI8_Sector001_macro,macro.ZoneDMI4_Cluster_05_Sector001_macro,
+							macro.ZoneDMI4_Cluster_DMI8_Sector001_macro,macro.ZoneDMI1_Cluster_11_Sector001_macro]"/>
 						<do_if value="faction.terran?">
 							<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI5_Cluster_424_Sector001_macro,macro.ZoneDMI1_Cluster_106_Sector001_macro]"/>
+						</do_if>
+						<do_if value="faction.daldari?">
+							<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI1_Cluster_DMI3_Sector001_macro,macro.ZoneDAL6_Cluster_DAL2_Sector001_macro]"/>
+						</do_if>
+						<do_if value="faction.galdente?">
+							<append_list_elements name="$LocMacroList" other="[macro.ZoneDMI6_Cluster_DMI2_Sector001_macro,macro.ZoneDGA2_Cluster_DGA3_Sector001_macro]"/>
 						</do_if>
 					</do_if>
 					<do_for_each name="$LocMacro" in="$LocMacroList">

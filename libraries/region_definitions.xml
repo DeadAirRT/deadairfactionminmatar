@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd">
-	<add sel="//regions">
+<diff>
+	<!-- Names are case sensitive and may silently fail to spawn resources if naming matches macros/components.xml entry -->
+	<add sel="/regions">
 		<region name="audioregion_Cluster_DMI1_sector_001">
 			<boundary class="sphere">
 				<size r="500000"/>
@@ -188,13 +189,15 @@
 		<region name="region_dmi1_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="154200" y="10000" z="182800"/>
-				<splineposition x="154200" y="10000" z="62800"/>
-				<splineposition x="124200" y="35000" z="62800"/>
-				<splineposition x="50000" y="45000" z="-33333"/>
-				<splineposition x="20000" y="35000" z="-150000"/>
-				<splineposition x="20000" y="10000" z="-180000"/>
-				<splineposition x="-100000" y="10000" z="-180000"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -206,14 +209,16 @@
 		</region>
 		<region name="region_dmi1_gas_01" density="1.5">
 			<boundary class="splinetube">
-				<size r="20000"/>
-				<splineposition x="308400" y="0" z="365600"/>
-				<splineposition x="308400" y="0" z="125600"/>
-				<splineposition x="248400" y="0" z="125600"/>
-				<splineposition x="100000" y="0" z="-66666"/>
-				<splineposition x="40000" y="0" z="-300000"/>
-				<splineposition x="40000" y="0" z="-360000"/>
-				<splineposition x="-200000" y="0" z="-360000"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -226,11 +231,15 @@
 		<region name="region_dmi2_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="154200" y="-10000" z="-62800"/>
-				<splineposition x="124200" y="-35000" z="-62800"/>
-				<splineposition x="50000" y="-45000" z="33333"/>
-				<splineposition x="20000" y="-35000" z="150000"/>
-				<splineposition x="20000" y="-10000" z="180000"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -243,12 +252,16 @@
 		</region>
 		<region name="region_dmi2_gas_01" density="1.5">
 			<boundary class="splinetube">
-				<size r="20000"/>
-				<splineposition x="308400" y="0" z="-125600"/>
-				<splineposition x="248400" y="0" z="-125600"/>
-				<splineposition x="100000" y="0" z="66666"/>
-				<splineposition x="40000" y="0" z="300000"/>
-				<splineposition x="40000" y="0" z="360000"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -261,11 +274,15 @@
 		<region name="region_dmi3_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="-135000" y="10000" z="-105000"/>
-				<splineposition x="-105000" y="25000" z="-105000"/>
-				<splineposition x="0" y="30000" z="-33333"/>
-				<splineposition x="105000" y="25000" z="-105000"/>
-				<splineposition x="135000" y="10000" z="-105000"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -280,12 +297,16 @@
 		</region>
 		<region name="region_dmi3_gas_01" density="1.5">
 			<boundary class="splinetube">
-				<size r="20000"/>
-				<splineposition x="-270000" y="0" z="-210000"/>
-				<splineposition x="-210000" y="0" z="-210000"/>
-				<splineposition x="0" y="0" z="-66666"/>
-				<splineposition x="210000" y="0" z="-210000"/>
-				<splineposition x="270000" y="0" z="-210000"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -298,11 +319,15 @@
 		<region name="region_dmi4_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="0.0" outlength="175000"/>
-				<splineposition x="350000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="175000" outlength="175000"/>
-				<splineposition x="0" y="0" z="-350000" tx="-1" ty="0" tz="0" inlength="175000" outlength="175000"/>
-				<splineposition x="-350000" y="0" z="0" tx="0" ty="0" tz="1" inlength="175000" outlength="175000"/>
-				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="175000" outlength="0.0"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500"/>
+				<splineposition x="247487" y="0" z="247487" tx="1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="350000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="247487" y="0" z="-247487" tx="-1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="-350000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="-247487" tx="-1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-350000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="247487" tx="1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -314,8 +339,17 @@
 			</resources>
 		</region>
 		<region name="region_dmi4_gas_01" density="1.5">
-			<boundary class="cylinder">
-				<size r="60000" linear="10000"/>
+			<boundary class="splinetube">
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500"/>
+				<splineposition x="247487" y="0" z="247487" tx="1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="350000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="247487" y="0" z="-247487" tx="-1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="-350000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="-247487" tx="-1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-350000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="247487" tx="1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -328,13 +362,15 @@
 		<region name="region_dmi5_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="-205000" y="10000" z="45000"/>
-				<splineposition x="-135000" y="10000" z="105000"/>
-				<splineposition x="-105000" y="35000" z="105000"/>
-				<splineposition x="0" y="45000" z="33333"/>
-				<splineposition x="105000" y="35000" z="105000"/>
-				<splineposition x="135000" y="10000" z="105000"/>
-				<splineposition x="205000" y="10000" z="45000"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -350,14 +386,16 @@
 		</region>
 		<region name="region_dmi5_gas_01" density="1.5">
 			<boundary class="splinetube">
-				<size r="20000"/>
-				<splineposition x="-410000" y="0" z="90000"/>
-				<splineposition x="-270000" y="0" z="210000"/>
-				<splineposition x="-210000" y="0" z="210000"/>
-				<splineposition x="0" y="0" z="33333"/>
-				<splineposition x="210000" y="0" z="210000"/>
-				<splineposition x="270000" y="0" z="210000"/>
-				<splineposition x="410000" y="0" z="90000"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -370,13 +408,15 @@
 		<region name="region_dmi6_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="-154200" y="10000" z="182800"/>
-				<splineposition x="-154200" y="10000" z="62800"/>
-				<splineposition x="-124200" y="35000" z="62800"/>
-				<splineposition x="-50000" y="45000" z="-33333"/>
-				<splineposition x="-20000" y="35000" z="-150000"/>
-				<splineposition x="-20000" y="10000" z="-180000"/>
-				<splineposition x="100000" y="10000" z="-180000"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -392,14 +432,16 @@
 		</region>
 		<region name="region_dmi6_gas_01" density="1.5">
 			<boundary class="splinetube">
-				<size r="20000"/>
-				<splineposition x="-308400" y="0" z="365600"/>
-				<splineposition x="-308400" y="0" z="125600"/>
-				<splineposition x="-248400" y="0" z="125600"/>
-				<splineposition x="-100000" y="0" z="-66666"/>
-				<splineposition x="-40000" y="0" z="-300000"/>
-				<splineposition x="-40000" y="0" z="-360000"/>
-				<splineposition x="200000" y="0" z="-360000"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -412,11 +454,15 @@
 		<region name="region_dmi7_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="-154200" y="25000" z="-62800"/>
-				<splineposition x="-124200" y="17500" z="-62800"/>
-				<splineposition x="-50000" y="10000" z="33333"/>
-				<splineposition x="-20000" y="17500" z="150000"/>
-				<splineposition x="-20000" y="25000" z="180000"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -429,12 +475,16 @@
 		</region>
 		<region name="region_dmi7_gas_01" density="1.5">
 			<boundary class="splinetube">
-				<size r="20000"/>
-				<splineposition x="-308400" y="0" z="-125600"/>
-				<splineposition x="-248400" y="0" z="-125600"/>
-				<splineposition x="-100000" y="0" z="66666"/>
-				<splineposition x="-40000" y="0" z="300000"/>
-				<splineposition x="-40000" y="0" z="360000"/>
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="0.0" outlength="11250"/>
+				<splineposition x="31819" y="0" z="31819" tx="1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="45000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="31819" y="0" z="-31819" tx="-1" ty="0" tz="-1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="-45000" tx="-1" ty="0" tz="0" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="-31819" tx="-1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-45000" y="0" z="0" tx="0" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="-31819" y="0" z="31819" tx="1" ty="0" tz="1" inlength="11250" outlength="11250"/>
+				<splineposition x="0" y="0" z="45000" tx="1" ty="0" tz="0" inlength="11250" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -537,11 +587,15 @@
 		<region name="region_dmi8_asteroids_01">
 			<boundary class="splinetube">
 				<size r="7500"/>
-				<splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="0.0" outlength="100000"/>
-				<splineposition x="200000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="100000" outlength="100000"/>
-				<splineposition x="0" y="0" z="-200000" tx="-1" ty="0" tz="0" inlength="100000" outlength="100000"/>
-				<splineposition x="-200000" y="0" z="0" tx="0" ty="0" tz="1" inlength="100000" outlength="100000"/>
-				<splineposition x="0" y="0" z="200000" tx="1" ty="0" tz="0" inlength="100000" outlength="0.0"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500"/>
+				<splineposition x="247487" y="0" z="247487" tx="1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="350000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="247487" y="0" z="-247487" tx="-1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="-350000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="-247487" tx="-1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-350000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="247487" tx="1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>
@@ -560,9 +614,18 @@
 				<resource ware="ice" yield="medium"/>
 			</resources>
 		</region>
-		<region name="region_dmi8_gas_01" density="2.5">
-			<boundary class="cylinder">
-				<size r="60000" linear="10000"/>
+		<region name="region_dmi8_gas_01" density="1.5">
+			<boundary class="splinetube">
+				<size r="7500"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="0.0" outlength="87500"/>
+				<splineposition x="247487" y="0" z="247487" tx="1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="350000" y="0" z="0" tx="0" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="247487" y="0" z="-247487" tx="-1" ty="0" tz="-1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="-350000" tx="-1" ty="0" tz="0" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="-247487" tx="-1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-350000" y="0" z="0" tx="0" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="-247487" y="0" z="247487" tx="1" ty="0" tz="1" inlength="87500" outlength="87500"/>
+				<splineposition x="0" y="0" z="350000" tx="1" ty="0" tz="0" inlength="87500" outlength="0.0"/>
 			</boundary>
 			<falloff/>
 			<fields>

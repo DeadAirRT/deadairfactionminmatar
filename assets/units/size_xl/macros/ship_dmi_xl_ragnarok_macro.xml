@@ -3,7 +3,7 @@
 	<macro name="ship_dmi_xl_ragnarok_macro" class="ship_xl">
 		<component ref="ship_dmi_xl_ragnarok"/>
 		<properties>
-			<identification name="{4816302,708}" basename="{4816302,708}" description="{4816302,808}" icon="ship_xl_battleship"/>
+			<identification name="{4816302,708}" basename="{4816302,708}" description="{4816302,808}" icon="ship_xl_battleship_01"/>
 			<software>
 				<software ware="software_dockmk2" compatible="1"/>
 				<software ware="software_flightassistmk1" default="1"/>

@@ -1,3 +1,348 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
+	<add sel="/macros">
+		<macro name="HighwayDMI1toDMI5_Cluster_DMI4_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="9500" y="0.0" z="257004.167"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-241538.07" y="0.0" z="-212137.347"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="9500" y="0.0" z="257004.167" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="9500" y="0.0" z="223003.906" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="5200.08" weight="1.0"/>
+						<splineposition x="-44658.357" y="0.0" z="-71438.905" weight="1.0"/>
+						<splineposition x="-213248.176" y="0.0" z="-193277.417" weight="1.0"/>
+						<splineposition x="-241538.07" y="0.0" z="-212137.347" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ring="0"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI3toDMI1_Cluster_DMI4_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="196879.713" y="0.0" z="-167137.347"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-54158.357" y="0.0" z="302004.167"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="196879.713" y="0.0" z="-167137.347" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="168589.819" y="0.0" z="-148277.417" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="-26438.905" weight="1.0"/>
+						<splineposition x="-44658.357" y="0.0" z="50200.08" weight="1.0"/>
+						<splineposition x="-54158.357" y="0.0" z="268003.906" weight="1.0"/>
+						<splineposition x="-54158.357" y="0.0" z="302004.167" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ring="0"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI5toDMI3_Cluster_DMI4_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="-205598.451" y="0.0" z="-167905.393"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="296453.627" y="0.0" z="-167905.393"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="-205598.451" y="0.0" z="-167905.393" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="-177308.557" y="0.0" z="-149045.463" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="-40285.059" weight="1.0"/>
+						<splineposition x="90855.176" y="0.0" z="-40285.059" weight="1.0"/>
+						<splineposition x="268163.733" y="0.0" z="-149045.463" weight="1.0"/>
+						<splineposition x="296453.627" y="0.0" z="-167905.393" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ring="0"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI1toDMI3_Cluster_DMI5_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="9500" y="0.0" z="257004.167"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="285824.584" y="0.0" z="-229437.756"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="9500" y="0" z="257004.167" weight="1.0" inlength="0.0"/>
+						<splineposition x="9500" y="0" z="223003.906" weight="1.0"/>
+						<splineposition x="0" y="0" z="5200.08" weight="1.0"/>
+						<splineposition x="55427.588" y="0" z="-85285.059" weight="1.0"/>
+						<splineposition x="232736.145" y="0" z="-194045.463" weight="1.0"/>
+						<splineposition x="261026.039" y="0" z="-212905.393" weight="1.0"/>
+						<splineposition x="285824.584" y="0" z="-229437.756" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ref="ringlocalhighwayconfiguration" ring="1"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI3toDMI1_Cluster_DMI5_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="221998.277" y="0" z="-183883.056"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-54158.357" y="0" z="332000"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="221998.277" y="0" z="-183883.056" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="196879.713" y="0" z="-167137.347" weight="1.0"/>
+						<splineposition x="168589.819" y="0" z="-148277.417" weight="1.0"/>
+						<splineposition x="0" y="0" z="-26438.905" weight="1.0"/>
+						<splineposition x="-44658.357" y="0" z="50200.08" weight="1.0"/>
+						<splineposition x="-54158.357" y="0" z="268003.906" weight="1.0"/>
+						<splineposition x="-54158.357" y="0" z="302004.167" weight="1.0"/>
+						<splineposition x="-54158.357" y="0" z="332000" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ref="ringlocalhighwayconfiguration" ring="1"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI1toDMI5_Cluster_DMI6_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="9500" y="0" z="257004.167"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-266656.634" y="0" z="-228883.056"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="9500" y="0.0" z="257004.167" weight="1.0" inlength="0.0"/>
+						<splineposition x="9500" y="0.0" z="223003.906" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="5200.08" weight="1.0"/>
+						<splineposition x="-44658.357" y="0.0" z="-71438.905" weight="1.0"/>
+						<splineposition x="-213248.176" y="0.0" z="-193277.417" weight="1.0"/>
+						<splineposition x="-241538.07" y="0.0" z="-212137.347" weight="1.0"/>
+						<splineposition x="-266656.634" y="0.0" z="-228883.056" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ref="ringlocalhighwayconfiguration" ring="1"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI5toDMI1_Cluster_DMI6_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="-230396.996" y="0" z="-184437.756"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="45927.588" y="0" z="332000"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="-230396.996" y="0.0" z="-184437.756" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="-205598.451" y="0.0" z="-167905.393" weight="1.0"/>
+						<splineposition x="-177308.557" y="0.0" z="-149045.463" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="-40285.059" weight="1.0"/>
+						<splineposition x="55427.588" y="0.0" z="50200.08" weight="1.0"/>
+						<splineposition x="45927.588" y="0.0" z="268003.906" weight="1.0"/>
+						<splineposition x="45927.588" y="0.0" z="302004.167" weight="1.0"/>
+						<splineposition x="45927.588" y="0.0" z="332000" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ref="ringlocalhighwayconfiguration" ring="1"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI2toDMI6_Cluster_DMI7_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="230396.996" y="0" z="184437.756"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-321252.172" y="0" z="184437.756"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="230396.996" y="0.0" z="184437.756" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="205598.451" y="0.0" z="167905.393" weight="1.0"/>
+						<splineposition x="177308.557" y="0.0" z="149045.463" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="40285.059" weight="1.0"/>
+						<splineposition x="-90855.176" y="0.0" z="40285.059" weight="1.0"/>
+						<splineposition x="-268163.733" y="0.0" z="149045.463" weight="1.0"/>
+						<splineposition x="-296453.627" y="0.0" z="167905.393" weight="1.0"/>
+						<splineposition x="-321252.172" y="0.0" z="184437.756" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ref="ringlocalhighwayconfiguration" ring="1"/>
+			</properties>
+		</macro>
+		<macro name="HighwayDMI6toDMI2_Cluster_DMI7_Sector001_macro" class="highway">
+			<component ref="standardzonehighway"/>
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="-221998.277" y="0" z="183883.056"/>
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="331314.991" y="0" z="183883.056"/>
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="-221998.277" y="0.0" z="183883.056" weight="1.0" inlength="0.0" outlength="15000.0"/>
+						<splineposition x="-196879.713" y="0.0" z="167137.347" weight="1.0"/>
+						<splineposition x="-168589.819" y="0.0" z="148277.417" weight="1.0"/>
+						<splineposition x="0.0" y="0.0" z="26438.905" weight="1.0"/>
+						<splineposition x="109316.714" y="0.0" z="26438.905" weight="1.0"/>
+						<splineposition x="277906.533" y="0.0" z="148277.417" weight="1.0"/>
+						<splineposition x="306196.427" y="0.0" z="167137.347" weight="1.0"/>
+						<splineposition x="331314.991" y="0.0" z="183883.056" weight="1.0" inlength="15000.0" outlength="0.0"/>
+						<size r="200"/>
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time/>
+					</linear>
+					<angular>
+						<roll/>
+					</angular>
+				</controls>
+				<configuration ref="ringlocalhighwayconfiguration" ring="1"/>
+			</properties>
+		</macro>
+	</add>
 </diff>

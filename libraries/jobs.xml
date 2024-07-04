@@ -49,8 +49,11 @@
 	<job id="mindatar_food_trader_s" name="{20204,1801}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="foodrations"/>
@@ -69,8 +72,11 @@
 	<job id="mindatar_medical_trader_s" name="{20204,10011}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="medicalsupplies"/>
@@ -89,8 +95,11 @@
 	<job id="mindatar_energycell_trader_l" name="{20204,101}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -109,8 +118,11 @@
 	<job id="mindatar_energycell_trader_m" name="{20204,201}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -129,8 +141,11 @@
 	<job id="mindatar_energycell_trader_s" name="{20204,201}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="energycells"/>
@@ -218,8 +233,11 @@
 	<job id="mindatar_construction_trader_m" name="{20204,401}">
 		<modifiers commandeerable="true"/>
 		<orders>
-			<order order="Middleman" default="true">
-				<param name="range" value="5"/>
+			<order order="TradeRoutine" default="true">
+				<param name="minbuy" value="0"/>
+				<param name="maxbuy" value="5"/>
+				<param name="minsell" value="0"/>
+				<param name="maxsell" value="5"/>
 			</order>
 		</orders>
 		<basket basket="construction_stations"/>
@@ -1299,7 +1317,7 @@
 	<!-- Mass Traffic -->
 	<job id="masstraffic_mindatar_police">
 		<task task="masstraffic.police"/>
-		<location class="station" policefaction="mindatar"/>
+		<location class="station" faction="mindatar" stationfaction="mindatar" policefaction="mindatar"/>
 		<quota station="1"/>
 		<masstraffic ref="masstraffic_split_police_mindatar">
 			<owner exact="faction.mindatar" overridenpc="true"/>
@@ -1321,7 +1339,7 @@
 			</order>
 		</orders>
 		<category faction="mindatar" tags="[daexpedition]" size="ship_xl"/>
-		<quota galaxy="2" maxgalaxy="2"/>
+		<quota galaxy="1" maxgalaxy="1"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" faction="mindatar" relation="self" comparison="exact" matchextension="false"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
 		<ship>
@@ -1333,8 +1351,10 @@
 		</ship>
 		<subordinates>
 			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
-			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="attack" group="2"/>
-			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="3"/>
+			<subordinate job="mindatar_destroyer_escort_l" assignment="attack" group="1"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_frigate_escort_m" assignment="attack" group="2"/>
+			<subordinate job="mindatar_fighter_escort_s_carrier" assignment="interception" group="4"/>
 		</subordinates>
 	</job>
 	<job id="mindatar_trader_escort_s_da" name="{20204,5501}" startactive="false">
@@ -1828,7 +1848,7 @@
 			<owner exact="mindatar" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="mindatar_DALTraderTagmindatar_L_job" name="{33232474,2255}">
+	<job id="mindatar_DALTraderTagmindatar_L_job" name="{33232474,2255}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -1836,6 +1856,8 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="buyfromfactions" value="['own']"/>
+				<param name="selltofactions" value="['own']"/>
 			</order>
 		</orders>
 		<basket basket="all_container"/>
@@ -1851,7 +1873,7 @@
 			<owner exact="mindatar" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="mindatar_DAMTraderTagmindatar_M_job" name="{33232474,2256}">
+	<job id="mindatar_DAMTraderTagmindatar_M_job" name="{33232474,2256}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="TradeRoutine" default="true">
@@ -1859,6 +1881,8 @@
 				<param name="maxbuy" value="5"/>
 				<param name="minsell" value="0"/>
 				<param name="maxsell" value="5"/>
+				<param name="buyfromfactions" value="['own']"/>
+				<param name="selltofactions" value="['own']"/>
 			</order>
 		</orders>
 		<basket basket="all_container"/>
@@ -1874,7 +1898,7 @@
 			<owner exact="mindatar" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="mindatar_DALMinerTagmindatar_L_job" name="{33232474,2257}">
+	<job id="mindatar_DALMinerTagmindatar_L_job" name="{33232474,2257}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1897,7 +1921,7 @@
 			<owner exact="mindatar" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="mindatar_DAMMinerTagmindatar_M_job" name="{33232474,2258}">
+	<job id="mindatar_DAMMinerTagmindatar_M_job" name="{33232474,2258}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1920,7 +1944,7 @@
 			<owner exact="mindatar" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="mindatar_DALGasMinerTagmindatar_L_job" name="{33232474,2259}">
+	<job id="mindatar_DALGasMinerTagmindatar_L_job" name="{33232474,2259}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">
@@ -1943,7 +1967,7 @@
 			<owner exact="mindatar" overridenpc="true"/>
 		</ship>
 	</job>
-	<job id="mindatar_DAMGasMinerTagmindatar_M_job" name="{33232474,2260}">
+	<job id="mindatar_DAMGasMinerTagmindatar_M_job" name="{33232474,2260}" startactive="false">
 		<modifiers commandeerable="true"/>
 		<orders>
 			<order order="MiningRoutine" default="true">

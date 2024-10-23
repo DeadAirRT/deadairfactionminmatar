@@ -84,6 +84,9 @@
 		<connection name="ClusterGateDMI2ToDGA3" ref="destination" path="../Cluster_DMI2_connection/Cluster_DMI2_Sector001_connection/ZoneDMI6_Cluster_DMI2_Sector001_connection/connection_ClusterGateDMI2ToDGA3">
 			<macro connection="destination" path="../../../../../Cluster_DGA3_connection/Cluster_DGA3_Sector001_connection/ZoneDGA2_Cluster_DGA3_Sector001_connection/connection_ClusterGateDGA3ToDMI2"/>
 		</connection>
+		<connection name="ClusterGateDMI7ToDGA7" ref="destination" path="../Cluster_DMI7_connection/Cluster_DMI7_Sector001_connection/ZoneDMI4_Cluster_DMI7_Sector001_connection/connection_ClusterGateDMI7ToDGA7">
+			<macro connection="destination" path="../../../../../Cluster_DGA7_connection/Cluster_DGA7_Sector001_connection/ZoneDGA4_Cluster_DGA7_Sector001_connection/connection_ClusterGateDGA7ToDMI7" />
+		</connection>
 		<connection name="ClusterGateDMI8To05" ref="destination" path="../Cluster_DMI8_connection/Cluster_DMI8_Sector001_connection/ZoneDMI1_Cluster_DMI8_Sector001_connection/connection_ClusterGateDMI8To05">
 			<macro connection="destination" path="../../../../../Cluster_05_connection/Cluster_05_Sector001_connection/ZoneDMI4_Cluster_05_Sector001_connection/connection_ClusterGate05ToDMI8"/>
 		</connection>

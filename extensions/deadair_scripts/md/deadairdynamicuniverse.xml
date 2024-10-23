@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.mindatar}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.advancedcomposites}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.advancedelectronics}.{2}" exact="13"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.antimattercells}.{2}" exact="4"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.antimatterconverters}.{2}" exact="7"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.dronecomponents}.{2}" exact="3"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.engineparts}.{2}" exact="14"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.fieldcoils}.{2}" exact="1"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.foodrations}.{2}" exact="14"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.graphene}.{2}" exact="9"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.hullparts}.{2}" exact="19"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.medicalsupplies}.{2}" exact="19"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.microchips}.{2}" exact="19"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.missilecomponents}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.plasmaconductors}.{2}" exact="10"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.refinedmetals}.{2}" exact="16"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.scanningarrays}.{2}" exact="6"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.shieldcomponents}.{2}" exact="5"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.siliconwafers}.{2}" exact="16"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.smartchips}.{2}" exact="16"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.spices}.{2}" exact="4"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.superfluidcoolant}.{2}" exact="7"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.turretcomponents}.{2}" exact="4"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.da_mil_schematics}.{2}" exact="11"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.mindatar}.{ware.da_laborunion_contracts}.{2}" exact="19"/>
+		</do_if>
+	</add>
+</diff>

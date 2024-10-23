@@ -3,9 +3,9 @@
 	<macro name="bullet_turret_dmi_l_autocannon_fusion_macro" class="bullet">
 		<component ref="bullet_dmi_turret_l_1400mm"/>
 		<properties>
-			<bullet speed="7500" lifetime="1.024" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0" angle="0.1" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+			<bullet speed="7500" lifetime="1.6" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0" angle="0.1" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
 			<reload rate="0.3"/>
-			<damage value="2762.5" noshield="2125.0" repair="0"/>
+			<damage value="1848.75" noshield="2040" repair="0"/>
 			<areadamage value="276" time="1" lifetime="1"/>
 			<effects>
 				<impact ref="impact_fusion_l_da" inside="impact_fusion_l_inside_da"/>

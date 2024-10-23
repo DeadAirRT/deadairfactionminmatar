@@ -1384,7 +1384,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DACriticalTagmindatar,DASmallFleet,factionlogic]" size="ship_xl"/>
+		<category faction="mindatar" tags="[DACriticalTagmindatar,DASmallFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="20"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1408,7 +1408,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DACoreTagmindatar,DASmallFleet,factionlogic]" size="ship_l"/>
+		<category faction="mindatar" tags="[DACoreTagmindatar,DASmallFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1432,7 +1432,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DABorderTagmindatar,DASmallFleet,factionlogic]" size="ship_l"/>
+		<category faction="mindatar" tags="[DABorderTagmindatar,DASmallFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1456,7 +1456,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DAContestedTagmindatar,DASmallFleet,factionlogic]" size="ship_xl"/>
+		<category faction="mindatar" tags="[DAContestedTagmindatar,DASmallFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="16"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1541,7 +1541,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DACriticalTagmindatar,DAMediumFleet,factionlogic]" size="ship_xl"/>
+		<category faction="mindatar" tags="[DACriticalTagmindatar,DAMediumFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="20"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1565,7 +1565,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DACoreTagmindatar,DAMediumFleet,factionlogic]" size="ship_l"/>
+		<category faction="mindatar" tags="[DACoreTagmindatar,DAMediumFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1589,7 +1589,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DABorderTagmindatar,DAMediumFleet,factionlogic]" size="ship_l"/>
+		<category faction="mindatar" tags="[DABorderTagmindatar,DAMediumFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1613,7 +1613,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DAContestedTagmindatar,DAMediumFleet,factionlogic]" size="ship_xl"/>
+		<category faction="mindatar" tags="[DAContestedTagmindatar,DAMediumFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="16"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1698,7 +1698,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DACriticalTagmindatar,DALargeFleet,factionlogic]" size="ship_xl"/>
+		<category faction="mindatar" tags="[DACriticalTagmindatar,DALargeFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="20"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACriticalTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1722,7 +1722,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DACoreTagmindatar,DALargeFleet,factionlogic]" size="ship_l"/>
+		<category faction="mindatar" tags="[DACoreTagmindatar,DALargeFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DACoreTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1746,7 +1746,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DABorderTagmindatar,DALargeFleet,factionlogic]" size="ship_l"/>
+		<category faction="mindatar" tags="[DABorderTagmindatar,DALargeFleet,factionlogic,military]" size="ship_l"/>
 		<quota galaxy="0" maxgalaxy="40"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DABorderTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>
@@ -1770,7 +1770,7 @@
 				<param name="range" value="class.sector"/>
 			</order>
 		</orders>
-		<category faction="mindatar" tags="[DAContestedTagmindatar,DALargeFleet,factionlogic]" size="ship_xl"/>
+		<category faction="mindatar" tags="[DAContestedTagmindatar,DALargeFleet,factionlogic,military]" size="ship_xl"/>
 		<quota galaxy="0" maxgalaxy="16"/>
 		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" tags="DAContestedTagmindatar"/>
 		<environment buildatshipyard="true" preferbuilding="true"/>

@@ -3,9 +3,9 @@
 	<macro name="bullet_turret_dmi_m_autocannon_titanium_macro" class="bullet">
 		<component ref="bullet_dmi_turret_m_1400mm"/>
 		<properties>
-			<bullet speed="7500" lifetime="1.248" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0" angle="0.05" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+			<bullet speed="7500" lifetime="1.152" amount="1" barrelamount="2" icon="weapon_cannon_mk1" timediff="0" angle="0.05" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
 			<reload rate="1.05"/>
-			<damage value="291.43" noshield="72.86" repair="0"/>
+			<damage value="327.86" repair="0"/>
 			<areadamage value="29" time="1" lifetime="1"/>
 			<effects>
 				<impact ref="impact_titanium_m_da" inside="impact_titanium_m_inside_da"/>

@@ -3,10 +3,10 @@
 	<macro name="bullet_weapon_dmi_s_nuclear_macro" class="bullet">
 		<component ref="bullet_weapon_dmi_s"/>
 		<properties>
-			<bullet speed="6000" lifetime="1.890" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.01" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
-			<heat value="44"/>
+			<bullet speed="6000" lifetime="1.35" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.01" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+			<heat value="0"/>
 			<reload rate="1.5"/>
-			<damage value="189.92" noshield="138.13" repair="0"/>
+			<damage value="181.81" noshield="181.81" repair="0"/>
 			<areadamage value="18" time="1" lifetime="1"/>
 			<effects>
 				<impact ref="impact_gen_m_gatling_01_mk1" inside="explosion_artillery_s_da"/>

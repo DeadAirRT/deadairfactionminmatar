@@ -1382,4 +1382,8 @@
 			<price min="2500" average="3000" max="3500"/>
 		</ware>
 	</add>
+	<!-- Eco -->
+	<add sel="/wares/ware[@id='module_gen_prod_da_adv_schematics_01']"><owner faction="mindatar"/></add>
+	<add sel="/wares/ware[@id='module_gen_prod_da_mil_schematics_01']"><owner faction="mindatar"/></add>
+	<add sel="/wares/ware[@id='module_gen_prod_da_laborunion_contracts_01']"><owner faction="mindatar"/></add>
 </diff>

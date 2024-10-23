@@ -3,10 +3,10 @@
 	<macro name="bullet_weapon_dmi_s_fusion_macro" class="bullet">
 		<component ref="bullet_weapon_dmi_s"/>
 		<properties>
-			<bullet speed="6000" lifetime="0.576" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.01" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
-			<heat value="30"/>
+			<bullet speed="6000" lifetime="0.9" amount="1" barrelamount="1" icon="weapon_cannon_mk1" timediff="0.001" angle="0.01" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" selfdestruct="1"/>
+			<heat value="0"/>
 			<reload rate="1.5"/>
-			<damage value="448.91" noshield="345.31" repair="0"/>
+			<damage value="351.49" noshield="387.86" repair="0"/>
 			<areadamage value="44" time="1" lifetime="1"/>
 			<effects>
 				<impact ref="impact_fusion_m_da" inside="impact_fusion_m_inside_da"/>
